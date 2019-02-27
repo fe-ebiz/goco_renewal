@@ -1,8 +1,14 @@
-#etc
+# etc
 node_modules/
-_draft/
-.sass-cache/
 .psd
+_bak/
+_document/
+_draft/
+_work/
+_media/
+_tmp/
+img/
+.sass-cache/
 
 #fontFile
 *.ttf
