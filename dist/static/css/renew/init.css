@@ -198,7 +198,9 @@
 .rnM-mainDoor-2 .rnModal-sec .reg-box .rnSltReg .slt-dep2 a.on {color: #fa6b0a;}
 
 /* 180803 css 수정 */
-.rnM-mainDoor-2.type-2 .rnModal-sec .reg-box .p1 {width: 761px;}
+/* .rnM-mainDoor-2.type-2 .rnModal-sec .reg-box .p1 {width: 761px;} */
+.rnM-mainDoor-2.type-2 .rnModal-sec .reg-box .p1 {width: 869px;}
+
 /* .rnM-mainDoor-2.type-2 .rnModal-sec .reg-box .rnSltReg.reg-2 [class*=slt-dep] {padding: 25px 20px 16px 40px;} */
 .rnM-mainDoor-2.type-2 .rnModal-sec .reg-box .rnSltReg.reg-2 .slt-dep1 {padding-top: 30px; padding-bottom: 35px;}
 .rnM-mainDoor-2.type-2 .rnModal-sec .reg-box .rnSltReg .slt-dep1 li  {margin:13px 48px 0 0;}
