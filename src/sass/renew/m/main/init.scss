@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+@import "../parts/common";
+
+.division {
+	@include reset-box;
+	display: block;
+	width: 100%;
+	height: 10px;
+	background: #f5f5f5;
+}
+/* 검색바 */
+.cont-search {
+	width: 275px;
+	margin: 0px auto;
+	padding-top: 10px;
+	border-bottom: 2px solid #555;
+	input.search {
+		@include bx;
+		@include dp;
+		@include appear;
+		width: 100%;
+		height: 25px;
+		margin-bottom: 3px;
+		padding: 0 35px 0 5px;
+		border: none;
+		font-family: $ft-nnSquare;
+		font-weight: 700;
+		background: url("//img.go.co.kr/renew/m/icon/search.png") no-repeat;
+		background-size: 22px;
+		background-position: top right +5px;
+	}
+}
+
+/* 숙소 종류 */
+.cont-kinds {
+	margin-top: 25px;
+	border-bottom: 1px solid #ddd;
+	h2 {
+		text-align: center;
+		.tit {
+			padding: 0 5px;
+			@include ft(13.5px, #ff6f00, 700, $ft-nnSquare);
+		}
+		&:before, &:after {
+			content: "";
+			@include va;
+			@include sizes(4px, #ff6f00);
+			border-radius: 50%;
+		}
+		&:before {
+			
+		}
+		&:after {
+			
+		}
+	}
+	.list {
+		width: 300px;
+		margin: 15px auto 0;
+		text-align: center;
+		li {
+			@include dp;
+			@include sizes(70px);
+			margin: 0 10px;
+			img {
+				width: 38px;
+			}
+			.name {
+				display: block;
+				font-size: 11.5px;
+				font-family: $ft-ntss;
+				font-weight: 500;
+				color: #6c6c6c;
+			}
+		}
+	} 
+	
+}

@@ -6,7 +6,7 @@
 <!--<![endif]-->
 
 <head>
-    <!-- /main -->
+    <!-- main -->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta charset="UTF-8">
     <meta name="description" content="description">
@@ -32,19 +32,22 @@
     <!--폰트-->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css">
-    <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosanskr.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
 
     <!--공통 Css-->
-    <link rel="stylesheet" href="http://static.go.co.kr/css/moblie_reset.css" type="text/css" />
+    <!--<link rel="stylesheet" href="//static.go.co.kr/css/moblie_reset.css" type="text/css" />-->
+    <link rel="stylesheet" href="/static/css/renew/m/reset.css">
     <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">-->
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <!-- <link rel="stylesheet" href="http://static.go.co.kr/css/swiper.min.css" type="text/css" /> -->
 
     <!--개별 Css-->
-    <link rel="stylesheet" href="http://static.go.co.kr/css/renew/common.css">
-    <link rel="stylesheet" href="http://static.go.co.kr/css/renew/maininit.css">
-    <!-- <link rel="stylesheet" href="/static/css/renew/common.css">
-<link rel="stylesheet" href="/static/css/renew/maininit.css"> -->
+    <!--
+<link rel="stylesheet" href="http://static.go.co.kr/css/renew/m/common.css">
+<link rel="stylesheet" href="http://static.go.co.kr/css/renew/m/main/init.css">
+-->
+    <link rel="stylesheet" href="/static/css/renew/m/common.css">
+    <link rel="stylesheet" href="/static/css/renew/m/main/init.css">
 
     <!-- 모든사이트 통합 css -->
     <link rel="stylesheet" href="http://static.go.co.kr/css/totalmobile.css" type="text/css" />
@@ -58,12 +61,12 @@
     </script>
 
     <!--개별 Js-->
-    <script src="http://static.go.co.kr/js/renew/common.js"></script>
-    <script src="http://static.go.co.kr/js/renew/maininit.js"></script>
     <!--
-<script src="/static/js/renew/common.js"></script>
-<script src="/static/js/renew/maininit.js"></script>
+<script src="http://static.go.co.kr/js/renew/m/common.js"></script>
+<script src="http://static.go.co.kr/js/renew/m/main/init.js"></script> 
 -->
+    <script src="/static/js/renew/m/common.js"></script>
+    <script src="/static/js/renew/m/main/init.js"></script>
 
     <!--[if lt IE 9]>
 	<script type="text/javascript" src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -73,10 +76,49 @@
     <!-- 현재 페이지 전용 -->
 </head>
 
-<body class="page-/main">
-    <header class="header">
-        <h1>해더</h1>
+<body class="page-main">
+    <header class="rn-header">
+        <h1><img class="logo-img" src="http://img.go.co.kr/mobile/logo.png" alt="고코투어"><span class="blind">고코투어</span></h1>
     </header>
+
+    <div class="contents">
+        <div class="cont-search">
+            <input type="text" placeholder="지역/숙소명/여행지를 검색하세요" class="search">
+        </div>
+        <div class="cont-kinds">
+            <h2><span class="tit">빠르고 손쉬운 숙소찾기</span></h2>
+            <ul class="list">
+                <li>
+                    <img src="//img.go.co.kr/renew/m/main/kinds/hote.png" alt="호텔"><span class="name">호텔</span>
+                </li>
+                <li>
+                    <img src="//img.go.co.kr/renew/m/main/kinds/resort.png" alt="리조트"><span class="name">리조트</span>
+                </li>
+                <li>
+                    <img src="//img.go.co.kr/renew/m/main/kinds/motel.png" alt="모텔"><span class="name">모텔</span>
+                </li>
+                <li>
+                    <img src="//img.go.co.kr/renew/m/main/kinds/guest.png" alt="게스트하우스"><span class="name">게스트하우스</span>
+                </li>
+                <li>
+                    <img src="//img.go.co.kr/renew/m/main/kinds/pension.png" alt="펜션"><span class="name">펜션</span>
+                </li>
+                <li>
+                    <img src="//img.go.co.kr/renew/m/main/kinds/show.png" alt="공연/전시"><span class="name">공연/전시</span>
+                </li>
+                <li>
+                    <img src="//img.go.co.kr/renew/m/main/kinds/leisure.png" alt="레저/입장권"><span class="name">레저/입장권</span>
+                </li>
+                <li>
+                    <img src="//img.go.co.kr/renew/m/main/kinds/overseas.png" alt="해외숙박"><span class="name">해외숙박</span>
+                </li>
+                <li>
+                    <img src="//img.go.co.kr/renew/m/main/kinds/recom.png" alt="강력추천 세일"><span class="name">강력추천 세일</span>
+                </li>
+            </ul>
+        </div>
+        <hr class="division">
+    </div>
 
     <footer class="footer">
         푸터

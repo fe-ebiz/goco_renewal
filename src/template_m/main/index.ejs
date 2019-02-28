@@ -1,12 +1,33 @@
 <% include ../parts/_docHead.ejs %>
 <head>
-    <!-- <%= initPage = '/main' %> -->
+    <!-- <%= initPage = 'main' %> -->
     <% include ../parts/_head.ejs %>
 
 	<!-- 현재 페이지 전용 -->
 </head>
 <body class="page-<%= initPage %>">
 	<% include ../parts/_header.ejs %>
+	
+	<div class="contents">
+		<div class="cont-search">
+			<input type="text" placeholder="지역/숙소명/여행지를 검색하세요" class="search">
+		</div>
+		<div class="cont-kinds">
+			<h2><span class="tit">빠르고 손쉬운 숙소찾기</span></h2>
+			<ul class="list">
+				<li><img src="//img.go.co.kr/renew/m/main/kinds/hote.png" alt="호텔"><span class="name">호텔</span></li>
+				<li><img src="//img.go.co.kr/renew/m/main/kinds/resort.png" alt="리조트"><span class="name">리조트</span></li>
+				<li><img src="//img.go.co.kr/renew/m/main/kinds/motel.png" alt="모텔"><span class="name">모텔</span></li>
+				<li><img src="//img.go.co.kr/renew/m/main/kinds/guest.png" alt="게스트하우스"><span class="name">게스트하우스</span></li>
+				<li><img src="//img.go.co.kr/renew/m/main/kinds/pension.png" alt="펜션"><span class="name">펜션</span></li>
+				<li><img src="//img.go.co.kr/renew/m/main/kinds/show.png" alt="공연/전시"><span class="name">공연/전시</span></li>
+				<li><img src="//img.go.co.kr/renew/m/main/kinds/leisure.png" alt="레저/입장권"><span class="name">레저/입장권</span></li>
+				<li><img src="//img.go.co.kr/renew/m/main/kinds/overseas.png" alt="해외숙박"><span class="name">해외숙박</span></li>
+				<li><img src="//img.go.co.kr/renew/m/main/kinds/recom.png" alt="강력추천 세일"><span class="name">강력추천 세일</span></li>
+			</ul>
+		</div>
+		<hr class="division">
+	</div>
 
 	<% include ../parts/_footer.ejs %>
 </body>

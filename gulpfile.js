@@ -124,16 +124,40 @@ gulp.task('bower:copy', function() {
 // 웹 서버
 // gulp.task('connect', connect.server( config.sev ) );
 
-// HTML 템플릿(template)
-/*gulp.task('template', function(){
+// ejs 컴파일
+gulp.task('template', function() {
 	gulp.src(config.template.src)
+		.pipe(plumber())
+		.pipe(ejs({
+			rootPage: '/views',
+			initPage: '/'
+		}, {}, { ext: '.html' }))
+		.pipe(prettify(config.html_prettify))
+		.pipe(gulp.dest(config.template.dest))
+		//.pipe(connect.reload());
+        .pipe(browerSync.reload({stream: true}));
+});
+// 모바일
+gulp.task('template_m', function() {
+	gulp.src(config.template.src_m)
+		.pipe(plumber())
+		.pipe(ejs({
+			rootPage: '/views_m',
+			initPage: ''
+		}, {}, { ext: '.html' }))
+		.pipe(prettify(config.html_prettify))
+		.pipe(gulp.dest(config.template.dest_m))
+        .pipe(browerSync.reload({stream: true}));
+});
+/*gulp.task('template_m', function(){
+	gulp.src(config.template.src_m)
 		.pipe( plumber() )
 		.pipe( fileinclude({
 			prefix: '@@',
 			basepath: '@file'
 		}))
 		.pipe( prettify( config.htmlPrettify) )
-		.pipe( gulp.dest( config.template.dest ) )
+		.pipe( gulp.dest( config.template.dest_m ) )
 		.pipe(browerSync.reload({stream: true}));
 });*/
 
@@ -170,39 +194,4 @@ gulp.task('js', function(){
 		.pipe(browerSync.reload({stream: true}));
 });
 
-// ejs 컴파일
-gulp.task('template', function() {
-	gulp.src(config.template.src)
-		.pipe(plumber())
-		.pipe(ejs({
-			rootPage: '/views',
-			initPage: '/'
-		}, {}, { ext: '.html' }))
-		.pipe(prettify(config.html_prettify))
-		.pipe(gulp.dest(config.template.dest))
-		//.pipe(connect.reload());
-        .pipe(browerSync.reload({stream: true}));
-});
-// 모바일
-gulp.task('template_m', function() {
-	gulp.src(config.template.src_m)
-		.pipe(plumber())
-		.pipe(ejs({
-			rootPage: '/views_m',
-			initPage: '/'
-		}, {}, { ext: '.html' }))
-		.pipe(prettify(config.html_prettify))
-		.pipe(gulp.dest(config.template.dest_m))
-        .pipe(browerSync.reload({stream: true}));
-});
-/*gulp.task('template_m', function(){
-	gulp.src(config.template.src_m)
-		.pipe( plumber() )
-		.pipe( fileinclude({
-			prefix: '@@',
-			basepath: '@file'
-		}))
-		.pipe( prettify( config.htmlPrettify) )
-		.pipe( gulp.dest( config.template.dest_m ) )
-		.pipe(browerSync.reload({stream: true}));
-});*/
+

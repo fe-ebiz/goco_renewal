@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@import url("//fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("//cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
+body {
+  font-family: "Nanum Gothic", Dotum, Sans-serif;
+  line-height: 1.5;
+  color: #333; }
+
+input,
+select,
+option,
+textarea {
+  font-family: 'Nanum Gothic', 'Malgun Gothic', 'Dotum', sans-serif;
+  color: #333; }
+
+label {
+  cursor: pointer; }
+
+body {
+  height: 2000px; }
+
+/* 해더 영역 */
+.rn-header {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px; }
+  .rn-header h1 {
+    position: relative;
+    box-sizing: border-box;
+    z-index: 1;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center; }
+    .rn-header h1 .logo-img {
+      width: 110px; }
