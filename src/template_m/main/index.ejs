@@ -1,10 +1,13 @@
-<% include ./parts/_docHead.ejs %>
+<% include ../parts/_docHead.ejs %>
 <head>
     <!-- <%= initPage = '/main' %> -->
-    <% include ./parts/_head.ejs %>
+    <% include ../parts/_head.ejs %>
 
+	<!-- 현재 페이지 전용 -->
 </head>
-<body>
+<body class="page-<%= initPage %>">
+	<% include ../parts/_header.ejs %>
 
+	<% include ../parts/_footer.ejs %>
 </body>
 </html>

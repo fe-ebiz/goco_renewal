@@ -16,7 +16,7 @@ var del      = require('del'),
 	gulp     = require('gulp'),
 	gulpif   = require('gulp-if'),
 	rename   = require('gulp-rename'),
-	//fileinclude = require('gulp-file-include'),
+	fileinclude = require('gulp-file-include'),
 	ejs      = require('gulp-ejs'),
 	sass	 = require('gulp-sass'),
 	plumber  = require('gulp-plumber'),
@@ -39,7 +39,7 @@ gulp.task('default', ['browserSync', 'watch']);
 gulp.task('mobile', ['browserSync_m', 'watch_m']);
 gulp.task('prepare', ['preen', 'bower:copy']);
 
-gulp.task('browserSync', ['ejs'], function() {
+gulp.task('browserSync', ['template'], function() {
 	return browerSync.init({
 		server: {
 			baseDir: './dist'
@@ -91,6 +91,10 @@ gulp.task('watch_m', [], function(){
 gulp.task('clean:all', function(){
 	del(config.dev);
 });
+gulp.task('clean:ejs', function(){
+	del(config.template.dest + '/**/*.ejs');
+	del(config.template.dest_m + '/**/*.ejs');
+});
 gulp.task('clean:css', function(){
 	del(config.sass.dest);
 });
@@ -121,19 +125,17 @@ gulp.task('bower:copy', function() {
 // gulp.task('connect', connect.server( config.sev ) );
 
 // HTML 템플릿(template)
-gulp.task('template', function(){
+/*gulp.task('template', function(){
 	gulp.src(config.template.src)
 		.pipe( plumber() )
-//		.pipe( jade() )
 		.pipe( fileinclude({
 			prefix: '@@',
 			basepath: '@file'
 		}))
 		.pipe( prettify( config.htmlPrettify) )
 		.pipe( gulp.dest( config.template.dest ) )
-		// .pipe( connect.reload() );
 		.pipe(browerSync.reload({stream: true}));
-});
+});*/
 
 gulp.task('compass', function() {
 	gulp.src( config.sass.src )
@@ -169,7 +171,7 @@ gulp.task('js', function(){
 });
 
 // ejs 컴파일
-gulp.task('ejs', function() {
+gulp.task('template', function() {
 	gulp.src(config.template.src)
 		.pipe(plumber())
 		.pipe(ejs({
@@ -181,3 +183,26 @@ gulp.task('ejs', function() {
 		//.pipe(connect.reload());
         .pipe(browerSync.reload({stream: true}));
 });
+// 모바일
+gulp.task('template_m', function() {
+	gulp.src(config.template.src_m)
+		.pipe(plumber())
+		.pipe(ejs({
+			rootPage: '/views_m',
+			initPage: '/'
+		}, {}, { ext: '.html' }))
+		.pipe(prettify(config.html_prettify))
+		.pipe(gulp.dest(config.template.dest_m))
+        .pipe(browerSync.reload({stream: true}));
+});
+/*gulp.task('template_m', function(){
+	gulp.src(config.template.src_m)
+		.pipe( plumber() )
+		.pipe( fileinclude({
+			prefix: '@@',
+			basepath: '@file'
+		}))
+		.pipe( prettify( config.htmlPrettify) )
+		.pipe( gulp.dest( config.template.dest_m ) )
+		.pipe(browerSync.reload({stream: true}));
+});*/

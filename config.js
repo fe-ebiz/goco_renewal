@@ -13,8 +13,8 @@ module.exports = function() {
 			src  : source + '/template/**/!(_)*.ejs',
 			parts: source + '/template/**/_*.ejs',
 			dest : development + '/views',
-			src_m  : source + '/template_m/**/!(_)*.html',
-			parts_m : source + '/template_m/**/_*.html',
+			src_m  : source + '/template_m/**/!(_)*.ejs',
+			parts_m : source + '/template_m/**/_*.ejs',
 			dest_m : development + '/views_m'
 		},
 
