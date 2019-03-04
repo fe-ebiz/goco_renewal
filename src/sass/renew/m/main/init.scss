@@ -11,41 +11,42 @@
 }
 /* 검색바 */
 .cont-search {
-	width: 275px;
-	margin: 0px auto;
-	padding-top: 10px;
-	border-bottom: 2px solid #555;
-	input.search {
-		@include bx;
-		@include dp;
-		@include appear;
-		width: 100%;
-		height: 25px;
-		margin-bottom: 3px;
-		padding: 0 35px 0 5px;
-		border: none;
-		font-family: $ft-nnSquare;
-		font-weight: 700;
-		background: url("//img.go.co.kr/renew/m/icon/search.png") no-repeat;
-		background-size: 22px;
-		background-position: top right +5px;
+	.group {
+		width: 86%;
+		padding-top: 10px;
+		border-bottom: 2px solid #555;
+		input.search {
+			@include bx;
+			@include dp;
+			@include appear;
+			width: 100%;
+			height: 25px;
+			margin-bottom: 3px;
+			padding: 0 35px 0 5px;
+			border: none;
+			font-family: $ft-nnSquare;
+			font-weight: 700;
+			background: url("//img.go.co.kr/renew/m/icon/search.png") no-repeat;
+			background-size: 22px;
+			background-position: top right +5px;
+		}
 	}
 }
 
 /* 숙소 종류 */
 .cont-kinds {
-	margin-top: 25px;
+	padding-top: 25px;
 	border-bottom: 1px solid #ddd;
 	h2 {
 		text-align: center;
 		.tit {
 			padding: 0 5px;
-			@include ft(13.5px, #ff6f00, 700, $ft-nnSquare);
+			@include ft(13.5px, $co-orange, 700, $ft-nnSquare);
 		}
 		&:before, &:after {
 			content: "";
 			@include va;
-			@include sizes(4px, #ff6f00);
+			@include sizes(4px, $co-orange);
 			border-radius: 50%;
 		}
 		&:before {
@@ -76,4 +77,77 @@
 		}
 	} 
 	
+}
+
+/* 배너 슬라이더 */
+.cont-slider {
+	.slider {
+		line-height: 0;
+		.img {
+			width: 100%;
+		}
+	}
+	.swiper-pagination-bullets {
+		bottom: 0 !important;
+		line-height: 1.2;
+	}
+	.swiper-pagination-bullet {
+		margin: 0 2px !important;
+	}
+	.swiper-pagination-bullet-active {
+		background: $co-orange !important;
+	}
+}
+
+/* 무료숙박권 FAQ */
+.cont-faq {
+	background: #f5f5f5;
+	.link-faq {
+		display: block;
+		padding: 10px 0;
+		letter-spacing: -0.5px;
+		@include ft(15px, $co-blue, 700, $ft-ntss);
+		text-align: center;
+		.ic-rArrow {
+			&:after {
+//				top: 0px;
+				border-color: $co-blue;
+				border-width: 2px;
+			}
+		}
+	}
+}
+
+/* 기획전 */
+.cont-pe {
+	padding: 20px 0 30px;
+	.group {
+		h2 {
+			@include ft(15px, null, 700, $ft-ntss);
+		}
+		.list {
+			margin-top: 10px;
+			.item {
+				position: relative;
+				.kinds-tag {
+					@include dp;
+					@include ft(11px, #fff);
+					position: absolute;
+					$dst: 5px;
+					top: $dst;
+					left: $dst;
+					padding: 3px 8px 1px;
+					&.sale {
+						background: $co-orange-bright;
+					}
+					&.event {
+						background: $co-blue-bright;
+					}
+				}
+				.img {
+					width: 100%;	
+				}
+			}
+		}
+	}
 }

@@ -16,8 +16,16 @@ textarea {
 label {
   cursor: pointer; }
 
-body {
-  height: 2000px; }
+/* 공통 */
+.group, .group-f {
+  position: relative;
+  margin: 0 auto; }
+
+.group {
+  width: 90%; }
+
+.group-f {
+  width: 100%; }
 
 /* 해더 영역 */
 .rn-header {
@@ -28,12 +36,137 @@ body {
   .rn-header h1 {
     position: relative;
     box-sizing: border-box;
-    z-index: 1;
+    z-index: 10;
     background: #fff;
     position: fixed;
     width: 100%;
     height: 50px;
-    padding-top: 10px;
+    padding-top: 8px;
     text-align: center; }
     .rn-header h1 .logo-img {
-      width: 110px; }
+      width: 95.5px; }
+
+/* 푸터 영역 */
+.rn-footer {
+  padding: 20px 0 30px;
+  background: #eee;
+  font-size: 11px;
+  color: #777; }
+  .rn-footer .logo-f {
+    width: 72px; }
+  .rn-footer .address {
+    position: relative;
+    border-top: 1px solid transparent;
+    word-break: keep-all; }
+    .rn-footer .address .fold {
+      position: absolute;
+      top: -20px;
+      right: 0px; }
+      .rn-footer .address .fold .ic-bArrow:after {
+        top: -3px;
+        width: 6px;
+        height: 6px;
+        margin-right: 1px; }
+      .rn-footer .address .fold.on .ic-bArrow:after {
+        top: 1px;
+        border: 1px solid #898989;
+        border-left: 0;
+        border-bottom: 0; }
+    .rn-footer .address .area > p {
+      margin-top: 10px; }
+  .rn-footer .btn-list {
+    margin-top: 10px; }
+    .rn-footer .btn-list > li a {
+      float: left;
+      border: 1px solid #aaa;
+      box-sizing: border-box;
+      display: inline-block;
+      width: 32%;
+      margin-left: 2%;
+      font-size: 11px;
+      letter-spacing: -0.5px;
+      padding: 4px 0 3px;
+      text-align: center; }
+    .rn-footer .btn-list > li:first-child a {
+      margin-left: 0; }
+  .rn-footer .row-req {
+    margin-top: 10px;
+    font-size: 0; }
+    .rn-footer .row-req > * {
+      position: relative;
+      display: inline-block;
+      font-size: 11.5px;
+      letter-spacing: -0.5px;
+      width: 50%; }
+    .rn-footer .row-req img {
+      position: relative;
+      vertical-align: middle;
+      display: inline-block;
+      margin-right: 3px; }
+    .rn-footer .row-req .tel img {
+      width: 18px; }
+    .rn-footer .row-req .mail img {
+      width: 15.5px; }
+  .rn-footer .row-alert {
+    margin-top: 10px; }
+  .rn-footer .copyright {
+    margin-top: 10px; }
+
+/* 하단 고정 메뉴 */
+.bnb {
+  height: 45px; }
+  .bnb nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #bbb; }
+    .bnb nav .menu > li {
+      position: relative;
+      float: left;
+      width: 20%; }
+      .bnb nav .menu > li a {
+        position: relative;
+        box-sizing: border-box;
+        font-size: 11px;
+        color: #999;
+        display: block;
+        height: 45px;
+        text-align: center; }
+        .bnb nav .menu > li a .name {
+          position: absolute;
+          bottom: 3px;
+          right: 0;
+          width: 100%; }
+      .bnb nav .menu > li.home {
+        background: url("//img.go.co.kr/renew/m/icon/ic_home.png") no-repeat center 5px;
+        background-size: 22px; }
+      .bnb nav .menu > li.on.home {
+        background: url("//img.go.co.kr/renew/m/icon/ic_home_on.png") no-repeat center 5px;
+        background-size: 22px; }
+      .bnb nav .menu > li.area {
+        background: url("//img.go.co.kr/renew/m/icon/ic_area.png") no-repeat center 5px;
+        background-size: 22px; }
+      .bnb nav .menu > li.on.area {
+        background: url("//img.go.co.kr/renew/m/icon/ic_area_on.png") no-repeat center 5px;
+        background-size: 22px; }
+      .bnb nav .menu > li.position {
+        background: url("//img.go.co.kr/renew/m/icon/ic_position.png") no-repeat center 5px;
+        background-size: 22px; }
+      .bnb nav .menu > li.on.position {
+        background: url("//img.go.co.kr/renew/m/icon/ic_position_on.png") no-repeat center 5px;
+        background-size: 22px; }
+      .bnb nav .menu > li.booking {
+        background: url("//img.go.co.kr/renew/m/icon/ic_booking.png") no-repeat center 5px;
+        background-size: 22px; }
+      .bnb nav .menu > li.on.booking {
+        background: url("//img.go.co.kr/renew/m/icon/ic_booking_on.png") no-repeat center 5px;
+        background-size: 22px; }
+      .bnb nav .menu > li.more {
+        background: url("//img.go.co.kr/renew/m/icon/ic_more.png") no-repeat center 5px;
+        background-size: 22px; }
+      .bnb nav .menu > li.on.more {
+        background: url("//img.go.co.kr/renew/m/icon/ic_more_on.png") no-repeat center 5px;
+        background-size: 22px; }

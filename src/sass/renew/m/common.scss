@@ -20,8 +20,16 @@ label {
 	cursor: pointer;
 }
 
-body {
-	height: 2000px;
+/* 공통 */
+.group, .group-f {
+	position: relative;
+	margin: 0 auto;
+}
+.group {
+	width: 90%;
+}
+.group-f {
+	width: 100%;
 }
 
 /* 해더 영역 */
@@ -32,15 +40,151 @@ body {
 	height: $header-ht;
 	h1 {
 		@include bx;
-		z-index: 1;
+		z-index: 10;
 		background: #fff;
 		position: fixed;
 		width: 100%;
 		height: $header-ht;
-		padding-top: 10px;
+		padding-top: 8px;
 		text-align: center;
 		.logo-img {
-			width: 110px;
+			width: 95.5px;
+		}
+	}
+}
+
+/* 푸터 영역 */
+.rn-footer {
+	padding: 20px 0 30px;
+	background: #eee;
+	font-size: 11px;
+	color: #777;
+	.logo-f {
+		width: 72px;
+	}
+	.address {
+//		@include ft(11px, null, null, $ft-ntss);
+//		font-size: 11px;
+		position: relative;
+		border-top: 1px solid transparent;
+		word-break: keep-all;
+		.fold {
+			@include position(absolute, -20px, null, null, 0px);
+			.ic-bArrow:after {
+				top: -3px;
+				width: 6px;
+				height: 6px;
+				margin-right: 1px;
+			}
+			&.on {
+				.ic-bArrow:after {
+					top: 1px;
+					border: 1px solid #898989;
+					border-left: 0;
+					border-bottom: 0;
+				}
+				
+			}
+		}
+		.area {
+			strong {
+	//			font-weight: 700;
+			}
+			> p {
+				margin-top: 10px;
+			}
+		}
+	}
+	.btn-list {
+		margin-top: 10px;
+		> li {
+			a {
+				float: left;
+				@include bdr(#aaa);
+				box-sizing: border-box;
+				display: inline-block;
+				width: 32%;
+				margin-left: 2%;
+				font-size: 11px;
+				letter-spacing: -0.5px;
+				padding: 4px 0 3px;
+				text-align: center;
+			}
+			&:first-child a {
+				margin-left: 0;
+			}
+		}
+	}
+	.row-req {
+		margin-top: 10px;
+		font-size: 0;
+		> * {
+			@include dp;
+			font-size: 11.5px;
+			letter-spacing: -0.5px;
+			width: 50%;
+		}
+		img {
+			@include va;
+			margin-right: 3px;
+		}
+		.tel {
+			img {
+				width: 18px;
+			}
+		}
+		.mail {
+			img {
+				width: 15.5px;
+			}
+		}
+	}
+	.row-alert {
+		margin-top: 10px;
+	}
+	.copyright {
+		margin-top: 10px;
+	}
+}
+
+/* 하단 고정 메뉴 */
+.bnb {
+	$bnb-ht: 45px;
+	height: $bnb-ht;
+	nav {
+		@include position(fixed, null, 0, 0);
+		box-sizing: border-box;
+		width: 100%;
+		background: #fff;
+		border-top: 1px solid #bbb;
+//		height: $bnb-ht;
+		.menu {
+			> li {
+				@include float;
+				width: 20%;
+				a {
+					@include bx;
+					@include ft(11px, #999);
+					display: block;
+					height: $bnb-ht;
+					text-align: center;
+					.name {
+						@include position(absolute, null, null, 3px, 0);
+						width: 100%;
+					}
+				}
+				$list: ("home", "area", "position", "booking", "more");
+				@each $item in $list {
+					&.#{$item} {
+						background: url("//img.go.co.kr/renew/m/icon/ic_#{$item}.png") no-repeat center 5px;
+						background-size: 22px;	
+					}
+					&.on.#{$item} {
+						background: url("//img.go.co.kr/renew/m/icon/ic_#{$item}_on.png") no-repeat center 5px;
+						background-size: 22px;	
+					}
+				}
+			}
 		}
 	}
 }

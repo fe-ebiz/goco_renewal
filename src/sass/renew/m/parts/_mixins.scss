@@ -86,7 +86,7 @@
 	white-space: nowrap;
 	text-overflow: $type;
 }
-@mixin bdr($color: transparent, $with: 1px, $type: solid) {
+@mixin bdr($color: transparent, $wth: 1px, $type: solid) {
 	border: $wth $type $color;
 }
 @mixin lbl($fz: 12px, $mg: 3px) {

@@ -74,17 +74,22 @@
 
 
     <!-- 현재 페이지 전용 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 </head>
 
 <body class="page-main">
     <header class="rn-header">
-        <h1><img class="logo-img" src="http://img.go.co.kr/mobile/logo.png" alt="고코투어"><span class="blind">고코투어</span></h1>
+        <h1><img class="logo-img" src="http://img.go.co.kr/logo.png" alt="고코투어"><span class="blind">고코투어</span></h1>
     </header>
 
     <div class="contents">
         <div class="cont-search">
-            <input type="text" placeholder="지역/숙소명/여행지를 검색하세요" class="search">
+            <div class="group">
+                <input type="text" placeholder="지역/숙소명/여행지를 검색하세요" class="search">
+            </div>
         </div>
+        <!-- end .cont-search -->
         <div class="cont-kinds">
             <h2><span class="tit">빠르고 손쉬운 숙소찾기</span></h2>
             <ul class="list">
@@ -117,12 +122,165 @@
                 </li>
             </ul>
         </div>
+        <!-- end .cont-kinds -->
         <hr class="division">
+        <div class="cont-slider swiper-container">
+            <ul class="slider swiper-wrapper">
+                <li class="swiper-slide">
+                    <a href="http://m.go.co.kr/home/member/?dd=RREnSjA=&rurl=QQo0U2QJcU5uGUcHHS8NNVRxSy8TTQYSIU06TzBEb0FMTUMUVClWDEkCPWR4Q30=">
+                        <img src="http://img.go.co.kr/mobile/fr_main_bn.jpg" alt="친구에게 5000원 할인권 선물하고 나도 5000원 적립금 받자!" class="img">
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a href="http://m.go.co.kr/home/view/?p_no=HE93">
+                        <img src="http://img.go.co.kr/mobile/roll_banner/180816_ocean2you.png" alt="오션투유리조트" class="img">
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a href="http://m.go.co.kr/home/view/?p_no=HE5w">
+                        <img src="http://img.go.co.kr/mobile/roll_banner/180816_hyundaesu.png" alt="속초 현대수 리조트" class="img">
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a href="http://m.go.co.kr/home/landing/?dd=SBIsfC5UN0AlIRkeTnc=">
+                        <img src="http://img.go.co.kr/mobile/roll_banner/180816_lowprice.png" alt="모든 상품 최저가 보장" class="img">
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a href="http://m.go.co.kr/home/main/?dd=WhcuRDJDAVMyEQ==&event_code=aquaplanet">
+                        <img src="http://img.go.co.kr/aquaplanet/lms_2.jpg" alt="한화아쿠아플라넷 이벤트" class="img">
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a href="http://m.go.co.kr/home/landing/?dd=SxcyVzZ5PUw1DkdH">
+                        <img src="http://img.go.co.kr/mobile/roll_banner/180816_birth.png" alt="생일축하 1만원 특시 할인 쿠폰제공" class="img">
+                    </a>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <script>
+                var mySwiper = new Swiper('.swiper-container', {
+                					speed: 400,
+                					loop: true,
+                					pagination: {
+                						el: '.swiper-pagination',
+                						type: 'bullets'
+                					}
+                				});
+            </script>
+        </div>
+        <!-- end .cont-slider -->
+        <div class="cont-faq">
+            <a href="/home/customer/?dd=Tx8xfDh5MEY3" class="link-faq">무료숙박권 이벤트 안내 FAQ <span class="ic-rArrow"></span></a>
+        </div>
+        <!-- end .cont-faq-->
+        <section class="cont-pe">
+            <div class="group">
+                <h2>기획전</h2>
+                <ul class="list">
+                    <li class="item">
+                        <span class="kinds-tag sale">초특가</span>
+                        <img src="//img.go.co.kr/renew/m/main/pe/bnr_01.jpg" alt="강력추천 숙박시설" class="img">
+                    </li>
+                    <li class="item">
+                        <span class="kinds-tag event">이벤트</span>
+                        <img src="//img.go.co.kr/renew/m/main/pe/bnr_02.jpg" alt="한화아쿠아플라넷 기획전" class="img">
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
 
-    <footer class="footer">
-        푸터
+    <footer class="rn-footer">
+        <div class="group">
+            <img src="//img.go.co.kr/logo_f.png" alt="고코투어" class="logo-f">
+            <address class="address">
+
+			<a href="javascript:;" class="fold"><span class="ic-bArrow"></span> 사업자정보</a>
+
+			<div class="area">
+
+				<p class="p-1">
+
+					<strong>(주)이비즈네트웍스</strong><br>
+
+					대표이사 : 박기범<br>
+
+					주소 : 서울특별시 강남구 테헤란로82길 15, (대치동, 디아이타워)<br>
+
+					사업자등록번호 : 220-87-30865
+
+				</p>
+
+				<p class="p-2">
+
+					<strong>(주)바로네트웍스</strong><br>
+
+					대표이사 : 전병권<br>
+
+					주소 : 서울특별시 강남구 테헤란로82길 15, 3층(대치동, 디아이타워)<br>
+
+					사업자등록번호 : 215-87-85373<br>					
+
+					통신판매업 : 제2017-서울강남-00561호<br>					
+
+					여행업등록번호 : 제2017-07호<br>					
+
+					여행영업보증서 : 국내여행 제100-000-2015 0144 5816호<br>					
+
+					국외여행업등록번호 : 제2017호-26호				
+
+				</p>
+
+			</div>
+
+		</address>
+            <ul class="cf btn-list">
+                <li><a href="http://m.go.co.kr/home/member/?dd=SwwhTTp5N00mEQ==">회사소개</a>
+                </li>
+                <li><a href="/home/policy/?dd=QxEpTQFWMVM=">이용약관</a>
+                </li>
+                <li><a href="/home/policy/?dd=WQwpVT9FJw==">개인정보처리방침</a>
+                </li>
+            </ul>
+            <div class="row-req">
+                <a href="tel:1666-1243" class="tel">
+                    <img src="//img.go.co.kr/renew/m/icon/ic_call.png" alt="전화">고객상담 1666-1243
+                </a>
+                <span class="mail">
+
+				<img src="//img.go.co.kr/renew/m/icon/ic_mail.png" alt="메일">
+
+				문의메일 : help@go.co.kr
+
+			</span>
+            </div>
+            <p class="row-alert">
+                고코투어는 통신판매중개자로서 통신판매 당사자가 아닙니다.
+                <br>따라서 고코투어는 상품정보 및 거래정보에 대하여 책임을 지지 않습니다.
+            </p>
+            <p class="copyright">Copyright 2015 by GO.CO.KR co., all right reserved.</p>
+        </div>
     </footer>
+    <!-- end .footer -->
+
+    <div class="bnb">
+        <nav>
+            <h2 class="blind">하단 고정 메뉴</h2>
+            <ul class="cf menu">
+                <li class="home"><a href="http://m.go.co.kr/home/main/"><span class="name">홈</span></a>
+                </li>
+                <li class="area"><a href="http://m.go.co.kr/home/search/?dd=RR85Rix5MkwjH0R2ECVU&gubun=inter_div&prev_city1=S&prev_city2="><span class="name">지역</span></a>
+                </li>
+                <li class="position"><a href="http://m.go.co.kr/home/map/?dd=RB8wfDNf"><span class="name">내주변</span></a>
+                </li>
+                <li class="booking"><a href="http://m.go.co.kr/home/member/?dd=RREnSjA=&amp;rurl=QQo0U2QJcU5uGUcHHS8NNVRxSy8TTQYTJU48QywMfxpMFC03UGtyJEcWNU8UQw=="><span class="name">나의예약</span></a>
+                </li>
+                <li class="more"><a href="#"><span class="name">더보기</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 </body>
 
 </html>

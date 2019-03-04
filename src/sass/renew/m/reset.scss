@@ -149,7 +149,7 @@ button[type=button] {cursor: pointer;}
 }
 
 /* rArrow, lArrow 버튼 */
-.ic-lArrow:after, .ic-rArrow:after, .ic-bArrow:after {
+.ic-lArrow:after, .ic-rArrow:after, .ic-bArrow:after, .ic-tArrow:after {
 	position: relative; top: -2px;
     content: ""; display: inline-block; width: 7px; height: 7px; border: 1px solid #898989;
     -webkit-transform: rotate(-45deg);
@@ -169,6 +169,10 @@ button[type=button] {cursor: pointer;}
     border-top: 0; border-right: 0;
     top: 2px; width: 8px; height: 8px;
 }
+.ic-tArrow:after {
+    border-left: 0; border-bottom: 0;
+    top: 2px; width: 8px; height: 8px;
+}
 .ie8 .ic-lArrow:after, .ie8 .ic-rArrow:after {
 	width: auto; height: auto;
 	border: 0; left: 0; right: 0;
@@ -176,6 +180,7 @@ button[type=button] {cursor: pointer;}
 .ie8 .ic-lArrow:after {content: "◀";}
 .ie8 .ic-rArrow:after {content: "▶";}
 .ie8 .ic-bArrow:after {content: "▼";}
+.ie8 .ic-tArrow:after {content: "▲";}
 
 .i-borL-tran, .i-borT-tran {position: relative;}
 .i-borL-tran:before, .i-borL-tran:after, .i-borT-tran:before, .i-borT-tran:after{
