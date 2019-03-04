@@ -32,9 +32,9 @@
 	-webkit-transition: $args;
 	transition: $args;
 }
-@mixin margin($t:null, $l:null) {
-	margin-top: $t;
-	margin-left: $l;
+@mixin mg-auto($t: null, $b: null, $type: relative) {
+	position: $type;
+	margin: $t auto $b;
 }
 // 마이크로 클리어픽스(Micro Clearfix)
 @mixin clearfix {
@@ -49,7 +49,7 @@
 		zoom: 1;
 	}
 }
-// 커스텀 믹스인
+
 // 노출 리셋
 @mixin show-reset {
 	width: auto;
@@ -109,4 +109,8 @@
 	color: $c;
 	font-weight: $w;
 	font-family: $fm;
+}
+@mixin zidx($z: 1, $type: relative) {
+	position: $type;
+	z-index: $z;
 }

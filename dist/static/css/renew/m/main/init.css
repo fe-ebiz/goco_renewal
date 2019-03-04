@@ -9,11 +9,13 @@
   background: #f5f5f5; }
 
 /* 검색바 */
-.cont-search .group {
+.cont-search .search-bar {
+  position: relative;
+  margin: auto;
   width: 86%;
-  padding-top: 10px;
+  padding: 10px 0 3px;
   border-bottom: 2px solid #555; }
-  .cont-search .group input.search {
+  .cont-search .search-bar input.search {
     position: relative;
     box-sizing: border-box;
     position: relative;
@@ -26,19 +28,51 @@
     -webkit-border-radius: 0;
     width: 100%;
     height: 25px;
-    margin-bottom: 3px;
     padding: 0 35px 0 5px;
     border: none;
     font-family: "Nanum Square", Dotum, Sans-serif;
-    font-weight: 700;
-    background: url("//img.go.co.kr/renew/m/icon/search.png") no-repeat;
-    background-size: 22px;
-    background-position: top right +5px; }
+    font-weight: 700; }
+  .cont-search .search-bar .btn-search {
+    border: 1px solid transparent;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    width: 35px;
+    height: 27px;
+    background: url("//img.go.co.kr/renew/m/icon/search.png") no-repeat center;
+    background-size: 22px; }
 
 /* 숙소 종류 */
 .cont-kinds {
-  padding-top: 25px;
-  border-bottom: 1px solid #ddd; }
+  padding-top: 20px;
+  border-bottom: 1px solid #ddd;
+  /*.group {
+		width: 300px;
+		.list {
+			margin: 0px auto;
+			padding-bottom: 20px;
+			text-align: center;
+			width: 100%;
+			> li {
+				@include dp;
+				@include size(70px);
+				width: 28%;
+				margin-top: 10px;
+				.img {
+					width: 50%;
+				}
+					.name {
+					display: block;
+					font-size: 11.5px;
+					font-family: $ft-ntss;
+					font-weight: 500;
+					color: #6c6c6c;
+				}
+			}
+		}
+	}*/ }
   .cont-kinds h2 {
     text-align: center; }
     .cont-kinds h2 .tit {
@@ -56,24 +90,27 @@
       height: 4px;
       background: #ff6f00;
       border-radius: 50%; }
-  .cont-kinds .list {
-    width: 300px;
-    margin: 15px auto 0;
-    text-align: center; }
-    .cont-kinds .list li {
-      position: relative;
-      display: inline-block;
-      width: 70px;
-      height: 70px;
-      margin: 0 10px; }
-      .cont-kinds .list li img {
-        width: 38px; }
-      .cont-kinds .list li .name {
-        display: block;
-        font-size: 11.5px;
-        font-family: "Noto Sans KR", Dotum, Sans-serif;
-        font-weight: 500;
-        color: #6c6c6c; }
+  .cont-kinds .group {
+    width: 94%; }
+    .cont-kinds .group .list {
+      margin: 0px auto;
+      padding-bottom: 20px;
+      text-align: center;
+      width: 100%; }
+      .cont-kinds .group .list > li {
+        position: relative;
+        display: inline-block;
+        width: 70px;
+        width: 28%;
+        margin-top: 10px; }
+        .cont-kinds .group .list > li .img {
+          width: 50%; }
+        .cont-kinds .group .list > li .name {
+          display: block;
+          font-size: 11.5px;
+          font-family: "Noto Sans KR", Dotum, Sans-serif;
+          font-weight: 500;
+          color: #6c6c6c; }
 
 /* 배너 슬라이더 */
 .cont-slider .slider {
@@ -117,8 +154,11 @@
   .cont-pe .group .list {
     margin-top: 10px; }
     .cont-pe .group .list .item {
-      position: relative; }
-      .cont-pe .group .list .item .kinds-tag {
+      position: relative;
+      margin-top: 10px; }
+      .cont-pe .group .list .item:first-child {
+        margin-top: 0; }
+      .cont-pe .group .list .item > a .kinds-tag {
         position: relative;
         display: inline-block;
         font-size: 11px;
@@ -127,9 +167,10 @@
         top: 5px;
         left: 5px;
         padding: 3px 8px 1px; }
-        .cont-pe .group .list .item .kinds-tag.sale {
+        .cont-pe .group .list .item > a .kinds-tag.sale {
           background: #ff6600; }
-        .cont-pe .group .list .item .kinds-tag.event {
+        .cont-pe .group .list .item > a .kinds-tag.event {
           background: #00b4ff; }
-      .cont-pe .group .list .item .img {
+      .cont-pe .group .list .item > a .img {
+        display: block;
         width: 100%; }

@@ -21,7 +21,21 @@ label {
 }
 
 /* 공통 */
+body,
+.rn-header h1,
+.bnb nav {
+	max-width: 768px;
+	margin: 0 auto;
+}
+@media (min-width: 768px) {
+	.rn-header h1,
+	.bnb nav {
+		left: 50% !important;
+		margin-left: -384px !important;
+	}
+}
 .group, .group-f {
+	@include clearfix;
 	position: relative;
 	margin: 0 auto;
 }
@@ -87,6 +101,7 @@ label {
 			}
 		}
 		.area {
+			display: none;
 			strong {
 	//			font-weight: 700;
 			}
@@ -149,6 +164,7 @@ label {
 
 /* 하단 고정 메뉴 */
 .bnb {
+	@include zidx(9999);
 	$bnb-ht: 45px;
 	height: $bnb-ht;
 	nav {

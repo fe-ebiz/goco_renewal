@@ -17,9 +17,28 @@ label {
   cursor: pointer; }
 
 /* 공통 */
+body,
+.rn-header h1,
+.bnb nav {
+  max-width: 768px;
+  margin: 0 auto; }
+
+@media (min-width: 768px) {
+  .rn-header h1,
+  .bnb nav {
+    left: 50% !important;
+    margin-left: -384px !important; } }
+
 .group, .group-f {
   position: relative;
   margin: 0 auto; }
+  .group::before, .group::after, .group-f::before, .group-f::after {
+    content: '';
+    display: table; }
+  .group::after, .group-f::after {
+    clear: both; }
+  .ie8 .group, .ie8 .group-f {
+    zoom: 1; }
 
 .group {
   width: 90%; }
@@ -72,8 +91,10 @@ label {
         border: 1px solid #898989;
         border-left: 0;
         border-bottom: 0; }
-    .rn-footer .address .area > p {
-      margin-top: 10px; }
+    .rn-footer .address .area {
+      display: none; }
+      .rn-footer .address .area > p {
+        margin-top: 10px; }
   .rn-footer .btn-list {
     margin-top: 10px; }
     .rn-footer .btn-list > li a {
@@ -114,6 +135,8 @@ label {
 
 /* 하단 고정 메뉴 */
 .bnb {
+  position: relative;
+  z-index: 9999;
   height: 45px; }
   .bnb nav {
     position: fixed;
