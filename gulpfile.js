@@ -39,7 +39,7 @@ gulp.task('default', ['browserSync', 'watch']);
 gulp.task('mobile', ['browserSync_m', 'watch_m']);
 gulp.task('prepare', ['preen', 'bower:copy']);
 
-gulp.task('browserSync', ['template'], function() {
+gulp.task('browserSync', ['template', 'css', 'js'], function() {
 	return browerSync.init({
 		server: {
 			baseDir: './dist'
@@ -56,21 +56,18 @@ gulp.task('browserSync_m', ['template_m', 'sass', 'js'], function() {
 
 // 관찰
 gulp.task('watch', [], function(){
-    watch([config.template.src, config.template.parts], function() {
-		gulp.start('ejs');
-	});
 	// HTML 템플릿 업무 관찰
-	// watch([config.template.src, config.template.parts], function() {
-	// 	gulp.start('template');
-	// });
-	// Sass 업무 관찰
-	// watch(config.sass.src, function() {
-	// 	gulp.start('sass');
-	// });
+    watch([config.template.src, config.template.parts], function() {
+		gulp.start('template');
+	});
+    // Sass 업무 관찰
+	watch(config.css.src, function() {
+		gulp.start('css');
+	});
 	// Js 업무 관찰
-	// watch(config.js.src, function() {
-	// 	gulp.start('js');
-	// });
+	watch(config.js.src, function() {
+		gulp.start('js');
+	});
 });
 gulp.task('watch_m', [], function(){
 	// HTML 템플릿 업무 관찰
@@ -186,7 +183,6 @@ gulp.task('css', function(){
 		.pipe( gulp.dest(config.css.dest) )
 		.pipe(browerSync.reload({stream: true}));
 });
-
 gulp.task('js', function(){
 	gulp.src(config.js.src)
 		.pipe( plumber() )

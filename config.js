@@ -88,6 +88,7 @@ module.exports = function() {
 		bower: bower,
 		template : template,
 		sass : sass,
+		css : css,
 		js   : js
 	};
 };
