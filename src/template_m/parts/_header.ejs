@@ -1,4 +1,9 @@
-<div id="menu_bg2" style="display: none; position: absolute; z-index: 99999; top: 0px; right: 0px;">
+<!-- 기존 메뉴 사용 -->
+<style>
+	#overlay, #menu_bg2 {display: none;}
+</style>
+<div id="overlay"></div>
+<div id="menu_bg2" style="position: absolute; z-index: 99999; top: 0px; left: 0px;">
 	<div id="mypage">
 		<div id="box" style="-webkit-overflow-scrolling: touch;overflow-y:scroll;background-image:none">
 					<div class="my_top">
@@ -80,7 +85,13 @@
 		</div>
 	</div>
 </div>
+<!-- //#menu_bg2 -->
 
+<!-- 제휴사: partner 클래스 추가 -->
 <header class="rn-header">
-	<h1><a href="http://m.go.co.kr/home/main/"><img class="logo-img" src="http://img.go.co.kr/logo.png" alt="고코투어"><span class="blind">고코투어</span></a></h1>
+	<h1>
+		<a href="http://m.go.co.kr/home/main/" class="logo">
+			<img class="logo-img" src="http://img.go.co.kr/logo.png" alt="고코투어"><span class="blind">고코투어</span>
+		</a>
+	</h1>
 </header>

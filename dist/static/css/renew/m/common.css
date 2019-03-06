@@ -16,6 +16,88 @@ textarea {
 label {
   cursor: pointer; }
 
+/* 공통 스타일 */
+input[type=password] {
+  font-family: "Nanum Gothic", Dotum, Sans-serif; }
+
+.show-reset {
+  width: auto;
+  height: auto;
+  text-indent: 0;
+  font-size: 100%;
+  line-height: normal;
+  visibility: visible; }
+
+.appe-reset {
+  font-family: "Nanum Gothic", Dotum, Sans-serif; }
+
+.area {
+  position: relative;
+  box-sizing: border-box; }
+  .area::before, .area::after {
+    content: '';
+    display: table; }
+  .area::after {
+    clear: both; }
+  .ie8 .area {
+    zoom: 1; }
+
+.wrap {
+  box-sizing: border-box; }
+
+.cf, .row {
+  position: relative; }
+  .cf::before, .cf::after, .row::before, .row::after {
+    content: '';
+    display: table; }
+  .cf::after, .row::after {
+    clear: both; }
+  .ie8 .cf, .ie8 .row {
+    zoom: 1; }
+
+.row {
+  position: relative; }
+  .row::before, .row::after {
+    content: '';
+    display: table; }
+  .row::after {
+    clear: both; }
+  .ie8 .row {
+    zoom: 1; }
+
+.fw-b {
+  font-weight: 700 !important; }
+
+.fw-eb {
+  font-weight: 800 !important; }
+
+.chk-box > *,
+.rdo-box > * {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1; }
+
+.ta-left {
+  text-align: left !important; }
+
+.ta-center {
+  text-align: center !important; }
+
+.ta-right {
+  text-align: right !important; }
+
+.pull-left {
+  float: left !important; }
+
+.pull-right {
+  float: right !important; }
+
+.to-ellips {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
 /* 공통 */
 body,
 .rn-header h1,
@@ -61,9 +143,19 @@ body,
     width: 100%;
     height: 50px;
     padding-top: 8px;
-    text-align: center; }
-    .rn-header h1 .logo-img {
-      width: 95.5px; }
+    text-align: center;
+    line-height: 16px; }
+    .rn-header h1 .logo {
+      display: block; }
+      .rn-header h1 .logo .logo-img {
+        width: 95.5px; }
+      .rn-header h1 .logo .partner-name {
+        display: block;
+        font-size: 12px; }
+  .rn-header.partner {
+    height: 65px; }
+    .rn-header.partner h1 {
+      height: 65px; }
 
 /* 푸터 영역 */
 .rn-footer {
@@ -116,22 +208,27 @@ body,
     .rn-footer .row-req > * {
       position: relative;
       display: inline-block;
-      font-size: 11.5px;
-      letter-spacing: -0.5px;
-      width: 50%; }
+      font-size: 11px;
+      letter-spacing: -0.5px; }
     .rn-footer .row-req img {
       position: relative;
       vertical-align: middle;
       display: inline-block;
       margin-right: 3px; }
-    .rn-footer .row-req .tel img {
-      width: 18px; }
-    .rn-footer .row-req .mail img {
+    .rn-footer .row-req .tel {
+      margin-right: 5px; }
+      .rn-footer .row-req .tel > img {
+        width: 18px; }
+    .rn-footer .row-req .mail > img {
       width: 15.5px; }
   .rn-footer .row-alert {
     margin-top: 10px; }
   .rn-footer .copyright {
     margin-top: 10px; }
+  .rn-footer.rn-footer.partner .area {
+    display: block; }
+  .rn-footer.rn-footer.partner .btn-list {
+    margin-top: 0; }
 
 /* 하단 고정 메뉴 */
 .bnb {
@@ -300,12 +397,14 @@ body,
     height: 800px;
     background-color: #ffffff; }
 
+/* #menu_bg2 */
 #menu_bg2 {
   width: 100%;
+  max-width: 768px;
   background: none;
   position: absolute;
   top: 0;
-  right: -246px; }
+  left: -768px; }
 
 #overlay {
   position: fixed;
@@ -571,6 +670,21 @@ body,
           padding: 6px; }
         #mypage #box .my_bottom ul li a img {
           width: 7px; }
+      #mypage #box .my_bottom ul li .receipt-a {
+        position: absolute;
+        right: 8px;
+        bottom: 10px;
+        display: inline-block;
+        padding: 2px 6px;
+        height: 22px;
+        font-size: 11px;
+        border: 1px solid #fa6a0a;
+        box-sizing: border-box;
+        border-radius: 2px;
+        line-height: 1.6em;
+        text-align: center;
+        color: #fa6a0a;
+        width: auto; }
     #mypage #box .my_middle0 {
       width: 100%;
       height: auto;
@@ -587,28 +701,40 @@ body,
         padding: 5% 0;
         border-right: 1px solid #ececec;
         border-bottom: 1px solid #ececec;
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        padding: 1% 0 1% 0; }
       #mypage #box .my_middle0 .my_box_2 a {
         float: left;
         width: 50%;
         padding: 5% 0;
         border-right: 0;
         border-bottom: 1px solid #ececec;
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        padding: 1% 0 1% 0; }
       #mypage #box .my_middle0 .my_box_3 a {
         float: left;
         width: 50%;
         padding: 5% 0;
         border-right: 1px solid #ececec;
         border-bottom: 1px solid #ececec;
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        padding: 1% 0 1% 0; }
       #mypage #box .my_middle0 .my_box_4 a {
         float: left;
         width: 50%;
         padding: 5% 0;
         border-right: 0;
         border-bottom: 1px solid #ececec;
-        box-sizing: border-box; }
+        box-sizing: border-box;
+        float: left;
+        width: 50%;
+        padding: 1% 0 1% 0; }
     #mypage #box .btn_logout a {
       clear: both;
       margin: auto;
@@ -622,27 +748,7 @@ body,
       text-align: center;
       color: #fff;
       background: #b3b3b3; }
-
-#mypage #box .my_middle0 .my_box_1 a, #mypage #box .my_middle0 .my_box_2 a, #mypage #box .my_middle0 .my_box_3 a, #mypage #box .my_middle0 .my_box_4 a {
-  float: left;
-  width: 50%;
-  padding: 1% 0 1% 0; }
-
-#mypage #box .my_middle.type02 > ul > li a, #mypage #box .my_bottom.type02 ul li a {
-  padding: 10px 0; }
-
-#mypage #box .my_bottom ul li .receipt-a {
-  position: absolute;
-  right: 8px;
-  bottom: 10px;
-  display: inline-block;
-  padding: 2px 6px;
-  height: 22px;
-  font-size: 11px;
-  border: 1px solid #fa6a0a;
-  box-sizing: border-box;
-  border-radius: 2px;
-  line-height: 1.6em;
-  text-align: center;
-  color: #fa6a0a;
-  width: auto; }
+    #mypage #box .my_middle.type02 > ul > li a {
+      padding: 10px 0; }
+    #mypage #box .my_bottom.type02 ul li a {
+      padding: 10px 0; }
