@@ -10,6 +10,18 @@ function footerFn() {
 	$(".rn-footer .address .fold").on("click", function() {
 		$(this).toggleClass("on");
 		$(this).next().slideToggle();
+		// alert('hi');
+
+		// if ( $(".rn-footer .address .area").css("display") == "none" ) {
+		// 	$(".rn-footer .address .area").slideDown();
+		// } else {
+		// 	$(".rn-footer .address .area").slideUp();
+		// }
+		// if ( !$(".rn-footer .address .area").is(":visible") ) {
+		// 	$(".rn-footer .address .area").slideDown();
+		// } else {
+		// 	$(".rn-footer .address .area").slideUp();
+		// }
 	});
 }
 

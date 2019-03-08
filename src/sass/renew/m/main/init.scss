@@ -25,6 +25,7 @@
 			height: $search-ht;
 			padding: 0 35px 0 5px;
 			border: none;
+			font-size: 16px;
 			font-family: $ft-nnSquare;
 			font-weight: 700;
 		}
@@ -97,17 +98,17 @@
 			> li {
 				@include dp;
 				@include size(70px);
-				width: 28%;
+				box-sizing: border-box;
+				width: 30%;
 				margin-top: 10px;
+				padding: 0 10px;
 				.img {
 					width: 50%;
 				}
 					.name {
 					display: block;
-					font-size: 11.5px;
-					font-family: $ft-ntss;
-					font-weight: 500;
-					color: #6c6c6c;
+					@include ft(13px, #6c6c6c, 700, $ft-ntss);
+					letter-spacing: -0.7px;
 				}
 			}
 		}
