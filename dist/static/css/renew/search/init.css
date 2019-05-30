@@ -28,6 +28,7 @@ input.chk-cst[type=checkbox] + label.on {background: #fff url(http://img.go.co.k
 
 /* 우측 필터링 및 지도 */
 .rnL-contents .rnL-mfOuter {position: absolute; width: 680px; height: 100%; right: 0; width: 40.5%; /*z-index: 2;*/}
+.rnL-contents .rnL-mfOuter {position: fixed;}
 
 .rnL-contents .rnL-mOuter, .rnL-contents .rnL-fOuter {height: 100%; min-width: 440px;}
 /* 지도 */

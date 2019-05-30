@@ -48,8 +48,8 @@ gulp.task('watch', [], function(){
 		gulp.start('template');
 	});
 	// Sass 업무 관찰
-	watch(config.sass.src, function() {
-		gulp.start('sass');
+	watch(config.css.src, function() {
+		gulp.start('css');
 	});
 	// Js 업무 관찰
 	watch(config.js.src, function() {
@@ -124,6 +124,6 @@ gulp.task('css', function(){
 		// 	browsers: ['last 2 versions'],
         //     cascade: false
         // }))
-		.pipe( gulp.dest( config.sass.dest) )
+		.pipe( gulp.dest( config.css.dest) )
 		.pipe(browserSync.stream({ match: '**/*.css' }));
 });
