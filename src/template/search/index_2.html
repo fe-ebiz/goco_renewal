@@ -1,0 +1,139 @@
+@@include('../include/_head.html', {
+	"page": "/search"
+})
+	<link rel="stylesheet" href="http://static.go.co.kr/css/renew/libs/ion.rangeSlider.css">
+	<link rel="stylesheet" href="http://static.go.co.kr/css/renew/libs/ion.rangeSlider.custom.css">
+	<script src="http://static.go.co.kr/js/renew/libs/jquery.lazyload.min.js"></script>
+	<script src="http://static.go.co.kr/js/renew/libs/ion.rangeSlider.min.js"></script>
+
+</head>
+<body>
+    <h1 class="hidden">고코투어</h1>
+    <div class="rn-gwrap">
+        @@include('../include/_header.html')
+
+        <!--백드롭, 달력 클릭시 뒤에 전체 배경-->
+		<div id="backDrop"></div>
+        @@include('../include/search/_filterBar.html')
+
+        <div class="rnL-contents">
+			<div class="rn-container">
+                <div class="rnL-mfOuter clr">
+                    <!--필터검색-->
+    				@@include('../include/search/_filtering_search.html')
+
+                    <div class="rnL-mOuter bsLs clr" id="rnL-mOuter"></div>
+                </div>
+
+				<div class="rnL-listOuter bsLs" id="rnL-listOuter">
+
+					<div class="recC-outer">
+						<div class="h2-box">
+							<h2 class="borB"><span class="h2-sch">검색결과 <span class="f-sm"><span class="thColor1">[한화리조트]</span>에 대해 숙박 가능한 상품이 <span class="f-bd">23개 검색</span>되었습니다.</span></span></h2>
+							<div id="drop-box" class="drop-box">
+								<div class="drop-btn">
+									<span class="c-ic i-alg"></span>
+									<span class="s-txt">정렬: 추천순</span>
+									<span class="c-ic i-dArr"></span>
+								</div>
+								<ul class="drop-menu">
+									<li><a href="javascript:;">평점</a></li>
+									<li><a href="javascript:;">낮은 가격</a></li>
+									<li><a href="javascript:;">높은 가격</a></li>
+									<li><a href="javascript:;">호텔 등급</a></li>
+									<li><a href="javascript:;">추천순</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<ul class="rcm-ul">
+							<li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1503653791_main1.jpg" data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1503653791_main1.jpg" alt="상품이미지">
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-02">리조트/콘도</span>경북<span class="mgl"></span>경주시
+
+									</p>
+									<p class="p2"><strong>한화리조트 [경주]</strong></p>
+									<div class="p3">
+										<p class="p3-1">8.5점<span class="mgl"></span>리뷰 <span class="s1">12</span>건 <span class="s2">패키지</span></p>
+										<p class="p3-1">보문관광 단지 차량 10분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<span class="s-blSign">인기상승 중!</span>
+									<div class="d3-inner clr">
+										<p class="p1">110,000<span>원</span></p>
+										<p class="p2">
+											<em class="s1">64%<span class="c-ic i-rDnArr"></span></em><s class="s2">305,000원</s>
+										</p>
+										<p class="p3">회원적립금 <span class="s1">1,160원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+							<li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1426817972_main1.jpg"  data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1426817972_main1.jpg" alt="상품이미지">
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-02">리조트/콘도</span>강원<span class="mgl"></span>속초시
+
+									</p>
+									<p class="p2"><strong>한화리조트 [설악]</strong></p>
+									<div class="p3">
+										<p class="p3-1">8.0점<span class="mgl"></span>리뷰 <span class="s1">20</span>건 <span class="s2">패키지</span></p></p>
+										<p class="p3-1">속초해수욕장 차량 20분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<div class="d3-inner clr">
+										<p class="p1">141,000<span>원</span></p>
+										<p class="p2">
+											<em class="s1">23%<span class="c-ic i-rDnArr"></span></em><s class="s2">183,000원</s>
+										</p>
+										<p class="p3">회원적립금 <span class="s1">1,410원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+							<li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1426733252_main1.jpg" data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1426733252_main1.jpg" alt="상품이미지">
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-02">리조트/콘도</span>부산<span class="mgl"></span>해운대구
+
+									</p>
+									<p class="p2"><strong>한화리조트 [쏘라노]</strong></p>
+									<div class="p3">
+										<p class="p3-1">8.5점<span class="mgl"></span>리뷰 <span class="s1">111</span>건 <span class="s2">패키지</span></p></p>
+										<p class="p3-1">해운대구해수욕장 차량 8분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<div class="d3-inner clr">
+										<p class="p1">109,000<span>원</span></p>
+										<p class="p2">
+											<em class="s1">65%<span class="c-ic i-rDnArr"></span></em><s class="s2">314,000원</s>
+										</p>
+										<p class="p3">회원적립금 <span class="s1">1,150원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+    </div>
+
+</body>
+</html>

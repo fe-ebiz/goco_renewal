@@ -1,0 +1,47 @@
+@@include('../include/_head.html', {
+	"page": "/mypage"
+})
+    <link rel="stylesheet" href="http://static.go.co.kr/css/renew/libs/jquery.bxslider.css">
+    <link rel="stylesheet" href="http://static.go.co.kr/css/renew/libs/prettyPhoto.css">
+    <link rel="stylesheet" href="http://static.go.co.kr/css/renew/laypop/init.css">
+    <script src="http://static.go.co.kr/js/renew/libs/jquery.lazyload.min.js"></script>
+    <script src="http://static.go.co.kr/js/renew/libs/ion.rangeSlider.min.js"></script>
+
+</head>
+<body>
+    <h1 class="hidden">고코투어</h1>
+    <div class="rn-gwrap">
+        @@include('../include/_header.html')
+
+        <!--백드롭, 달력 클릭시 뒤에 전체 배경-->
+		<div id="backDrop"></div>
+
+        <!--전체 콘텐츠 영역-->
+		<div class="rn-contents">
+            <div class="rn-container rn-container02">
+                <!-- 좌측 네비게이션 -->
+                @@include('../include/customer/_lab.html')
+
+                <div class="main main-mypage main-customer bsLs">
+                    <section class="sec-cmm cf sec-faq">
+                        <div class="row-h cf">
+                            <h2 class="pull-left">FAQ 자주묻는 질문 <span class="sm">여행에 대한 궁금증을 찾아보세요</span></h2>
+                            <span class="sch-box cf pull-right">
+        						<input name="keyword" class="in reset" type="text" value="" placeholder="무엇을 도와드릴까요?" onkeypress="if(event.keyCode == 13) { search_faq(); return false; }">
+        						<a href="javascript:search_faq();" class="i-mag">검색</a>
+        					</span>
+                        </div>
+
+                        <!-- faq 인클루드 -->
+                        @@include('../include/mypage/_faq_long.html')
+                    </section>
+                </div>
+                <!-- main end -->
+
+            </div>
+        </div>
+
+        @@include('../include/components/laypop/_cancle.html')
+        @@include('../include/_footer.html')
+    </div>
+</body>

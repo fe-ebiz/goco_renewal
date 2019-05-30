@@ -1,0 +1,379 @@
+@@include('../include/_head.html', {
+	"page": "/search"
+})
+	<link rel="stylesheet" href="http://static.go.co.kr/css/renew/libs/ion.rangeSlider.css">
+	<link rel="stylesheet" href="http://static.go.co.kr/css/renew/libs/ion.rangeSlider.custom.css">
+	<script src="http://static.go.co.kr/js/renew/libs/jquery.lazyload.min.js"></script>
+	<script src="http://static.go.co.kr/js/renew/libs/ion.rangeSlider.min.js"></script>
+
+</head>
+<body>
+    <h1 class="hidden">고코투어</h1>
+    <div class="rn-gwrap">
+        @@include('../include/_header.html')
+
+        <!--백드롭, 달력 클릭시 뒤에 전체 배경-->
+		<div id="backDrop"></div>
+        @@include('../include/search/_filterBar.html')
+
+        <div class="rnL-contents">
+			<div class="rn-container">
+                <div class="rnL-mfOuter clr">
+                    <!--필터검색-->
+    				@@include('../include/search/_filtering_search.html')
+
+                    <div class="rnL-mOuter bsLs clr" id="rnL-mOuter"></div>
+                </div>
+
+				<div class="rnL-listOuter roomOuter bsLs" id="rnL-listOuter">
+					<!--검색시 예약 현황 퍼센트 등장-->
+					<div class="reserPerc clr">
+						<div class="perBox">
+							<div class="reserChart" id="reserChart">
+								<div class="circle-outer top">
+									<div class="circle-bodyBg"></div>
+									<div class="circle-inner">
+										<div class="circle-body"></div>
+									</div>
+									<div class="circle-bodyBgIn"></div>
+								</div>
+								<div class="chart-content">
+									<p class="text">
+										<span class="percent-number">55</span><span class="percent-symbol">%</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="psBox">
+							<p class="p1">고객님의 선택 날짜에 [강원- 속초/고성/양양]의 객실이 <span class="f-bd">50개 검색</span>되었습니다. <span class="thColor1">- 객실의 55% 이상 예약 완료!</span></p>
+							<p class="p1">해당 날짜에 객실 수요가 높습니다. 숙소예약을 서두르세요.</p>
+						</div>
+					</div>
+
+					<div class="bestC-outer">
+						<div class="h2-box">
+							<h2 class="first">BEST 추천숙소</h2>
+						</div>
+						<ul class="ul1 clr">
+							<li>
+								<a href="/views/product">
+									<div class="d1">
+                                        <img src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1503649557_main1.jpg" alt="상품이미지" class="thumb">
+										<img src="http://img.go.co.kr/mobile/banner_lowest_price.gif" alt="온라인최저가보장" class="rn_rowPrc">
+                                        <!-- 180320 객실예약완료시 -->
+                                        <div class="room-complete bg"><p class="in-txt bg"></p></div>
+                                        <div class="room-complete">
+                                            <p class="in-txt">
+                                                03/19<br>
+                                                객실예약<br>
+                                                완료
+                                            </p>
+                                        </div>
+                                        <!-- End -->
+									</div>
+									<div class="d2">
+										<p class="p1">
+											<span class="i-ctgr-01">리조트</span>7.5점<span class="mgl"></span>리뷰 <span class="s1">10</span>건
+										</p>
+										<p class="p2"><strong>오션투유리조트 속초설악비치 호텔</strong></p>
+										<p class="p3">
+											강원<span class="mgl"></span>고성군
+										</p>
+										<p class="p4">
+											<em class="s1">64,000<span>원</span></em>
+											<s class="s2">330,000원</s>
+											<em class="s3">81%<span class="c-ic i-rDnArr"></span></em>
+										</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="d1">
+                                        <img src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1476348760_main1.jpg" alt="상품이미지" class="thumb">
+										<img src="http://img.go.co.kr/mobile/banner_lowest_price.gif" alt="온라인최저가보장" class="rn_rowPrc">
+									</div>
+									<div class="d2">
+										<p class="p1">
+											<span class="i-ctgr-02">리조트/콘도</span>8.0점<span class="mgl"></span>리뷰 <span class="s1">5</span>건
+										</p>
+										<p class="p2"><strong>속초현대수콘도미니엄</strong></p>
+										<p class="p3">
+											강원<span class="mgl"></span>속초시
+										</p>
+										<p class="p4">
+											<em class="s1">64,000<span>원</span></em>
+											<s class="s2">200,000원</s>
+											<em class="s3">74%<span class="c-ic i-rDnArr"></span></em>
+										</p>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="d1">
+                                        <img src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1498529278_main1.jpg" alt="상품이미지" class="thumb">
+										<img src="http://img.go.co.kr/mobile/banner_lowest_price.gif" alt="온라인최저가보장" class="rn_rowPrc">
+									</div>
+									<div class="d2">
+										<p class="p1">
+											<span class="i-ctgr-03">호텔</span>9.2점<span class="mgl"></span>리뷰 <span class="s1">122</span>건
+										</p>
+										<p class="p2"><strong>낙산비치호텔</strong></p>
+										<p class="p3">
+											강원<span class="mgl"></span>양양군
+										</p>
+										<p class="p4">
+											<em class="s1">77,000<span>원</span></em>
+										</p>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="recC-outer">
+						<div class="h2-box">
+							<h2>추천숙소</h2>
+							<div id="drop-box" class="drop-box">
+								<div class="drop-btn">
+									<span class="c-ic i-alg"></span>
+									<span class="s-txt">정렬: 추천순</span>
+									<span class="c-ic i-dArr"></span>
+								</div>
+								<ul class="drop-menu">
+									<li><a href="javascript:;">평점</a></li>
+									<li><a href="javascript:;">낮은 가격</a></li>
+									<li><a href="javascript:;">높은 가격</a></li>
+									<li><a href="javascript:;">호텔 등급</a></li>
+									<li><a href="javascript:;">추천순</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<ul class="rcm-ul">
+							<li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1426817972_main1.jpg" data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1426817972_main1.jpg" alt="상품이미지">
+                                    <img src="http://img.go.co.kr/mobile/banner_lowest_price.gif" alt="온라인최저가보장" class="rn_rowPrc">
+                                    <!-- <div class="room-complete bg"><p class="in-txt bg"></p></div>
+                                    <div class="room-complete">
+                                        <p class="in-txt">
+                                            03/19<br>
+                                            객실예약<br>
+                                            완료
+                                        </p>
+                                    </div> -->
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-02">리조트/콘도</span>강원<span class="mgl"></span>고성시
+
+									</p>
+									<p class="p2"><strong>설악썬밸리리조트</strong></p>
+									<div class="p3">
+										<p class="p3-1">8.5점<span class="mgl"></span>리뷰 <span class="s1">2</span>건 <span class="s2">패키지</span></p>
+										<p class="p3-1">삼포해수욕장 차량 6분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<span class="s-blSign">인기상승 중!</span>
+									<div class="d3-inner clr">
+										<p class="p1">90,000<span>원</span></p>
+										<p class="p2">
+											<em class="s1">78%<span class="c-ic i-rDnArr"></span></em><s class="s2">400,000원</s>
+										</p>
+										<p class="p3">회원적립금 <span class="s1">640원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+							<li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1482454780_main1.jpg" data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1482454780_main1.jpg" alt="상품이미지">
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-02">리조트/콘도</span>강원<span class="mgl"></span>속초시
+
+									</p>
+									<p class="p2"><strong>팜파스리조트</strong></p>
+									<div class="p3">
+										<p class="p3-1">9.1점<span class="mgl"></span>리뷰 <span class="s1">30</span>건</p>
+										<p class="p3-1">삼포해수욕장 도보 6분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<div class="d3-inner clr">
+										<p class="p1">58,300<span>원</span></p>
+										<p class="p3">회원적립금 <span class="s1">640원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+							<li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1426745103_main1.jpg" data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1426745103_main1.jpg" alt="상품이미지">
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-03">호텔</span>강원<span class="mgl"></span>속초시
+
+									</p>
+									<p class="p2"><strong>더클래스300호텔</strong></p>
+									<div class="p3">
+										<p class="p3-1">8.9점<span class="mgl"></span>리뷰 <span class="s1">16</span>건 <span class="s2">패키지</span></p>
+										<p class="p3-1">삼포해수욕장 도보 16분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<div class="d3-inner clr">
+										<p class="p1">59,400<span>원</span></p>
+										<p class="p2">
+											<em class="s1">46%<span class="c-ic i-rDnArr"></span></em><s class="s2">110,000원</s>
+										</p>
+										<p class="p3">회원적립금 <span class="s1">640원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+
+                            <!-- 테스트 -->
+                            <li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1509410607_main1.jpg" data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1509410607_main1.jpg" alt="상품이미지">
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-03">호텔</span>강원<span class="mgl"></span>속초시
+
+									</p>
+									<p class="p2"><strong>더클래스300호텔</strong></p>
+									<div class="p3">
+										<p class="p3-1">8.9점<span class="mgl"></span>리뷰 <span class="s1">16</span>건 <span class="s2">패키지</span></p>
+										<p class="p3-1">삼포해수욕장 도보 16분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<div class="d3-inner clr">
+										<p class="p1">59,400<span>원</span></p>
+										<p class="p2">
+											<em class="s1">46%<span class="c-ic i-rDnArr"></span></em><s class="s2">110,000원</s>
+										</p>
+										<p class="p3">회원적립금 <span class="s1">640원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+                            <li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1473660530_main1.png" data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1473660530_main1.png" alt="상품이미지">
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-03">호텔</span>강원<span class="mgl"></span>속초시
+
+									</p>
+									<p class="p2"><strong>더클래스300호텔</strong></p>
+									<div class="p3">
+										<p class="p3-1">8.9점<span class="mgl"></span>리뷰 <span class="s1">16</span>건 <span class="s2">패키지</span></p>
+										<p class="p3-1">삼포해수욕장 도보 16분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<div class="d3-inner clr">
+										<p class="p1">59,400<span>원</span></p>
+										<p class="p2">
+											<em class="s1">46%<span class="c-ic i-rDnArr"></span></em><s class="s2">110,000원</s>
+										</p>
+										<p class="p3">회원적립금 <span class="s1">640원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+                            <li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1494555466_main1.jpg" data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1494555466_main1.jpg" alt="상품이미지">
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-03">호텔</span>강원<span class="mgl"></span>속초시
+
+									</p>
+									<p class="p2"><strong>더클래스300호텔</strong></p>
+									<div class="p3">
+										<p class="p3-1">8.9점<span class="mgl"></span>리뷰 <span class="s1">16</span>건 <span class="s2">패키지</span></p>
+										<p class="p3-1">삼포해수욕장 도보 16분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<div class="d3-inner clr">
+										<p class="p1">59,400<span>원</span></p>
+										<p class="p2">
+											<em class="s1">46%<span class="c-ic i-rDnArr"></span></em><s class="s2">110,000원</s>
+										</p>
+										<p class="p3">회원적립금 <span class="s1">640원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+                            <li class="rcm-itm clr">
+								<div class="d1">
+									<img class="itm-img" src="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1516770805_main1.jpg" data-original="http://cache.go.co.kr/media/375/file.go.co.kr/tour/img3/1516770805_main1.jpg" alt="상품이미지">
+								</div>
+								<div class="d2">
+									<p class="p1">
+										<span class="i-ctgr-03">호텔</span>강원<span class="mgl"></span>속초시
+
+									</p>
+									<p class="p2"><strong>더클래스300호텔</strong></p>
+									<div class="p3">
+										<p class="p3-1">8.9점<span class="mgl"></span>리뷰 <span class="s1">16</span>건 <span class="s2">패키지</span></p>
+										<p class="p3-1">삼포해수욕장 도보 16분 위치</p>
+									</div>
+								</div>
+								<div class="d3">
+									<div class="d3-inner clr">
+										<p class="p1">59,400<span>원</span></p>
+										<p class="p2">
+											<em class="s1">46%<span class="c-ic i-rDnArr"></span></em><s class="s2">110,000원</s>
+										</p>
+										<p class="p3">회원적립금 <span class="s1">640원</span>적립</p>
+										<p class="p4"><a href="#" class="a1">예약하기</a></p>
+									</div>
+								</div>
+							</li>
+						</ul>
+                        <!-- // .rcm-ul -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+    </div>
+
+    <!-- 검색결과 페이지 전용 -->
+    <!-- <script src="/static/js/renew/search/thumbSize.js"></script> -->
+    <script src="http://static.go.co.kr/js/renew/search/thumbSize.js"></script>
+    <script type="text/javascript">
+        $("#rnL-listOuter img.itm-img").one("load", function() {
+            // do stuff
+            setTimeout(function() {
+                thumbSize("#rnL-listOuter img.itm-img", 1.5, 270, 180);
+            },100);
+        }).each(function() {
+            if (this.complete) $(this).load();
+        });
+
+        $(".rnL-listOuter.roomOuter .bestC-outer .ul1 > li .d1 .thumb").one("load", function() {
+            // do stuff
+            setTimeout(function() {
+                thumbSize(".rnL-listOuter.roomOuter .bestC-outer .ul1 > li .d1 .thumb", 1.6, 336, 210);
+            },100);
+        }).each(function() {
+            if (this.complete) $(this).load();
+        });
+    </script>
+</body>
+</html>
