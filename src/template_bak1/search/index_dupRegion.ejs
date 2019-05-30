@@ -1,0 +1,142 @@
+<% include ../parts/_docHead.ejs %>
+<head>
+    <!-- <%= initPage = '/search/' %> -->
+    <% include ../parts/head/_headMeta.ejs %>
+    <link rel="stylesheet" href="http://static.go.co.kr/css/renew/libs/ion.rangeSlider.css">
+    <link rel="stylesheet" href="http://static.go.co.kr/css/renew/libs/ion.rangeSlider.custom.css">
+    <% include ../parts/head/_commonCss.ejs %>
+    <% include ../parts/head/_headScript.ejs %>
+    <script src="http://static.go.co.kr/js/renew/libs/jquery.lazyload.min.js"></script>
+    <script src="http://static.go.co.kr/js/renew/libs/ion.rangeSlider.min.js"></script>
+    <% include ../parts/head/_commonScript.ejs %>
+</head>
+<body>
+    <h1 class="hidden">고코투어</h1>
+    <div class="rn-gwrap">
+        <% include ../parts/_header.ejs %>
+
+        <!--백드롭, 달력 클릭시 뒤에 전체 배경-->
+		<div id="backDrop"></div>
+        <% include ../parts/search/_filterBar.ejs %>
+
+        <div class="rnL-contents">
+			<div class="rn-container">
+                <section class="dupRegion">
+                    <h2>
+                        <img src="http://img.go.co.kr/renew/icon/pic_q.png" alt="물음표">
+                        <br>
+                        <span class="tit">"중앙동"</span>
+                    </h2>
+                    <p class="txt">
+                        검색하신 키워드는 아래와 같이 <span class="thColor1">33개의 중복 지명</span>이 있습니다. <br>
+                        다음 중 원하시는 지명을 선택해주세요.
+                    </p>
+                    <div class="list">
+                        <dl>
+                            <dt>강원</dt>
+                            <dd>
+                                <span>강릉시</span>
+                                <span>속초시</span>
+                                <span>원주시</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>경기</dt>
+                            <dd>
+                                <span>과천시</span>
+                                <span>동두천시</span>
+                                <span>성남시</span>
+                                <span>안산시</span>
+                                <span>여주시</span>
+                                <span>오산시</span>
+                                <span>용인시</span>
+                                <span>평택시</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>경남</dt>
+                            <dd>
+                                <span>양산시</span>
+                                <span>진주시</span>
+                                <span>창원시</span>
+                                <span>통영시</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>경북</dt>
+                            <dd>
+                                <span>경산시</span>
+                                <span>영천시</span>
+                                <span>포항시</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>광주</dt>
+                            <dd>
+                                <span>북구</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>대전</dt>
+                            <dd>
+                                <span>동구</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>부산</dt>
+                            <dd>
+                                <span>중구</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>서울</dt>
+                            <dd>
+                                <span>관악구</span>
+                                <span>울산</span>
+                                <span>중구</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>전남</dt>
+                            <dd>
+                                <span>나주시</span>
+                                <span>순천시</span>
+                                <span>여수시</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>전북</dt>
+                            <dd>
+                                <span>익산시</span>
+                                <span>전주시</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>제주도</dt>
+                            <dd>
+                                <span>서귀포시</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>충남</dt>
+                            <dd>
+                                <span>천안시</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>충북</dt>
+                            <dd>
+                                <span>제천시</span>
+                                <span>청주시</span>
+                            </dd>
+                        </dl>
+                    </div>
+                </section>
+                <!-- // dupRegion -->
+			</div>
+		</div>
+
+    </div>
+
+</body>
+</html>
