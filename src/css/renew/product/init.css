@@ -157,6 +157,25 @@
 .contents-overseas .box-prod .row-prod .itm .info .p-2 .won {font-size: 15px; font-weight: 700;}
 
 .sec-prd-list {}
+/* 단품, 패키지 상품 탭 영역 */
+.sec-prd-list .tab-list {display: table; font-family: 'Noto Sans KR', sans-serif;}
+.sec-prd-list .tab-list .tab {display: table-cell; position: relative; width: 50%;}
+.sec-prd-list .tab-list .tab > a {display: block; height: 58px; font-size: 20px; background: #ffffff; box-sizing: border-box; border: 1px solid #71717d; text-align: center; line-height: 58px;}
+.sec-prd-list .tab-list .tab:first-child > a {border-right: none;}
+.sec-prd-list .tab-list .tab > a .ic-bArrow:after {position: absolute; right: 24px; top: 20px; width: 11px; height: 11px; border-color: #222; border-width: 2px;}
+.sec-prd-list .tab-list .tab:hover > a,
+.sec-prd-list .tab-list .tab.on > a {background: #398fe1; color: #fff;}
+.sec-prd-list .tab-list .tab:hover > a .ic-bArrow:after,
+.sec-prd-list .tab-list .tab.on > a .ic-bArrow:after {border-color: #fff;}
+.sec-prd-list .tab-list .tab .drop-menu {z-index: 1; position: absolute; left: 0; top: 58px; width: 100%; background: #fff; box-sizing: border-box; border: 1px solid #71717d; border-top: none;}
+.sec-prd-list .tab-list .tab .drop-menu > li {position: relative; padding: 10px 0; padding-left: 60px; border-top: 1px solid #ddd;}
+.sec-prd-list .tab-list .tab .drop-menu > li:before {content: ''; display: inline-block; position: absolute; top: 15px; left: 34px; width: 14px; height: 6px; border-left: 3px solid #398fe1; border-bottom: 3px solid #398fe1;
+	transform: rotate(-45deg); -webkit-transform: rotate(-45deg);
+}
+.ie8 .sec-prd-list .tab-list .tab .drop-menu > li:before {display: none;}
+.sec-prd-list .tab-list .tab .drop-menu > li:hover {background: #e9ecee; border-top: 1px solid #ddd; color: #398fe1;}
+.sec-prd-list .tab-list .tab .drop-menu > li:first-child {border-top: none;}
+
 .sec-prd-list [class*=tr] {font-size: 0;}
 .sec-prd-list [class*=tr] > li {display: inline-block; font-size: 16px; vertical-align: middle;}
 .sec-prd-list .thead .s-q {position: relative; display: inline-block; color: #757575; font-weight: 700; font-size: 12px; font-family: 'Malgun gothic', sans-serif; border: 1px solid #999; width: 16px;  height: 16px; text-align: center; cursor: pointer; border-radius: 50%; line-height: 14px;}

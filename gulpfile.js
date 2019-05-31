@@ -101,10 +101,10 @@ gulp.task('sass', function() {
 		.pipe( plumber() )
 		.pipe(sourcemaps.init())
 		.pipe( sass({outputStyle: 'compact'}).on('error', sass.logError)) // {outputStyle: nested} expanded, compact, compressed
-        .pipe(autoprefixer({
-			browsers: ['last 2 versions'],
-            cascade: false
-        }))
+        // .pipe(autoprefixer({
+		// 	browsers: ['last 2 versions'],
+        //     cascade: false
+        // }))
 		.pipe(sourcemaps.write())
 		.pipe( gulp.dest( config.sass.dest) )
 		.pipe(browserSync.stream({ match: '**/*.css' }));

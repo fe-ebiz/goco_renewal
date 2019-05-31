@@ -673,9 +673,9 @@ div.pp_default .pp_description {position: relative; top: 4px;}
 /* 고코투어 앱 설치 레이어 팝업 추가 */
 .popup-app-download .coupon_pack_pop {display:inline-block; width:594px; height:342px; text-align:left; vertical-align:middle; background:#fff;}
 .popup-app-download .coupon_pack_pop_top {height:59px;line-height:59px;background:#001734;}
-.popup-app-download .coupon_pack_pop_top img{display:inline-block;float:left;padding:10px 0px 0px 24px;}
+.popup-app-download .coupon_pack_pop_top img{display:inline-block; float: left; padding:10px 0px 0px 24px;}
 .popup-app-download .coupon_pack_pop_top p{float:left;font-size:16px;color:#fff;font-weight:normal;margin-left:32px;}
-.popup-app-download .coupon_pack_pop_top a > img{display:inline-block;float:right;width:21px;padding:20px 21px 0px 0px; }
+.popup-app-download .coupon_pack_pop_top a > img{display:inline-block; float:right; width:21px;padding:20px 21px 0px 0px; }
 .popup-app-download .coupon_pack_pop_contents {box-sizing:border-box; margin:30px;}
 .popup-app-download .coupon_pack_pop_contents ul li {float:left;}
 .popup-app-download .coupon_pack_pop_contents ul li.goco_app_icon{width:107px; margin:0 3px 0 7px;}

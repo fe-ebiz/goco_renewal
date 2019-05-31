@@ -1,0 +1,206 @@
+<li class="li-review on">
+    <div class="d-tit clr">
+        <div class="d-l">
+            <h3>
+                전체 평점
+                <span class="s-star">
+                    <img src="http://img.go.co.kr/visor/star-on.png"><img src="http://img.go.co.kr/visor/star-on.png">
+                    <img src="http://img.go.co.kr/visor/star-on.png"><img src="http://img.go.co.kr/visor/star-on.png">
+                    <img src="http://img.go.co.kr/visor/star-off.png">
+                </span>
+            </h3>
+            <p class="p-1"><strong class="thColor1 f-bd">8.1</strong> / 10</p>
+            <p class="p-2">
+                숙박을 하신 고객님들이 작성한<br>
+                <span class="thColor1-2">435</span>건의 리얼리뷰가 있습니다.
+            </p>
+            <p class="p-3">
+                <a href="" class="a-btn"><span class="c-ic3 i-pen"></span> 리얼후기 쓰기</a>
+            </p>
+        </div>
+        <!-- 로그인 전 -->
+        <!-- <div class="d-r">
+            <p class="p-1 f-bd">
+                <span class="c-ic3 i-thumb"></span>
+                <span class="s-1 i-borL-tran">
+                    <span class="thColor1-2">고코투어에서는 실제 이용하신 분들만 이용후기 작성</span>이 가능합니다.<br>
+                    여행을 준비하는 다른 분들을 위해 생생한 이용후기를 올려주세요!
+                </span>
+            </p>
+            <p class="p-2">
+                <span class="f-bd">오션투유리조트 속초설악비치 호텔앤콘도</span> 에 대해서 다른 여행자에게도 알려주세요!<br>
+                제공해주신 이용후기는 다른 여행자에게 큰 도움이 되는 소중한 정보가 될 것입니다.
+            </p>
+            <p class="p-3">
+                이용후기 작성시 <span class="thColor1-2 f-bd">5,000원의 적립금</span>이 지급 됩니다. (첫 후기 작성 이후에는 1,000원이 적립됩니다.)
+            </p>
+        </div> -->
+        <!-- 로그인 후 -->
+        <div id="review_write2" class="review_write2 cf">
+            <p id="text_name">작성자 <span>지하test</span></p>
+
+            <div class="box-rating cf">
+                <input type="text" class="writer" placeholder="제목을 입력해주세요." name="review_subject" id="review_subject">
+                <div class="box-star cf">
+                    <div id="star">
+                        <img src="http://img.go.co.kr/star-on.png" alt="1" title="bad"> <img src="http://img.go.co.kr/star-on.png" alt="2" title="poor"> <img src="http://img.go.co.kr/star-on.png" alt="3" title="regular"> <img src="http://img.go.co.kr/star-on.png" alt="4" title="good"> <img src="http://img.go.co.kr/star-on.png" alt="5" title="gorgeous"><input type="hidden" name="score" value="5">
+                    </div>
+                    <div id="star_rating">
+                        <label for="displayStarRating"><span id="displayStarRating">5</span></label>
+                    </div>
+                    <p id="star_text">별점을 클릭하세요</p>
+                </div>
+            </div>
+            <div class="area-regist cf">
+                <p id="text_limit">(<span id="cur_text">0</span> / 100)</p>
+                <textarea class="rv_textbox" placeholder="해당 업체를 경험한 여러분들의 느낌과 평가를 자유롭게 공유하는 공간입니다. 이용후기 작성시 1,000원의 적립금이 지급 됩니다.(첫 후기 작성 이후에는 200원이 적립됩니다.)" name="review_contents" id="review_contents" onkeyup="util.text_lenchk('review_contents')"></textarea>
+                <a href="javascript:brd.new_review_ok()" class="btn_register">등록하기</a>
+            </div>
+        </div>
+    </div>
+
+    <table class="t-review" id="t-review">
+        <colgroup>
+            <col style="width: 140px;">
+            <col style="width: 516px;">
+            <col style="width: 150px;">
+            <col style="width: 140px;">
+            <col style="width: 140px;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th>NO</th>
+                <th>제목</th>
+                <th>작성자</th>
+                <th>작성일</th>
+                <th>평점</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="tr-tit">
+                <td>543</td>
+                <td class="ta-left">좋아요</td>
+                <td>꼬**</td>
+                <td>2017.11.13</td>
+                <td><span class="thColor1-2 f-bd">10</span>/10</td>
+            </tr>
+            <tr class="tr-cont">
+                <td colspan="5">
+                    <div class="d-txt">
+                        더미텍스트
+                    </div>
+                    <hr>
+                    <p class="p-1">
+                        이 후기가 도움이 되었나요?
+                        <img class="reco" src="http://img.go.co.kr/visor/icon_recommend.jpg" alt="추천">
+                        <span class="s-num">10</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="tr-tit">
+                <td>542</td>
+                <td class="ta-left">잘다녀왔습니다</td>
+                <td>꼬**</td>
+                <td>2017.11.13</td>
+                <td><span class="thColor1-2 f-bd">10</span>/10</td>
+            </tr>
+            <tr class="tr-cont">
+                <td colspan="5">
+                    <div class="d-txt">
+                        후기보고 걱정했는데 제가 갔던방은 괜찮았어요! 제가갔을때 여쭤보니 계속 리모델링 하신다고하더라구요!<br>
+                        특히 뷰가 너무좋았어요!!!!<br>
+                        저는 파도소리들으면서 너무 좋았어요!! 엄마도 너무 좋았데여! ㅋㅋㅋ<br>
+                    </div>
+                    <hr>
+                    <p class="p-1">
+                        이 후기가 도움이 되었나요?
+                        <img class="reco" src="http://img.go.co.kr/visor/icon_recommend.jpg" alt="추천">
+                        <span class="s-num">10</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="tr-tit">
+                <td>542</td>
+                <td class="ta-left">잘다녀왔습니다</td>
+                <td>꼬**</td>
+                <td>2017.11.13</td>
+                <td><span class="thColor1-2 f-bd">10</span>/10</td>
+            </tr>
+            <tr class="tr-cont">
+                <td colspan="5">
+                    <div class="d-txt">
+                        후기보고 걱정했는데 제가 갔던방은 괜찮았어요! 제가갔을때 여쭤보니 계속 리모델링 하신다고하더라구요!<br>
+                        특히 뷰가 너무좋았어요!!!!<br>
+                        저는 파도소리들으면서 너무 좋았어요!! 엄마도 너무 좋았데여! ㅋㅋㅋ<br>
+                    </div>
+                    <hr>
+                    <p class="p-1">
+                        이 후기가 도움이 되었나요?
+                        <img class="reco" src="http://img.go.co.kr/visor/icon_recommend.jpg" alt="추천">
+                        <span class="s-num">10</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="tr-tit">
+                <td>542</td>
+                <td class="ta-left">잘다녀왔습니다</td>
+                <td>꼬**</td>
+                <td>2017.11.13</td>
+                <td><span class="thColor1-2 f-bd">10</span>/10</td>
+            </tr>
+            <tr class="tr-cont">
+                <td colspan="5">
+                    <div class="d-txt">
+                        후기보고 걱정했는데 제가 갔던방은 괜찮았어요! 제가갔을때 여쭤보니 계속 리모델링 하신다고하더라구요!<br>
+                        특히 뷰가 너무좋았어요!!!!<br>
+                        저는 파도소리들으면서 너무 좋았어요!! 엄마도 너무 좋았데여! ㅋㅋㅋ<br>
+                    </div>
+                    <hr>
+                    <p class="p-1">
+                        이 후기가 도움이 되었나요?
+                        <img class="reco" src="http://img.go.co.kr/visor/icon_recommend.jpg" alt="추천">
+                        <span class="s-num">10</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="tr-tit">
+                <td>542</td>
+                <td class="ta-left">잘다녀왔습니다</td>
+                <td>꼬**</td>
+                <td>2017.11.13</td>
+                <td><span class="thColor1-2 f-bd">10</span>/10</td>
+            </tr>
+            <tr class="tr-cont">
+                <td colspan="5">
+                    <div class="d-txt">
+                        후기보고 걱정했는데 제가 갔던방은 괜찮았어요! 제가갔을때 여쭤보니 계속 리모델링 하신다고하더라구요!<br>
+                        특히 뷰가 너무좋았어요!!!!<br>
+                        저는 파도소리들으면서 너무 좋았어요!! 엄마도 너무 좋았데여! ㅋㅋㅋ<br>
+                    </div>
+                    <hr>
+                    <p class="p-1">
+                        이 후기가 도움이 되었나요?
+                        <img class="reco" src="http://img.go.co.kr/visor/icon_recommend.jpg" alt="추천">
+                        <span class="s-num">10</span>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="pagenation" id="pagenation">
+        <a class="pprev" href="javascript:;">&lt;&lt;</a>
+        <a class="on" href="javascript:;">1</a>
+        <a href="javascript:;">2</a>
+        <a href="javascript:;">3</a>
+        <a href="javascript:;">4</a>
+        <a href="javascript:;">5</a>
+        <a href="javascript:;">6</a>
+        <a href="javascript:;">7</a>
+        <a href="javascript:;">8</a>
+        <a href="javascript:;">9</a>
+        <a href="javascript:;">10</a>
+        <a class="nnext" href="javascript:;">&gt;&gt;</a>
+    </div>
+
+    
