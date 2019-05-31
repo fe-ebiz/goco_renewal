@@ -212,13 +212,16 @@ $(function() {
 function fnDropmenuTab() {
 	var fnDropmenuTab = $('.fnDropmenuTab');
 	fnDropmenuTab.children('.tab').on('click', function() {
-		$(this).addClass('on').siblings().removeClass('on');
+		$(this).addClass('active-color').siblings().removeClass('active-color');
+	});
+	fnDropmenuTab.find('.tab .tab-button').on('click', function() {
+		$(this).closest('.tab').addClass('on').siblings().removeClass('on');
 	});
 	fnDropmenuTab.find('.tab .drop-menu > li').on('click', function() {
 		var tabButton = '';
 		console.log($(this).text());
 		tabButton = $(this).text() + '<span class="ic-bArrow"></span>';
 		$(this).closest('.tab').children('.tab-button').html(tabButton);
-
+		$(this).closest('.tab').removeClass('on');
 	});
 }

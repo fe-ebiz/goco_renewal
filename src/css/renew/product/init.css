@@ -131,7 +131,8 @@
 .ie8 .prd-buy .ul1 .li3 .btn-b:before {content: "▶"; border: 0; top: 0;}
 
 /* 회원 추가할인 안내 팝업 */
-#discount_pop {position:absolute; top:34px; right:168px; width:275px; text-align:left; display: none; z-index: 1;}
+/* #discount_pop {position:absolute; top:34px; right:168px; width:275px; text-align:left; display: none; z-index: 1;} */
+#discount_pop {position:absolute; top:34px; right: -105px; width:275px; text-align:left; display: none; z-index: 1;}
 #discount_pop .tit {padding-top:13px; padding-left:10px; height:35px; color:#fff; font-weight:600; background:url(http://img.go.co.kr/discount_bg.png) no-repeat; font-size:13px;}
 #discount_pop .tit .clsImg {position: absolute; right: 0; top: 10px;}
 #discount_pop .text {padding:10px; color:#3a3a3a; font-size:12px; line-height:1.5; background:#fff; border-left:1px solid #3a3a3a; border-right:1px solid #3a3a3a; border-bottom:1px solid #3a3a3a}
@@ -160,13 +161,13 @@
 /* 단품, 패키지 상품 탭 영역 */
 .sec-prd-list .tab-list {display: table; font-family: 'Noto Sans KR', sans-serif;}
 .sec-prd-list .tab-list .tab {display: table-cell; position: relative; width: 50%;}
-.sec-prd-list .tab-list .tab > a {display: block; height: 58px; font-size: 20px; background: #ffffff; box-sizing: border-box; border: 1px solid #71717d; text-align: center; line-height: 58px;}
-.sec-prd-list .tab-list .tab:first-child > a {border-right: none;}
-.sec-prd-list .tab-list .tab > a .ic-bArrow:after {position: absolute; right: 24px; top: 20px; width: 11px; height: 11px; border-color: #222; border-width: 2px;}
-/* .sec-prd-list .tab-list .tab:hover > a, */
-.sec-prd-list .tab-list .tab.on > a {background: #398fe1; color: #fff;}
-/* .sec-prd-list .tab-list .tab:hover > a .ic-bArrow:after, */
-.sec-prd-list .tab-list .tab.on > a .ic-bArrow:after {border-color: #fff;}
+.sec-prd-list .tab-list .tab .tab-button {display: block; height: 58px; font-size: 20px; background: #ffffff; box-sizing: border-box; border: 1px solid #71717d; text-align: center; line-height: 58px;}
+.sec-prd-list .tab-list .tab:first-child .tab-button {border-right: none;}
+.sec-prd-list .tab-list .tab .tab-button .ic-bArrow:after {position: absolute; right: 24px; top: 20px; width: 11px; height: 11px; border-color: #222; border-width: 2px;}
+/* .sec-prd-list .tab-list .tab:hover .tab-button, */
+.sec-prd-list .tab-list .tab.active-color .tab-button {background: #398fe1; color: #fff;}
+/* .sec-prd-list .tab-list .tab:hover .tab-button .ic-bArrow:after, */
+.sec-prd-list .tab-list .tab.active-color .tab-button .ic-bArrow:after {border-color: #fff;}
 .sec-prd-list .tab-list .tab .drop-menu {display: none; z-index: 3; position: absolute; left: 0; top: 58px; width: 100%; background: #fff; box-sizing: border-box; border: 1px solid #71717d; border-top: none;}
 .sec-prd-list .tab-list .tab.on .drop-menu {display: block;}
 .sec-prd-list .tab-list .tab .drop-menu > li {position: relative; padding: 10px 0; padding-left: 60px; border-top: 1px solid #ddd; cursor: pointer;}
@@ -839,6 +840,17 @@
 .li-way {padding-top: 24px;}
 .li-way .p-1 {font-size: 17px; margin-top: 4px; letter-spacing: 0;}
 .li-way .map-box {position: relative; width: 100%; height: 584px; background: #eee; margin-top: 15px;}
+
+/* 갤러리 영역 */
+.li-gallery {padding: 10px 0px; overflow: hidden;}
+.li-gallery .d-item {position: relative; width: 1110px; left: -5px;}
+.li-gallery .d-item .img-tit {padding: 5px; padding-top: 10px; font-size: 16px; font-weight: 700;}
+.li-gallery .d-item:first-child .img-tit {padding-top: 0;}
+.li-gallery .d-item .img-area {font-size: 0;}
+.li-gallery .d-item .img-area .item-box {display: inline-block; width: 20%; padding: 0 5px;}
+.li-gallery .d-item .img-area .item-box .item {position: relative; display: inline-block;}
+.li-gallery .d-item .img-area .item-box .item > img {width: 100%; height: 140px;}
+.li-gallery .d-item .img-area .item-box .item .img-nm {position: absolute; bottom: 0; left: 0; width: 100%; padding: 3px 0 3px 5px; background: rgba(0,0,0, .35); font-size: 13px; color: #fff; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 
 /* 추천 관광지 */
 .li-sights {padding-top: 6px;}
