@@ -1,5 +1,7 @@
 $(function() {
 
+	laypopCalendar();
+
 	// Top 위로 버튼
 	$("#goTop").on("click", function() {
 		$("html, body").animate({ scrollTop: 0 }, 500);
@@ -155,7 +157,7 @@ function faq(login) {
 	var wrap = $("#faqWrap"),
 		wrapBack = $("#faqWrap-back"),
 		faqBtn = $("#faq-a"),
-		qnaPopBack = $("#qna-pop-bg2");
+		qnaPopBack = $("#qna-pop-bg_free");	//기존 faq랑구분 어려워 이름바꿈
 	faqBtn.on('click', function() {
 		$('body').css({
 			"position": "fixed",
@@ -175,9 +177,12 @@ function faq(login) {
 		switch(idx) {
 			case 0:	$("#subject").val("오션투유리조트 무료숙박권 관련 문의드려요.");	break;
 			case 1:	$("#subject").val("도고BS콘도 무료숙박권 관련 문의드려요.");		break;
-			case 2:	$("#subject").val("메이힐스리조트 무료숙박권 관련 문의드려요.");	break;
+			case 2:	$("#subject").val("연호리조트 무료숙박권 관련 문의드려요.");		break;
+			case 3:	$("#subject").val("라마다 앙코르 평택 무료숙박권 관련 문의드려요.");		break;
+			case 4:	$("#subject").val("모항해나루 무료숙박권 관련 문의드려요.");		break;
+			/*case 2:	$("#subject").val("메이힐스리조트 무료숙박권 관련 문의드려요.");	break;
 			case 3:	$("#subject").val("연호리조트 무료숙박권 관련 문의드려요.");		break;
-			case 4:	$("#subject").val("태백라마다호텔 무료숙박권 관련 문의드려요.");	break;
+			case 4:	$("#subject").val("태백라마다호텔 무료숙박권 관련 문의드려요.");	break;*/
 		}
 	});
 	wrap.find(".a-pop").click(function() {
@@ -264,5 +269,21 @@ function toggleOn(itm, type) {
 			var idx = $(this).parent().index();
 			$(this).parent().toggleClass('on');
 		});
+	}
+}
+
+// 레이어 팝업 달력 flag 설정
+function laypopCalendar(flag) {
+	switch (flag) {
+		case true:
+			console.log(flag);
+			$('#calendar-db').fadeIn();
+			break;
+		case false:
+			console.log(flag);
+			$('#calendar-db').fadeOut();
+			break;
+		default:
+			$('#calendar-db').fadeOut();
 	}
 }

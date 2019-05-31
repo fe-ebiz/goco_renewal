@@ -1,5 +1,7 @@
 $(function() {
 
+	fnDropmenuTab();
+
 	// 기본 숙박
 	$("#bxS-1").bxSlider({
 		pagerCustom: "#bxP-1",
@@ -206,3 +208,17 @@ $(function() {
 	});
 
 })
+
+function fnDropmenuTab() {
+	var fnDropmenuTab = $('.fnDropmenuTab');
+	fnDropmenuTab.children('.tab').on('click', function() {
+		$(this).addClass('on').siblings().removeClass('on');
+	});
+	fnDropmenuTab.find('.tab .drop-menu > li').on('click', function() {
+		var tabButton = '';
+		console.log($(this).text());
+		tabButton = $(this).text() + '<span class="ic-bArrow"></span>';
+		$(this).closest('.tab').children('.tab-button').html(tabButton);
+
+	});
+}

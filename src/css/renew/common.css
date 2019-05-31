@@ -149,6 +149,7 @@ table.sep td {
 }
 .ta-left, .ta-center {display: inline-block !important;}
 .ta-left {text-align: left !important;}
+.ta-right {text-align: right !important;}
 .ta-center {text-align: center !important;}
 .va-top {vertical-align: top !important;}
 
@@ -238,11 +239,12 @@ span.i-ctgr-off {background: #555a78;}
 
 
 /* prettyPhoto 재정의*/
-.pp_top, .pp_bottom {display: none;}
-div.pp_default .pp_content_container .pp_left, div.pp_default .pp_content_container .pp_right {background: none;}
-div.pp_default .pp_nav {left: 6px; top: -2px; z-index: 1;}
-div.pp_default .pp_close {right: 5px;}
-div.pp_default .pp_description {position: relative; top: 4px;}
+.pp_top, .pp_bottom {display: none !important;}
+div.pp_default .pp_content_container .pp_left, div.pp_default .pp_content_container .pp_right {background: none !important;}
+div.pp_default .pp_nav {left: 6px !important; top: -2px !important; z-index: 1 !important;}
+div.pp_default .pp_close {right: 5px !important;}
+div.pp_default .pp_description {position: relative; top: 4px !important;}
+div.pp_default .pp_content {border: 5px solid #fff; border-bottom: 0;}
 
 /* Top 위로 버튼 */
 .goTop {position: fixed; display: none; width: 55px; height: 55px; bottom: 20px; right: 20px; z-index: 1;}
@@ -444,7 +446,7 @@ div.pp_default .pp_description {position: relative; top: 4px;}
 .wrap-laypop .rnSltCal.caltype-1 {margin-left: -172.5px; margin-top: -202px;}
 .rnSltCal h2.tit {background: #FA6B0A; color: #fff; text-align: center; padding: 8px 0; font-size: 17px;}
 .rnSltCal h2.tit .a-x {}
-.rnSltCal h2.tit .a-x:before, .rnSltCal h2.tit .a-x:after {background: #fff; height: 2px;}
+.rnSltCal h2.tit .a-x:before, .rnSltCal h2.tit .a-x:after {background: #fff; width: 2px;}
 .rnSltCal {position: absolute; left: 204px; background-color: #fff; letter-spacing: -0.5px; padding-bottom: 20px; width: 690px; /*height: 413px;*/ color: #3b3b3b;}
 .rnSltCal .cal-inner {position: relative; width: 50%; float: left; padding: 0 20px;}
 .rnSltCal .cal-inner:after {content: ""; position: absolute; right: 0; top: 73px; height: 210px; width: 1px; background: #edebea;}
