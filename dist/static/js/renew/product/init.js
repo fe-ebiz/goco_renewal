@@ -18,7 +18,7 @@ $(function() {
 	});
 
 	$("a[rel^='prettyPhoto']").prettyPhoto({
-		autoplay_slideshow: true,
+		// autoplay_slideshow: true,
 		animation_speed: 'fast',
 		slideshow: 3000,
 		social_tools:'',
