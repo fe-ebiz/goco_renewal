@@ -255,6 +255,7 @@ a.pp_previous,
 div.pp_default .pp_previous:hover {background: url('http://img.ocean2you.co.kr/renew/btn_prev02.png') center left no-repeat !important;}
 a.pp_next, 
 div.pp_default .pp_next:hover {background: url('http://img.ocean2you.co.kr/renew/btn_next02.png') center right no-repeat !important;}
+div.pp_overlay {opacity: 0.4 !important;}
 
 /* Top 위로 버튼 */
 .goTop {position: fixed; display: none; width: 55px; height: 55px; bottom: 20px; right: 20px; z-index: 1;}
