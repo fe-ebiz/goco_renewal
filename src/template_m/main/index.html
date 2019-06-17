@@ -1,14 +1,12 @@
-<% include ../parts/_docHead.ejs %>
-<head>
-    <!-- <%= initPage = 'main' %> -->
-    <% include ../parts/_head.ejs %>
-
+@@include('../include/_head.html', {
+	"page": "/main"
+})
 	<!-- 현재 페이지 전용 -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 </head>
-<body class="page-<%= initPage %>">
-	<% include ../parts/_header.ejs %>
+<body class="page-main">
+	@@include('../include/_header.html')
 	
 	<div class="contents">
 		<div class="cont-search">
@@ -79,6 +77,6 @@
 		</section>
 	</div>
 
-	<% include ../parts/_footer.ejs %>
+	@@include('../include/_footer.html')
 </body>
 </html>

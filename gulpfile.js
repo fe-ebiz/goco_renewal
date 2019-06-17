@@ -95,6 +95,17 @@ gulp.task('template', function(){
 		.pipe( gulp.dest( config.template.dest) )
 		.pipe(browserSync.stream({ match: '**/*.html' }));
 });
+gulp.task('template_m', function(){
+	return gulp.src(config.template.src_m)
+		.pipe( plumber() )
+		.pipe( fileinclude({
+			prefix: '@@',
+			basepath: '@file'
+		}))
+		.pipe( htmlbeautify( config.htmlbeautify) )
+		.pipe( gulp.dest( config.template.dest_m) )
+		.pipe(browserSync.stream({ match: '**/*.html' }));
+});
 // scss 컴파일러
 gulp.task('sass', function() {
 	return gulp.src( config.sass.src )
