@@ -136,11 +136,11 @@ $(function() {
             var maxLiWid = 0;
 
             var show_chk = $("input[name='show']").val();
-            console.log(show_chk);
+            //console.log(show_chk);
             if(show_chk != 1) {
                 dep2.show();
             } else {
-                console.log("hide");
+                //console.log("hide");
                 dep2.hide();
             }
             $('#backDrop').show();
@@ -149,7 +149,7 @@ $(function() {
             for( var i = 0 ; i < dep2.find('li').length-1 ; i++ ){
                 if( maxLiWid <=  dep2.find('li:eq('+ i +') a').outerWidth() ){
                     maxLiWid = dep2.find('li:eq('+ i +') a').outerWidth()
-                    console.log(i, maxLiWid);
+                    //console.log(i, maxLiWid);
                 }
             }
             dep2.find('li a').css({'width' : maxLiWid+'px'});
@@ -310,7 +310,7 @@ function area_ajax(val, first) {
         success :   function(e) {
             if(val != 'all') {
                 if(first == "list_show") {
-                    console.log(first);
+                    //console.log(first);
                     $(".slt-dep2").hide();
                 }
                 $(".slt-dep2").html(e);
@@ -326,7 +326,7 @@ function area_ajax(val, first) {
                 for( var i = 0 ; i < dep2.find('li').length-1 ; i++ ){
                     if( maxLiWid <=  dep2.find('li:eq('+ i +') a').outerWidth() ){
                         maxLiWid = dep2.find('li:eq('+ i +') a').outerWidth()
-                        console.log(i, maxLiWid);
+                        //console.log(i, maxLiWid);
                     }
                 }
                 dep2.find('li a').css({'width' : maxLiWid+'px'});
