@@ -13,12 +13,12 @@ $(function() {
 	$("#bxS-ticket").bxSlider({
 		auto: true,
 		duration: 3000,
-		prevText: '<img src="http://img.go.co.kr/renew/common/btn_prev3.png" alt="이전">',
-		nextText: '<img src="http://img.go.co.kr/renew/common/btn_next3.png" alt="다음">'
+		prevText: '<img src="//img.go.co.kr/renew/common/btn_prev3.png" alt="이전">',
+		nextText: '<img src="//img.go.co.kr/renew/common/btn_next3.png" alt="다음">'
 	});
 
 	$("a[rel^='prettyPhoto']").prettyPhoto({
-		// autoplay_slideshow: true,
+		autoplay_slideshow: true,
 		animation_speed: 'fast',
 		slideshow: 3000,
 		social_tools:'',

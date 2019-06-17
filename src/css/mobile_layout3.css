@@ -25,7 +25,7 @@ body, html {margin:0; width:100%; height:100%}
 #header{float:left; width:100%; height:45px; background-color:#f4f2f3}
 #header #menu2{float:left; width:20%; height:45px;}
 #header #logo{float:left; width:60%;}
-#header #logo a{display:block; position:relative; left:-56px; width:112px; height:45px; margin-left:50%; background:url(http://img.go.co.kr/mobile/logo.jpg) center 13px no-repeat; background-size:112px 21px; text-indent:-9999px;}
+#header #logo a{display:block; position:relative; left:-56px; width:112px; height:45px; margin-left:50%; background:url(//img.go.co.kr/mobile/logo.jpg) center 13px no-repeat; background-size:112px 21px; text-indent:-9999px;}
 #header #location{float:right; width:20%; height:45px;}
 #header #menu2 a{float:left; margin-left:10px; margin-top:11px}
 #header #location a{float:right; margin-right:10px; margin-top:9px}
@@ -36,13 +36,13 @@ body, html {margin:0; width:100%; height:100%}
 
 
 /*top 검색창*/
-#top_search{float:left; width:100%; height:45px; background:url(http://img.go.co.kr/mobile/search_bg.jpg) 0 0 repeat-x; background-size:100% 45px; -webkit-background-size:100% 45px;}
+#top_search{float:left; width:100%; height:45px; background:url(//img.go.co.kr/mobile/search_bg.jpg) 0 0 repeat-x; background-size:100% 45px; -webkit-background-size:100% 45px;}
 #top_search #area_search{float:left; width:23%}
 #top_search #area_search a{
 height:35px; margin:5px 0 0 3px; display:block;
 border-radius:8px 0 0 8px;
 text-indent:5px; font-size:0.938em; color:#ffffff; line-height:2.4; letter-spacing:-1.2px;
-background:#693111 url(http://img.go.co.kr/mobile/btn_area_search.png) 93% 45% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px;
+background:#693111 url(//img.go.co.kr/mobile/btn_area_search.png) 93% 45% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px;
 }
 #top_search #search_box{float:left; position:relative; width:57%}
 #top_search #search_box .t_search{
@@ -56,7 +56,7 @@ text-indent:5px;
 #top_search #search_box #btn_search a{display:block;
 position:absolute; top:5px; right:0;
 width:35px; height:35px;
-background:#ffffff url(http://img.go.co.kr/mobile/btn_search.jpg) 0 0 no-repeat;
+background:#ffffff url(//img.go.co.kr/mobile/btn_search.jpg) 0 0 no-repeat;
 background-size:35px 35px; -webkit-background-size:35px 35px;
 text-indent:-99999px;
 }
@@ -73,7 +73,7 @@ background-color:#bc4c0f
 /*지역검색*/
 #area_search_list{float:left; width:100%; background-color:#ffffff}
 #area_search_list ul{width:100%}
-#area_search_list ul li{height:47px; color:#3f3f3f; line-height:3; text-indent:10px; border-bottom:1px solid #d2d2d2; background:url(http://img.go.co.kr/mobile/icon_arrow_right.jpg) 98% 50% no-repeat; background-size:7px 12px; -webkit-background-size:7px 12px;}
+#area_search_list ul li{height:47px; color:#3f3f3f; line-height:3; text-indent:10px; border-bottom:1px solid #d2d2d2; background:url(//img.go.co.kr/mobile/icon_arrow_right.jpg) 98% 50% no-repeat; background-size:7px 12px; -webkit-background-size:7px 12px;}
 #area_search_list ul li a{display:block;}
 
 /*상세검색*/
@@ -127,7 +127,7 @@ background-color:#bc4c0f
 /*정렬방식*/
 #sort{float:left; width:100%;}
 #sort .sort_box{float:left; width:100%; height:30px; background-color:#ffde9f; box-sizing:border-box }
-#sort .sort_select_box{float:right; width:100px; height:30px; border-radius:0; line-height:2.3; padding-left:10px; color:#452614; background:#ffffff url(http://img.go.co.kr/mobile/sort_icon.png) 95% 50% no-repeat; background-size:13px 8px; -webkit-background-size:13px 8px;}
+#sort .sort_select_box{float:right; width:100px; height:30px; border-radius:0; line-height:2.3; padding-left:10px; color:#452614; background:#ffffff url(//img.go.co.kr/mobile/sort_icon.png) 95% 50% no-repeat; background-size:13px 8px; -webkit-background-size:13px 8px;}
 #sort .product_qty{float:left; color:#452614; font-size:14px; line-height:2.3; text-indent:10px;}
 #sort .product_qty span{color:#f15d28; font-size:15px; font-weight:bold}
 
@@ -138,8 +138,8 @@ background-color:#bc4c0f
 #today_box .today{width:100%;text-align:center}
 #today_box .today .today_list{display:inline-block; position:relative; width:100%}
 #today_box .today_logo{position:absolute; z-index:2; top:7%; left:5%}
-#today_box .swiper-button-prev{width:31px; height:34px; background:url(http://img.go.co.kr/mobile/btn_today_left.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:31px 34px;}
-#today_box .swiper-button-next{width:31px; height:34px; background:url(http://img.go.co.kr/mobile/btn_today_right.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:31px 34px;}
+#today_box .swiper-button-prev{width:31px; height:34px; background:url(//img.go.co.kr/mobile/btn_today_left.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:31px 34px;}
+#today_box .swiper-button-next{width:31px; height:34px; background:url(//img.go.co.kr/mobile/btn_today_right.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:31px 34px;}
 #today_box .caption_box{float:left; position:absolute; z-index:2; bottom:0; width:100%;}
 #today_box .caption{position:relative; height:54px; background:rgba(0,0,0,0.8)}
 #today_box .caption .title{position:absolute; top:7px; left:10px; color:#ffffff; font-weight:bold}
@@ -336,7 +336,7 @@ border-radius: 10px; -moz-border-radius: 10px; /*모질라*/-webkit-border-radiu
 .radio_box{float:left; width:100%;}
 .radio_box label{line-height:1; margin:0 10px;
 display:block; position:relative; height:50px; padding-left:34px; text-indent:5px; line-height:1.3; color:#7b7b7b;
-background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; background-size:24px 100px; -webkit-background-size:24px 100px
+background:url(//img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; background-size:24px 100px; -webkit-background-size:24px 100px
 }
 .radio_box .chk{position:absolute; z-index:-1; opacity:0}
 .radio_box .chk:checked+label{background-position:0 -50px}
@@ -472,16 +472,16 @@ background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; backgrou
 #input_table{width:100%;}
 .input_line{height:35px; border:solid 1px #dadada; background-color:#ffffff; margin-right:15px;}
 .padding_r15{padding-right:15px}
-#agency{width:100%; background:#fff url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
+#agency{width:100%; background:#fff url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
 #payment table td .middle_line{float:left;line-height:2; margin:0 5px;}
 #email_table{width:100%}
 #price_info{float:left; width:100%; background-color:#fff; border-top:2px solid #626262}
 #price_table{width:100%; margin-top:10px; margin-bottom:10px; border-bottom:2px solid #626262}
 #price_table th{text-align:left; color:#7b7b7b; padding-left:15px}
 #price_table td{text-align:right; color:#7b7b7b; padding-left:15px; padding-right:15px}
-.select_box{width:100%; padding-left:5px; background:#fff url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
+.select_box{width:100%; padding-left:5px; background:#fff url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
 .save_money{height:35px; border:solid 1px #dadada; padding-left:5px; padding-right:5px; background-color:#ffffff}
-#coupon{width:100%; text-align:left; background:url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
+#coupon{width:100%; text-align:left; background:url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
 #last_price{
 width:100%;
 height:53px;
@@ -505,7 +505,7 @@ border-radius: 10px;
 #checkbox{position:relative; display:block; margin-left:12px; margin-top:5px}
 #checkbox label{
 display:inline-block; position:relative; height:20px; padding-left:23px; line-height:1.3;
-background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px
+background:url(//img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px
 }
 #checkbox .chk{position:absolute; z-index:-1; opacity:0}
 #checkbox .chk:checked+label{background-position:0 -20px}
@@ -547,7 +547,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;ba
 #join #join_table .join_text span{color:#f15d28}
 #join #join_table .join_text label{
 display:inline-block; position:relative; height:20px; padding-left:23px; line-height:1.3;
-background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px}
+background:url(//img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px}
 #join #join_table .join_text .chk{position:absolute; z-index:-1; opacity:0}
 #join #join_table .join_text .chk:checked+label{background-position:0 -20px}
 
@@ -638,7 +638,7 @@ background:url(http://design.autopay.co.kr/kds/goco/images/check_box_normal.jpg)
 #login_btn .btn_join_go a{display:block; height:41px; font-size:20px; border:3px solid #f15d28; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.2; background-color:#ffffff; color:#f15d28; text-align:center}
 #login_btn .btn_join_go a img{margin-top:13px}
 #login_btn .naver_login{clear:both; float:left; width:100%; height:47px; margin-bottom:5px;}
-#login_btn .naver_login a{display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#1ec800 url(http://img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#ffffff; text-align:center}
+#login_btn .naver_login a{display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#1ec800 url(//img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#ffffff; text-align:center}
 #login_btn .naver_login a img{float:left; margin-top:16px; margin-left:15px}
 
 #login_btn .id_pw_search{float:left; font-size:14px; color:#3f3f3f; margin-top:10px; margin-left:15px; margin-bottom:35px}
@@ -648,7 +648,7 @@ background:url(http://design.autopay.co.kr/kds/goco/images/check_box_normal.jpg)
 #checkbox2{position:relative; display:block; margin-left:15px; margin-top:5px}
 #checkbox2 label{
 display:inline-block; position:relative; height:23px; padding-left:45px; line-height:1.5;
-background:url(http://img.go.co.kr/mobile/btn_slide_bg.png) no-repeat 0 0;background-size:41px 46px; -webkit-background-size:41px 46px
+background:url(//img.go.co.kr/mobile/btn_slide_bg.png) no-repeat 0 0;background-size:41px 46px; -webkit-background-size:41px 46px
 }
 #checkbox2 .chk{position:absolute; z-index:-1; opacity:0}
 #checkbox2 .chk:checked+label{background-position:0 -23px}
@@ -656,7 +656,7 @@ background:url(http://img.go.co.kr/mobile/btn_slide_bg.png) no-repeat 0 0;backgr
 .radio_box2{float:left}
 .radio_box2 label{line-height:1; margin:0 10px;
 display:block; position:relative; height:50px; padding-left:23px; text-indent:5px; line-height:3.3; color:#3f3f3f;
-background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; background-size:24px 100px; -webkit-background-size:24px 100px
+background:url(//img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; background-size:24px 100px; -webkit-background-size:24px 100px
 }
 .radio_box2 .chk{position:absolute; z-index:-1; opacity:0}
 .radio_box2 .chk:checked+label{background-position:0 -50px; color:#3f3f3f}
@@ -816,10 +816,10 @@ background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; backgrou
 #btn_coupon_ragister a{display:block; width:90%; height:50px; margin:auto; background-color:#6e3917; color:#ffffff; text-align:center; font-size:20px; font-weight:bold; line-height:2.6; border-radius:10px;}
 #btn_coupon_ragister a img{margin-top:18px}
 #unuse_coupon{float:left; width:100%; height:50px;}
-#unuse_coupon a{display:block; line-height:3; text-indent:15px; border-bottom:1px solid #d2d2d2; background:url(http://img.go.co.kr/mobile/icon_arrow_right.jpg) 97% 14px no-repeat; background-size:10px 20px;}
+#unuse_coupon a{display:block; line-height:3; text-indent:15px; border-bottom:1px solid #d2d2d2; background:url(//img.go.co.kr/mobile/icon_arrow_right.jpg) 97% 14px no-repeat; background-size:10px 20px;}
 #unuse_coupon span{color:#f15d28}
 #use_coupon{float:left; width:100%; height:50px;}
-#use_coupon a{display:block; line-height:3; text-indent:15px; border-bottom:1px solid #d2d2d2; background:url(http://img.go.co.kr/mobile/icon_arrow_right.jpg) 97% 14px no-repeat; background-size:10px 20px;}
+#use_coupon a{display:block; line-height:3; text-indent:15px; border-bottom:1px solid #d2d2d2; background:url(//img.go.co.kr/mobile/icon_arrow_right.jpg) 97% 14px no-repeat; background-size:10px 20px;}
 #coupon_info{width:100%; float:left; font-size:13px; margin-top:20px; margin-bottom:15px }
 #coupon_info p{margin-left:15px; margin-right:15px; text-align:justify; line-height:1.4; padding:15px; margin-bottom:5px; background-color:#ffeac2; border-radius:10px}
 #coupon_info span{color:#f15d28}
@@ -880,8 +880,8 @@ background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; backgrou
 #goco_slide .slide_control .control_left{float:left; margin-left:10px}
 #goco_slide .slide_control .control_right{float:right; margin-right:10px}
 */
-#goco_slide .swiper-button-prev{margin-left:10px; width:37px; height:37px; background:url(http://img.go.co.kr/mobile/btn_goco_left.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:37px 37px;}
-#goco_slide .swiper-button-next{ margin-right:10px; width:37px; height:37px; background:url(http://img.go.co.kr/mobile/btn_goco_right.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:37px 37px;}
+#goco_slide .swiper-button-prev{margin-left:10px; width:37px; height:37px; background:url(//img.go.co.kr/mobile/btn_goco_left.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:37px 37px;}
+#goco_slide .swiper-button-next{ margin-right:10px; width:37px; height:37px; background:url(//img.go.co.kr/mobile/btn_goco_right.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:37px 37px;}
 
 
 /*faq*/
@@ -934,7 +934,7 @@ background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; backgrou
 
 #menu_bg #menu22 dl{clear:left;width:100%;}
 #menu_bg #menu22 dl dt{width:100%; height:28px; line-height:1.8; background-color:#909090; color:#ffffff; text-indent:10px}
-#menu_bg #menu22 dl dd{width:100%; height:50px;  border-bottom:1px solid #d2d2d2; background:url(http://img.go.co.kr/mobile/icon_arrow_right.jpg) 225px 17px no-repeat; background-size:9px 16px;}
+#menu_bg #menu22 dl dd{width:100%; height:50px;  border-bottom:1px solid #d2d2d2; background:url(//img.go.co.kr/mobile/icon_arrow_right.jpg) 225px 17px no-repeat; background-size:9px 16px;}
 #menu_bg #menu22 dl dd a{display:block; font-size:18px; color:#414141; text-indent:10px; line-height:3;}
 
 #menu_bg #menu22 dl dd img{margin-top:13px}
@@ -945,15 +945,15 @@ background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; backgrou
 #menu_bg #menu_box{width:246px; height:800px;background-color:#ffffff;}
 
 /*메인*/
-#main_search{float:left; width:100%; height:285px; background:url(http://img.go.co.kr/mobile/main_search_bg.jpg) 0 0 no-repeat; background-size:100% 285px;}
+#main_search{float:left; width:100%; height:285px; background:url(//img.go.co.kr/mobile/main_search_bg.jpg) 0 0 no-repeat; background-size:100% 285px;}
 #main_search .main_searh_title{color:#ffffff; text-align:center; font-size:18px; margin-top:15px; margin-bottom:10px}
 #main_search .main_searh_title span{font-weight:bold}
 #main_search_box{ height:210px; margin-left:15px; margin-right:15px; background-color:#ffd1a0; border-radius:20px}
 #main_search_box table{width:100%}
 .m_input_line{width:100%; height:37px; background-color:#ffffff; border-radius:20px}
-.int2{position:relative; width:100%; text-indent:33px; border:none; font-size:15px; color:#7b7b7b; line-height:2.6; border-radius:20px; background:url(http://img.go.co.kr/mobile/main_search_icon.png) 0 50% no-repeat; background-size:29px 20px; -webkit-background-size:29px 20px;}
-.int3{position:relative; width:100%; text-indent:10px; border:none; font-size:15px; color:#7b7b7b; line-height:2.6; border-radius:20px; background:url(http://img.go.co.kr/mobile/icon_calendar2.png) 100% 50% no-repeat; background-size:29px 20px; -webkit-background-size:29px 20px;}
-.select_box2{width:100%; text-indent:10px; line-height:2.6; background:url(http://img.go.co.kr/mobile/select_box.jpg) 97% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px; border-radius:20px}
+.int2{position:relative; width:100%; text-indent:33px; border:none; font-size:15px; color:#7b7b7b; line-height:2.6; border-radius:20px; background:url(//img.go.co.kr/mobile/main_search_icon.png) 0 50% no-repeat; background-size:29px 20px; -webkit-background-size:29px 20px;}
+.int3{position:relative; width:100%; text-indent:10px; border:none; font-size:15px; color:#7b7b7b; line-height:2.6; border-radius:20px; background:url(//img.go.co.kr/mobile/icon_calendar2.png) 100% 50% no-repeat; background-size:29px 20px; -webkit-background-size:29px 20px;}
+.select_box2{width:100%; text-indent:10px; line-height:2.6; background:url(//img.go.co.kr/mobile/select_box.jpg) 97% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px; border-radius:20px}
 .m_search_btn{width:100%; height:37px; background-color:#f05d29; border-radius:20px;  text-align:center}
 .m_search_btn a{height:37px; display:block; line-height:2.4; font-weight:bold; color:#ffffff;}
 
@@ -972,7 +972,7 @@ background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; backgrou
 #popupLayer #close{
 	position:fixed; top:10px; right:10px; z-index:99;
 	cursor:pointer;
-	background: url(http://img.go.co.kr/mobile/pop_close.png) 0 0 no-repeat;
+	background: url(//img.go.co.kr/mobile/pop_close.png) 0 0 no-repeat;
 	display:box;
 	width:20px;
 	height:20px;
@@ -1073,7 +1073,7 @@ height:47px; font-size:20px; margin-right:15px; margin-bottom:5px; margin-top:20
 #checkbox2{position:relative; display:block; margin-left:12px}
 #checkbox2 label{
 display:inline-block; position:relative; height:20px; padding-left:23px;
-background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; background-size:23px 40px; -webkit-background-size:23px 40px
+background:url(//img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; background-size:23px 40px; -webkit-background-size:23px 40px
 }
 #checkbox2 .chk{position:absolute; z-index:-1; opacity:0}
 #checkbox2 .chk:checked+label{background-position:0 -20px}
@@ -1217,15 +1217,15 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 
 /*SNS 로그인*/
 #login_btn .facebook_login{clear:both; float:left; width:100%; height:47px; margin-bottom:5px;}
-#login_btn .facebook_login a{display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#3b579d url(http://img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#ffffff; text-align:center}
+#login_btn .facebook_login a{display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#3b579d url(//img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#ffffff; text-align:center}
 #login_btn .facebook_login a img{float:left; margin-top:16px; margin-left:15px}
 
 #login_btn .twitter_login{clear:both; float:left; width:100%; height:47px; margin-bottom:5px;}
-#login_btn .twitter_login a{display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#33ccff url(http://img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#ffffff; text-align:center}
+#login_btn .twitter_login a{display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#33ccff url(//img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#ffffff; text-align:center}
 #login_btn .twitter_login a img{float:left; margin-top:16px; margin-left:15px}
 
 #login_btn .google_login{clear:both; float:left; width:100%; height:47px; margin-bottom:5px;}
-#login_btn .google_login a{box-sizing:border-box; display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#d34836 url(http://img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#ffffff; text-align:center}
+#login_btn .google_login a{box-sizing:border-box; display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#d34836 url(//img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#ffffff; text-align:center}
 #login_btn .google_login a img{float:left; margin-top:16px; margin-left:15px}
 
 #login_btn .daum_login{clear:both; float:left; width:100%; height:47px; margin-bottom:5px}
@@ -1233,7 +1233,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #login_btn .daum_login a img{float:left; margin-top:11px; margin-left:15px; box-sizing:border-box}
 
 #login_btn .kakao_login{clear:both; float:left; width:100%; height:47px; margin-bottom:5px;}
-#login_btn .kakao_login a{box-sizing:border-box; display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#fee600 url(http://img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#47292b; text-align:center}
+#login_btn .kakao_login a{box-sizing:border-box; display:block; height:47px; font-size:20px; margin-left:15px; margin-right:15px; font-weight:bold; border-radius:10px; line-height:2.5; background:#fee600 url(//img.go.co.kr/mobile/n_logo_line.png) 45px 0 no-repeat; color:#47292b; text-align:center}
 #login_btn .kakao_login a img{float:left; margin-top:16px; margin-left:15px}
 
 #product_info .product_info_detailLink{background-color:#a8a8a8; color:#ffffff; text-align:center}
@@ -1412,9 +1412,9 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 
 /*개선 20151202*/
 /*인트로*/
-#intro{float:left; padding-top:10px; width:100%; background:url(http://img.go.co.kr/mobile/main_search_bg2.jpg) no-repeat; background-size:100% 400px; letter-spacing:-1px}
+#intro{float:left; padding-top:10px; width:100%; background:url(//img.go.co.kr/mobile/main_search_bg2.jpg) no-repeat; background-size:100% 400px; letter-spacing:-1px}
 #intro .wrap{margin:auto; width:90%}
-#intro .wrap .mainBtn{float:left; display:block; cursor:pointer; margin-bottom:10px; padding:12px 0; width:100%; background:#fff url(http://img.go.co.kr/mobile/btn_introNext.png) 97% 50% no-repeat; background-size:15px 28px; border-radius:10px; box-shadow:0 0 5px rgba(0,0,0,0.5)}
+#intro .wrap .mainBtn{float:left; display:block; cursor:pointer; margin-bottom:10px; padding:12px 0; width:100%; background:#fff url(//img.go.co.kr/mobile/btn_introNext.png) 97% 50% no-repeat; background-size:15px 28px; border-radius:10px; box-shadow:0 0 5px rgba(0,0,0,0.5)}
 #intro .wrap .mainBtn .icon{float:left; width:20%; text-align:center}
 #intro .wrap .mainBtn .txt{float:left; width:80%; text-align:left; font-size:1.000em; line-height:1.3}
 #intro .wrap .mainBtn .txt .tit{font-size:20px; font-weight:bold}
@@ -1437,7 +1437,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #head #allmenu{float:left; width:20%; height:45px;}
 #head #allmenu a{float:left; margin-left:10px; margin-top:5px}
 #head #logo{float:left; width:35%;}
-#head #logo a{display:block; position:relative; left:-56px; width:112px; height:45px; margin-left:35%; background:url(http://img.go.co.kr/mobile/logo.png) center 5px no-repeat; background-size:112px 21px; text-indent:-9999px;}
+#head #logo a{display:block; position:relative; left:-56px; width:112px; height:45px; margin-left:35%; background:url(//img.go.co.kr/mobile/logo.png) center 5px no-repeat; background-size:112px 21px; text-indent:-9999px;}
 #head #map_my{float:right; width:15%; height:45px;}
 #head #map_my a{float:right; margin-right:10px; margin-top:9px}
 #head #title{float:left; width:60%; text-align:center; font-weight:bold; line-height:2.5; font-size:18px; color:#3f3f3f; text-overflow:ellipsis; white-space: nowrap; overflow: hidden;}
@@ -1473,7 +1473,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #totalSelect .total p {padding-left:10px; padding-top:5px}
 #totalSelect .total .num {font-size:1.125em; font-weight:bold; color:#f15d28}
 #totalSelect .select {float:right; width:30%; font-size:1.000em}
-#totalSelect .select .select_box{width:100%; padding-left:5px; background:#fff url(http://img.go.co.kr/mobile/btn_arrow_bottom.jpg) 100% 50% no-repeat; background-size:18px 10px; -webkit-background-size:18px 10px;}
+#totalSelect .select .select_box{width:100%; padding-left:5px; background:#fff url(//img.go.co.kr/mobile/btn_arrow_bottom.jpg) 100% 50% no-repeat; background-size:18px 10px; -webkit-background-size:18px 10px;}
 
 /*메뉴*/
 #menu {clear:both; margin:auto; display:table; width:100%; height:35px; text-align:center; border-bottom:1px solid #d2d2d2}
@@ -1482,7 +1482,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #menu .on a {color:#f15d28}
 
 /*메인상품검색*/
-#search{float:left; padding:10px 0 25px 0; width:100%; letter-spacing:-0.6px; overflow:hidden; background-size:cover; background:url(http://img.go.co.kr/mobile/main_search_bg2.jpg) no-repeat; background-size:100% 400px; text-align:center; }
+#search{float:left; padding:10px 0 25px 0; width:100%; letter-spacing:-0.6px; overflow:hidden; background-size:cover; background:url(//img.go.co.kr/mobile/main_search_bg2.jpg) no-repeat; background-size:100% 400px; text-align:center; }
 #search .ment{float:left; width:100%; margin-bottom:10px; font-size:1.125em; color:#f1ece9; letter-spacing:-1px}
 #search .wrap{clear:both; margin:auto; padding:15px 0; width:96%; height:175px; border-radius:20px; background:#ffd1a0}
 #search .wrap2{clear:both; margin:auto; padding:15px 0; width:96%; height:125px; border-radius:20px; background:#ffd1a0}
@@ -1491,7 +1491,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #search .select .select01 {float:left; margin-bottom:10px; width:48%; height:35px; border-radius:20px; background:#fff}
 #search .select .select02 {float:right; margin-bottom:10px; width:48%; height:35px; border-radius:20px; background:#fff}
 #search .select .select05 {float:left; margin-bottom:10px; width:100%; height:35px; border-radius:20px; background:#fff}
-#search .select .select_box{width:100%; border-radius:20px; padding-left:5px; background:#fff url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
+#search .select .select_box{width:100%; border-radius:20px; padding-left:5px; background:#fff url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
 #search .select .select05 .int{width:95%; padding-left:8px; border-radius:20px; background:#fff; color:#7b7b7b; font-size:1.063em; line-height:1.7}
 #search .select .p_l10{padding-left:10px}
 #search .btn{clear:both; margin:auto; padding:10px 0; width:90%}
@@ -1697,12 +1697,12 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 .img_nothing { text-align: center; padding-bottom: 10px}
 .img_nothing img {height: 50px; vertical-align: bottom;}
 .mapF6 {margin:auto; padding-top:10px; width:60%;}
-.mapF6 a {display:block; padding: 5px 5px 5px 45px; border-radius:5px; color:#333; font-size:0.938em; line-height:50px; font-weight:bold; letter-spacing:-0.5px; border: 1px solid #ccc; background: url(http://img.go.co.kr/mobile/app_icon.png) no-repeat 8% 50% #ffffff; background-size:45px 45px; }
+.mapF6 a {display:block; padding: 5px 5px 5px 45px; border-radius:5px; color:#333; font-size:0.938em; line-height:50px; font-weight:bold; letter-spacing:-0.5px; border: 1px solid #ccc; background: url(//img.go.co.kr/mobile/app_icon.png) no-repeat 8% 50% #ffffff; background-size:45px 45px; }
 
 
 
 /*검색*/
-#searchDetail{float:left; padding-top:10px; width:100%; letter-spacing:-0.6px; overflow:hidden; background-size:cover; background:url(http://img.go.co.kr/mobile/main_search_bg2.jpg) no-repeat 20% 5%; text-align:center; }
+#searchDetail{float:left; padding-top:10px; width:100%; letter-spacing:-0.6px; overflow:hidden; background-size:cover; background:url(//img.go.co.kr/mobile/main_search_bg2.jpg) no-repeat 20% 5%; text-align:center; }
 #searchDetail .select{margin:auto; width:90%; text-align:left; color:#7b7b7b; font-size:1.000em}
 #searchDetail .select .select00 {float:left; margin-bottom:10px; width:100%; height:35px}
 #searchDetail .select .select00 .int{float:left; width:60%; border-radius:10px; background:#fff; color:#7b7b7b; font-size:1.000em}
@@ -1710,7 +1710,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #searchDetail .select .select00 .btn .btn_search a{float:right; display:block; cursor:pointer; line-height:2.3; padding:0 10px; height:35px; border-radius:10px; background:#f15d28; font-size:1.000em; color:#fff; text-align:center}
 #searchDetail .select .select00 .btn .btn_detail a{float:right; display:block; cursor:pointer; margin-left:5px; line-height:2.3; padding:0 10px; height:35px; border-radius:10px; background:#b3b3b3; font-size:1.000em; color:#fff; text-align:center}
 #searchDetail .select .select01 {float:left; margin-bottom:10px; width:100%; height:35px; border-radius:10px; background:#fff}
-#searchDetail .select .select_box{width:100%; border-radius:10px; padding-left:5px; background:#fff url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
+#searchDetail .select .select_box{width:100%; border-radius:10px; padding-left:5px; background:#fff url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
 #searchDetail .select .p_l10{padding-left:10px}
 #searchDetail .select .select02 .in_out{font-size:1.188em; letter-spacing:-1.2px}
 #searchDetail .select .select03 .in_out{font-size:1.188em; letter-spacing:-1.2px}
@@ -1726,7 +1726,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #localList .localBig .on a{color:#fff}
 #localList .localSmall{float:right; width:75%}
 #localList .localSmall li{float:left; display:block; cursor:pointer; width:100%; padding:10px 0; color:#777777; text-align:left; border-bottom:1px solid #d2d2d2}
-#localList .localSmall .p_l10{padding-left:10px; border-left:1px solid #d2d2d2; box-sizing:border-box; background:#fff url(http://img.go.co.kr/mobile/btn_more2.png) 95% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px}
+#localList .localSmall .p_l10{padding-left:10px; border-left:1px solid #d2d2d2; box-sizing:border-box; background:#fff url(//img.go.co.kr/mobile/btn_more2.png) 95% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px}
 
 #slideCategory {float:left; width:100%; height:40px; border-bottom:1px solid #d2d2d2; overflow-x:auto; background:#fff}
 #slideCategory #category_tab{clear:both; float:left; width:701px; letter-spacing:-0.6px}
@@ -1774,8 +1774,8 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #localBest .box .info{display:table; width:100%; padding:10px 0; background:#fff; letter-spacing:-1px}
 #localBest .box .info .name {display:table-cell; padding-left:5px; text-align:left; font-size:0.938em; color:#3f3f3f; font-weight:bold; text-overflow:ellipsis; white-space: nowrap; overflow: hidden}
 #localBest .box .info .price {display:table-cell; padding-right:5px; text-align:right; font-size:0.938em; color:#f15d28; font-weight:bold}
-#localBest .box .swiper-button-prev{position:absolute; top:100px; left:0; width:31px; height:34px; background:url(http://img.go.co.kr/mobile/btn_today_left.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:31px 34px;}
-#localBest .box .swiper-button-next{position:absolute; top:100px; right:0; width:31px; height:34px; background:url(http://img.go.co.kr/mobile/btn_today_right.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:31px 34px;}
+#localBest .box .swiper-button-prev{position:absolute; top:100px; left:0; width:31px; height:34px; background:url(//img.go.co.kr/mobile/btn_today_left.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:31px 34px;}
+#localBest .box .swiper-button-next{position:absolute; top:100px; right:0; width:31px; height:34px; background:url(//img.go.co.kr/mobile/btn_today_right.png) 0 0 no-repeat; background-size:31px 34px; -webkit-background-size:31px 34px;}
 
 #localBest .btnSlide {clear:both; float:left; width:100%; text-align:center; font-weight:bold}
 #localBest .today{width:100%;text-align:center}
@@ -1803,7 +1803,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 /*지역검색-서브지역*/
 #area_search_list2{float:left; width:100%; background-color:#ffffff}
 #area_search_list2 .main_list ul{width:100%}
-#area_search_list2 .main_list ul li{color:#3f3f3f; line-height:3; text-indent:10px; border-bottom:1px solid #d2d2d2; background:url(http://img.go.co.kr/mobile/icon_arrow_right.jpg) 98% 50% no-repeat; background-size:7px 12px; -webkit-background-size:7px 12px;}
+#area_search_list2 .main_list ul li{color:#3f3f3f; line-height:3; text-indent:10px; border-bottom:1px solid #d2d2d2; background:url(//img.go.co.kr/mobile/icon_arrow_right.jpg) 98% 50% no-repeat; background-size:7px 12px; -webkit-background-size:7px 12px;}
 #area_search_list2 .main_list ul li a{display:block;}
 #area_search_list2 .main_list .on a {color:#f15d28; font-weight:bold}
 #area_search_list2 .main_list .sub_list {float:left; width:100%; background-color:#f6f6f6}
@@ -1865,7 +1865,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #listCategory .tab_search a {color:#848484}
 #listCategory .tab_search_ov {padding:0 10px; border-top:2px solid #f95e26; border-left:2px solid #f95e26; border-right:2px solid #f95e26; box-sizing:border-box}
 #listCategory .tab_search_ov a {color:#f95e26}
-#listCategory .tab select {width:100%; color:#848484; background:url(http://img.go.co.kr/mobile/btn_arrow_bottom2.jpg) 100% 50% no-repeat; background-size:15px 8px; -webkit-background-size:15px 8px}
+#listCategory .tab select {width:100%; color:#848484; background:url(//img.go.co.kr/mobile/btn_arrow_bottom2.jpg) 100% 50% no-repeat; background-size:15px 8px; -webkit-background-size:15px 8px}
 
 #listCategory .line {height:2px; background:#fff; border-left:2px solid #f95e26; border-right:2px solid #f95e26}
 #listCategory .line_ov {height:2px; background:#f95e26}
@@ -1879,7 +1879,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #listCategory .searchBox .select .select00 .btn .btn_detail a{float:right; display:block; cursor:pointer; line-height:1.1; margin-right:5px; padding:5px 10px 0 10px; height:30px; border-radius:10px; background:#b3b3b3; font-size:0.875em; color:#fff; text-align:center}
 
 #listCategory .searchBox .select .select01 {float:left; margin-bottom:10px; width:100%; line-height:35px; font-size:0.938em; border-radius:10px; background:#fff; border:1px solid #dddddd}
-#listCategory .searchBox .select .select_box{width:100%; border-radius:10px; padding-left:5px; line-height:35px; font-size:0.938em; background:#fff url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
+#listCategory .searchBox .select .select_box{width:100%; border-radius:10px; padding-left:5px; line-height:35px; font-size:0.938em; background:#fff url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
 #listCategory .searchBox .select .p_l10{padding-left:10px}
 
 #listCategory .searchBox .select .select02 .in_out{font-size:1.188em; letter-spacing:-1.2px}
@@ -1999,7 +1999,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.png) no-repeat 0 0; b
 #addoption_t .checkbox{position:relative; display:block}
 #addoption_t .checkbox label{
 display:inline-block; position:relative; height:20px; padding-left:23px;
-background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px
+background:url(//img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px
 }
 #addoption_t .checkbox .chk{position:absolute; z-index:-1; opacity:0}
 #addoption_t .checkbox .chk:checked+label{background-position:0 -20px}
@@ -2022,7 +2022,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;ba
 #headCopy .headT .allmenu {padding-left:10px; text-align:left}
 #headCopy .headT .mymap {padding-right:10px; text-align:right}
 #head #logo2 {float:left; width:60%; text-align:center}
-#head #logo2 a {display:block; position:relative; left:-56px; width:112px; height:43px; margin-left:50%; background:url(http://img.go.co.kr/mobile/logo.png?ver=2) center 8px no-repeat; background-size:107px 30px; text-indent:-9999px;}
+#head #logo2 a {display:block; position:relative; left:-56px; width:112px; height:43px; margin-left:50%; background:url(//img.go.co.kr/mobile/logo.png?ver=2) center 8px no-repeat; background-size:107px 30px; text-indent:-9999px;}
 #head #blank{float:left; width:20%}
 
 #headCopy #title{float:left; width:60%; text-align:center; font-weight:bold; line-height:2.5; font-size:18px; color:#3f3f3f; text-overflow:ellipsis; white-space: nowrap; overflow: hidden;}
@@ -2081,7 +2081,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;ba
 #wrapper #cardSimple .checkbox4{margin-top:5px}
 #wrapper #cardSimple .checkbox4 label{
 display:inline-block; position:relative; height:23px; padding-left:30px; line-height:1.3; letter-spacing:-0.5px;
-background:url(http://img.go.co.kr/mobile/check5.jpg) no-repeat 0 0; background-size:23px 44px; -webkit-background-size:23px 44px
+background:url(//img.go.co.kr/mobile/check5.jpg) no-repeat 0 0; background-size:23px 44px; -webkit-background-size:23px 44px
 }
 #wrapper #cardSimple .checkbox4 .chk{position:absolute; z-index:-1; opacity:0}
 #wrapper #cardSimple .checkbox4 .chk:checked+label{background-position:0 -23px}
@@ -2089,7 +2089,7 @@ background:url(http://img.go.co.kr/mobile/check5.jpg) no-repeat 0 0; background-
 #wrapper #cardSimple .checkbox3{margin-top:5px}
 #wrapper #cardSimple .checkbox3 label{
 display:inline-block; position:relative; height:20px; padding-left:23px; line-height:1.3;
-background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px
+background:url(//img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px
 }
 #wrapper #cardSimple .checkbox3 .chk{position:absolute; z-index:-1; opacity:0}
 #wrapper #cardSimple .checkbox3 .chk:checked+label{background-position:0 -20px}
@@ -2097,7 +2097,7 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;ba
 #checkbox3{margin-top:5px}
 #checkbox3 label{
 display:inline-block; position:relative; height:20px; padding-left:23px; line-height:1.3;
-background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px
+background:url(//img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;background-size:23px 40px; -webkit-background-size:23px 40px
 }
 #checkbox3 .chk{position:absolute; z-index:-1; opacity:0}
 #checkbox3 .chk:checked+label{background-position:0 -20px}
@@ -2108,13 +2108,13 @@ background:url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0;ba
 #map_Select .radioBox1 {display:table-cell; width:55%; text-align:left}
 #map_Select .radioBox2 {display:table-cell; width:45%; text-align:left}
 
-#map_Select .radioBox1 .input_line2 .select_box{padding-right:15px; padding-left:5px; border-radius:5px; font-size:0.813em; background:#fff url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
-#map_Select .radioBox2 .input_line2 .select_box{padding-right:20px; padding-left:5px; border-radius:5px; font-size:0.813em; background:#fff url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
+#map_Select .radioBox1 .input_line2 .select_box{padding-right:15px; padding-left:5px; border-radius:5px; font-size:0.813em; background:#fff url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
+#map_Select .radioBox2 .input_line2 .select_box{padding-right:20px; padding-left:5px; border-radius:5px; font-size:0.813em; background:#fff url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
 
 .radio_box3{float:left}
 .radio_box3 label{line-height:1; margin-left:10px;
 display:block; position:relative; height:50px; padding-left:23px; text-indent:5px; line-height:3.3; color:#3f3f3f;
-background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; background-size:24px 100px; -webkit-background-size:24px 100px
+background:url(//img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; background-size:24px 100px; -webkit-background-size:24px 100px
 }
 .radio_box3 .chk{position:absolute; z-index:-1; opacity:0}
 .radio_box3 .chk:checked+label{background-position:0 -50px; color:#3f3f3f}
@@ -2135,7 +2135,7 @@ background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; backgrou
 
 #wrapper #cardSimple #cardSimple_table .radio_box{float:left; width:100%;}
 #wrapper #cardSimple #cardSimple_table .radio_box label{position:relative; display:inline-block; padding-left:23px; color:#7b7b7b; line-height:50px;
-background:url(http://img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; background-size:24px 100px; -webkit-background-size:24px 100px}
+background:url(//img.go.co.kr/mobile/btn_radio.png) no-repeat 0 0; background-size:24px 100px; -webkit-background-size:24px 100px}
 #wrapper #cardSimple #cardSimple_table .radio_box .chk{position:absolute; z-index:-1; opacity:0}
 #wrapper #cardSimple #cardSimple_table .radio_box .chk:checked+label{background-position:0 -50px}
 
@@ -2234,7 +2234,7 @@ border:1px solid #ebebeb; box-sizing:border-box
 #pop_point .all .checkbox{position:relative; display:block}
 #pop_point .all .checkbox label{
 display:inline-block; position:relative; height:15px; font-size:0.875em; font-weight:bold; color:#535252; letter-spacing:-1px; padding-left:23px;
-background:url(http://img.go.co.kr/mobile/btn_agreeBG.png) no-repeat 0 0; background-size:19px 30px; -webkit-background-size:19px 30px
+background:url(//img.go.co.kr/mobile/btn_agreeBG.png) no-repeat 0 0; background-size:19px 30px; -webkit-background-size:19px 30px
 }
 #pop_point .all .checkbox .chk{position:absolute; z-index:-1; opacity:0}
 #pop_point .all .checkbox .chk:checked+label{background-position:0 -15px}
@@ -2255,7 +2255,7 @@ font-weight:bold; border:1px solid #e9e9ea; font-size:1.063em; color:#3f3f3f; le
 .pay_reserInfo .agree .checkbox{position:relative; display:block; margin-left:12px; margin-top:5px}
 .pay_reserInfo .agree .checkbox label{
 display:inline-block; position:relative; height:15px; font-size:0.875em; color:#777777; letter-spacing:-0.5px; padding-left:23px;
-background:url(http://img.go.co.kr/mobile/btn_agreeBG.png) no-repeat 0 0; background-size:19px 30px; -webkit-background-size:19px 30px
+background:url(//img.go.co.kr/mobile/btn_agreeBG.png) no-repeat 0 0; background-size:19px 30px; -webkit-background-size:19px 30px
 }
 .pay_reserInfo .agree .checkbox .chk{position:absolute; z-index:-1; opacity:0}
 .pay_reserInfo .agree .checkbox .chk:checked+label{background-position:0 -15px}
@@ -2320,7 +2320,7 @@ background:url(http://img.go.co.kr/mobile/btn_agreeBG.png) no-repeat 0 0; backgr
 
 /*서브메인 검색창*/
 #sub_search{float:left; padding:10px 0; width:100%; letter-spacing:-1.2px; font-size:1.000em; overflow:hidden; background-size:cover; background-color:#83481c; background-size:100% 700px; text-align:center; }
-/* #sub_search{float:left; padding:10px 0; width:100%; letter-spacing:-1.2px; font-size:1.000em; overflow:hidden; background-size:cover; background:url(http://img.go.co.kr/mobile/main_search_bg2.jpg) no-repeat; background-size:100% 700px; text-align:center; } */
+/* #sub_search{float:left; padding:10px 0; width:100%; letter-spacing:-1.2px; font-size:1.000em; overflow:hidden; background-size:cover; background:url(//img.go.co.kr/mobile/main_search_bg2.jpg) no-repeat; background-size:100% 700px; text-align:center; } */
 #sub_search .ment{float:left; width:100%; margin:2px 0; font-size:1.063em; color:#f9f9f9}
 #sub_search .ment a {color:#f1ece9}
 #sub_search .wrap {clear:both; margin:auto; padding:5px 0; width:100%}
@@ -2348,7 +2348,7 @@ background:url(http://img.go.co.kr/mobile/btn_agreeBG.png) no-repeat 0 0; backgr
 #sub_search .select .select05 .searchLayer .int::-moz-placeholder {color:#343434; letter-spacing:-0.5px; line-height:40px; font-size:1.000em}
 #sub_search .select .select05 .searchLayer .calendar2 {position:absolute; top:8px; right:8px}
 
-#sub_search .select .select_box{width:100%; border-radius:20px; padding-left:5px; background:#fff url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
+#sub_search .select .select_box{width:100%; border-radius:20px; padding-left:5px; background:#fff url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px;}
 #sub_search .select .p_l10{padding-left:10px}
 
 #sub_search .btn{clear:both; margin:auto; padding:10px 0; width:94%}
@@ -2375,32 +2375,32 @@ background:url(http://img.go.co.kr/mobile/btn_agreeBG.png) no-repeat 0 0; backgr
 
 #sub_search .select .select06 .category .line {background:#e1e0e0}
 
-#sub_search .select .select06 .category .all {padding-left:8%; width:11%; border-right:1px solid #e1e0e0; border-top-left-radius:10px; text-align:left; line-height:40px; color:#343434; background:url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
-#sub_search .select .select06 .category .all_on {padding-left:8%; width:11%; color:#343434; border-right:2px solid #ffcfbc; border-top-left-radius:10px; font-weight:bold; background:#ffcfbc url(http://img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
+#sub_search .select .select06 .category .all {padding-left:8%; width:11%; border-right:1px solid #e1e0e0; border-top-left-radius:10px; text-align:left; line-height:40px; color:#343434; background:url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
+#sub_search .select .select06 .category .all_on {padding-left:8%; width:11%; color:#343434; border-right:2px solid #ffcfbc; border-top-left-radius:10px; font-weight:bold; background:#ffcfbc url(//img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
 
-#sub_search .select .select06 .category .hotel {padding-left:8%; width:11%; border-right:1px solid #e1e0e0; text-align:left; line-height:40px; color:#343434; background:url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
-#sub_search .select .select06 .category .hotel_on {padding-left:8%; width:11%; color:#343434; border-right:2px solid #ffcfbc; font-weight:bold; background:#ffcfbc url(http://img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
+#sub_search .select .select06 .category .hotel {padding-left:8%; width:11%; border-right:1px solid #e1e0e0; text-align:left; line-height:40px; color:#343434; background:url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
+#sub_search .select .select06 .category .hotel_on {padding-left:8%; width:11%; color:#343434; border-right:2px solid #ffcfbc; font-weight:bold; background:#ffcfbc url(//img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
 
-#sub_search .select .select06 .category .resort {padding-left:8%; width:16%;  text-align:left; line-height:40px; color:#343434; background:url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
-#sub_search .select .select06 .category .resort_on {padding-left:8%; width:16%; color:#343434;  border-top-right-radius:10px; font-weight:bold; background:#ffcfbc url(http://img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
+#sub_search .select .select06 .category .resort {padding-left:8%; width:16%;  text-align:left; line-height:40px; color:#343434; background:url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
+#sub_search .select .select06 .category .resort_on {padding-left:8%; width:16%; color:#343434;  border-top-right-radius:10px; font-weight:bold; background:#ffcfbc url(//img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
 
-#sub_search .select .select06 .category .residance  {padding-left:8%; width:17%;border-right:1px solid #e1e0e0;  text-align:left; line-height:40px; color:#343434; background:url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
-#sub_search .select .select06 .category .residance_on {padding-left:8%; width:17%; border-right:2px solid #ffcfbc; color:#343434; font-weight:bold; background:#ffcfbc url(http://img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
+#sub_search .select .select06 .category .residance  {padding-left:8%; width:17%;border-right:1px solid #e1e0e0;  text-align:left; line-height:40px; color:#343434; background:url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
+#sub_search .select .select06 .category .residance_on {padding-left:8%; width:17%; border-right:2px solid #ffcfbc; color:#343434; font-weight:bold; background:#ffcfbc url(//img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
 
-#sub_search .select .select06 .category .guest {padding-left:8%; width:17%; border-right:1px solid #e1e0e0;  text-align:left; line-height:40px; color:#343434; background:url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
-#sub_search .select .select06 .category .guest_on {padding-left:8%; width:17%; color:#343434; border-right:2px solid #ffcfbc; font-weight:bold; background:#ffcfbc url(http://img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
+#sub_search .select .select06 .category .guest {padding-left:8%; width:17%; border-right:1px solid #e1e0e0;  text-align:left; line-height:40px; color:#343434; background:url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
+#sub_search .select .select06 .category .guest_on {padding-left:8%; width:17%; color:#343434; border-right:2px solid #ffcfbc; font-weight:bold; background:#ffcfbc url(//img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
 
-#sub_search .select .select06 .category .pension {padding-left:8%; width:11%; border-right:1px solid #e1e0e0; text-align:left; line-height:40px; color:#343434; background:url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
-#sub_search .select .select06 .category .pension_on {padding-left:8%; width:11%; color:#343434; border-right:2px solid #ffcfbc; font-weight:bold; background:#ffcfbc url(http://img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
+#sub_search .select .select06 .category .pension {padding-left:8%; width:11%; border-right:1px solid #e1e0e0; text-align:left; line-height:40px; color:#343434; background:url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
+#sub_search .select .select06 .category .pension_on {padding-left:8%; width:11%; color:#343434; border-right:2px solid #ffcfbc; font-weight:bold; background:#ffcfbc url(//img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
 
-#sub_search .select .select06 .category .youth {padding-left:8%; width:16%; text-align:left; line-height:40px; border-bottom-right-radius:10px; color:#343434; background:url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
-#sub_search .select .select06 .category .youth_on {padding-left:8%; width:16%; color:#343434;  border-bottom-right-radius:10px; font-weight:bold; background:#ffcfbc url(http://img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
+#sub_search .select .select06 .category .youth {padding-left:8%; width:16%; text-align:left; line-height:40px; border-bottom-right-radius:10px; color:#343434; background:url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
+#sub_search .select .select06 .category .youth_on {padding-left:8%; width:16%; color:#343434;  border-bottom-right-radius:10px; font-weight:bold; background:#ffcfbc url(//img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
 
-#sub_search .select .select06 .category .bnb {padding-left:8%; width:13%; border-bottom-right-radius:10px; text-align:left; line-height:40px; color:#343434; background:url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
-#sub_search .select .select06 .category .bnb_on {padding-left:8%; width:13%; color:#343434; border-bottom-right-radius:10px; font-weight:bold; background:#ffcfbc url(http://img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
+#sub_search .select .select06 .category .bnb {padding-left:8%; width:13%; border-bottom-right-radius:10px; text-align:left; line-height:40px; color:#343434; background:url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
+#sub_search .select .select06 .category .bnb_on {padding-left:8%; width:13%; color:#343434; border-bottom-right-radius:10px; font-weight:bold; background:#ffcfbc url(//img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
 
-#sub_search .select .select06 .category .motel {padding-left:8%; width:11%; border-right:1px solid #e1e0e0;  border-bottom-left-radius:10px;text-align:left; line-height:40px; color:#343434; background:url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
-#sub_search .select .select06 .category .motel_on {padding-left:8%; width:11%; border-right:2px solid #ffcfbc; border-bottom-left-radius:10px; color:#343434;  font-weight:bold; background:#ffcfbc url(http://img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
+#sub_search .select .select06 .category .motel {padding-left:8%; width:11%; border-right:1px solid #e1e0e0;  border-bottom-left-radius:10px;text-align:left; line-height:40px; color:#343434; background:url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px}
+#sub_search .select .select06 .category .motel_on {padding-left:8%; width:11%; border-right:2px solid #ffcfbc; border-bottom-left-radius:10px; color:#343434;  font-weight:bold; background:#ffcfbc url(//img.go.co.kr/mobile/category_check_on.png) 10% 50% no-repeat; background-size:16px 16px; -webkit-background-size:16px 16px}
 
 #listCategory .searchBox .select .select06 {float:left; margin-bottom:10px; width:100%; background:#fff; border-radius:10px; border:1px solid #dddddd; box-sizing:border:box}
 #listCategory .searchBox .select .select06 .category {clear:both; float:left; width:100%; border-radius:10px; border:none}
@@ -2521,8 +2521,8 @@ background:#12b4c1; text-align:center;  z-index:5}
 #search_list_top2 .select_room_layer .etc_choice td {width:33.33333%; padding-top:20px; font-size:0.875em; text-align:center; height:30px}
 #search_list_top2 .select_room_layer .etc_choice .line {border-bottom:1px solid #d2d2d2}
 #search_list_top2 .select_room_layer .etc_choice .line2 {border-right:1px solid #d2d2d2}
-#search_list_top2 .select_room_layer .etc_choice .on {background:#fff url(http://img.go.co.kr/mobile/icon_check_on.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
-#search_list_top2 .select_room_layer .etc_choice .off {background:#fff url(http://img.go.co.kr/mobile/icon_check_off.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
+#search_list_top2 .select_room_layer .etc_choice .on {background:#fff url(//img.go.co.kr/mobile/icon_check_on.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
+#search_list_top2 .select_room_layer .etc_choice .off {background:#fff url(//img.go.co.kr/mobile/icon_check_off.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
 #search_list_top2 .select_room_layer .etc_choice .on a {color:#ff6600}
 #search_list_top2 .select_room_layer .etc_choice .off a {color:#a7a6a6}
 #search_list_top2 .select_room_layer .etc_choice .blank {height:100px}
@@ -2537,8 +2537,8 @@ background:#12b4c1; text-align:center;  z-index:5}
 #search_titles .select_room_layer .etc_choice td {width:33.33333%; padding-top:20px; font-size:0.875em; text-align:center; height:30px}
 #search_titles .select_room_layer .etc_choice .line {border-bottom:1px solid #d2d2d2}
 #search_titles .select_room_layer .etc_choice .line2 {border-right:1px solid #d2d2d2}
-#search_titles .select_room_layer .etc_choice .on {background:#fff url(http://img.go.co.kr/mobile/icon_check_on.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
-#search_titles .select_room_layer .etc_choice .off {background:#fff url(http://img.go.co.kr/mobile/icon_check_off.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
+#search_titles .select_room_layer .etc_choice .on {background:#fff url(//img.go.co.kr/mobile/icon_check_on.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
+#search_titles .select_room_layer .etc_choice .off {background:#fff url(//img.go.co.kr/mobile/icon_check_off.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
 #search_titles .select_room_layer .etc_choice .on a {color:#ff6600}
 #search_titles .select_room_layer .etc_choice .off a {color:#a7a6a6}
 #search_titles .select_room_layer .etc_choice .blank {height:100px}
@@ -2554,7 +2554,7 @@ background:#12b4c1; text-align:center;  z-index:5}
 #searchMore .left {float:left; width:25%; text-align:left; text-indent:10px; height:30px}
 #searchMore .left .result {font-size:11px; margin-right:5px}
 #searchMore .right {float:left; width:75%; text-align:right; height:30px}
-#searchMore .right .select01 {margin-right:10px; background:#aa5718; color:#fff; height:30px; background:#aa5718 url("http://img.go.co.kr/mobile/btn_more4.png") right 12px no-repeat; background-size:10px 6px; -webkit-background-size:10px 6px;}
+#searchMore .right .select01 {margin-right:10px; background:#aa5718; color:#fff; height:30px; background:#aa5718 url("//img.go.co.kr/mobile/btn_more4.png") right 12px no-repeat; background-size:10px 6px; -webkit-background-size:10px 6px;}
 #searchMore .right .select02 {margin-right:10px; background:#aa5718; color:#fff; letter-spacing:-0.5px; font-size:0.875em; height:30px}
 
 
@@ -2606,8 +2606,8 @@ background-color:#ff8a00; letter-spacing:-0.5px; font-weight:bold; font-size:1.0
 #detailPOP .etc_choice td {width:33.33333%; padding-top:20px; font-size:1.000em; text-align:center; height:30px}
 #detailPOP .etc_choice .line {border-bottom:1px solid #d2d2d2}
 #detailPOP .etc_choice .line2 {border-right:1px solid #d2d2d2}
-#detailPOP .etc_choice .on {background:#fff url(http://img.go.co.kr/mobile/icon_check_on.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
-#detailPOP .etc_choice .off {background:#fff url(http://img.go.co.kr/mobile/icon_check_off.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
+#detailPOP .etc_choice .on {background:#fff url(//img.go.co.kr/mobile/icon_check_on.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
+#detailPOP .etc_choice .off {background:#fff url(//img.go.co.kr/mobile/icon_check_off.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
 #detailPOP .etc_choice .on a {color:#ff6600}
 #detailPOP .etc_choice .off a {color:#a7a6a6}
 #detailPOP .etc_choice .blank {height:100px}
@@ -2633,7 +2633,7 @@ background-color:#ff8a00; letter-spacing:-0.5px; font-weight:bold; font-size:1.0
 
 #localList2 .localSmall{float:right; width:100%}
 #localList2 .localSmall li{float:left; display:block; cursor:pointer; width:100%; line-height:40px; color:#3f3f3f; text-align:left; border-bottom:1px solid #d2d2d2; font-size:0.938em}
-#localList2 .localSmall .p_l10{text-indent:10px; background:#fff url(http://img.go.co.kr/mobile/btn_more2.png) 90% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px}
+#localList2 .localSmall .p_l10{text-indent:10px; background:#fff url(//img.go.co.kr/mobile/btn_more2.png) 90% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px}
 #localList2 .localSmall .on {color:#ff6600}
 #localList2 .localSmall a {color:#3f3f3f}
 
@@ -2652,7 +2652,7 @@ background-color:#ff8a00; letter-spacing:-0.5px; font-weight:bold; font-size:1.0
 #localList3 .localSmall li{
 float:left; display:block; cursor:pointer;
 width:100%; line-height:40px; color:#3f3f3f;
-background:#f7f5e0 url(http://img.go.co.kr/mobile/btn_more2.png) 90% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px;
+background:#f7f5e0 url(//img.go.co.kr/mobile/btn_more2.png) 90% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px;
 text-align:left; text-indent:10px; border-bottom:1px solid #eee1c8; font-size:0.938em
 }
 
@@ -2785,7 +2785,7 @@ text-align:left; text-indent:10px; border-bottom:1px solid #eee1c8; font-size:0.
 height:35px; margin:5px 0 0 3px; display:block;
 border-radius:8px 0 0 8px;
 text-align:center; text-indent:-15px; font-size:13px; color:#ffffff; line-height:2.8; letter-spacing:-0.6px;
-background:#693111 url(http://img.go.co.kr/mobile/btn_area_search.png) 93% 45% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px;
+background:#693111 url(//img.go.co.kr/mobile/btn_area_search.png) 93% 45% no-repeat; background-size:13px 13px; -webkit-background-size:13px 13px;
 }
 
 #top_search #search_box .t_search{
@@ -2796,7 +2796,7 @@ text-indent:8px;
 }
 
 #bbs .txt{float:left; width:470px; margin-left:15px; color:#3f3f3f; text-overflow:ellipsis; white-space: nowrap; overflow: hidden;}
-#main_search{float:left; width:100%; height:285px; background:url(http://img.go.co.kr/mobile/main_search_bg.jpg) 0 -15px no-repeat; background-size:100% 310px;}
+#main_search{float:left; width:100%; height:285px; background:url(//img.go.co.kr/mobile/main_search_bg.jpg) 0 -15px no-repeat; background-size:100% 310px;}
 
 }
 
@@ -2814,7 +2814,7 @@ text-indent:8px;
 #search_list .info .wra .price .highprice {margin-right:3px; font-size:0.933em; color:#747474;}
 #search_list .photo {position:relative; width:90px; height:80px; padding:5px; text-align:center;  }
 #search_list .photo .soldout_mask1_w{ position: absolute; top:5px; left:5px; width:90px; height: 80px; text-align: center;  background-color: rgba(255,255,255,0.5); }
-#search_list .photo .soldout_mask1{position: absolute; top:6px; left:17px; background:url(http://img.go.co.kr/mobile/soldout_mask1.png?ver=2) no-repeat; font-size:13px; font-weight:600; color: #fff; text-align: center; width:55px; height:54px}
+#search_list .photo .soldout_mask1{position: absolute; top:6px; left:17px; background:url(//img.go.co.kr/mobile/soldout_mask1.png?ver=2) no-repeat; font-size:13px; font-weight:600; color: #fff; text-align: center; width:55px; height:54px}
 #search_list .photo .soldout_mask1 .fontx{margin-top:21px; line-height:0.8}
 #search_list .photo .roomEA2 {position:absolute; top:85px; left:5px; display:block; width:90px; line-height:20px; color:#fff; font-weight:bold; font-size:0.938em; background:#3c61bc;}
 
@@ -2880,7 +2880,7 @@ text-indent:8px;
 #searchMore .calend1{width:29%; height:30px; float:left; background:#7d431d; text-align:center; border-right:1px solid #ae6837; font-size:12px}
 #searchMore .room1{width:20%; height:30px; float:left; background:#7d431d; text-align:center; font-size:11.5px; line-height:2.7}
 #searchMore .right1 {float:right; text-align:right; height:30px; width:25%; }
-#searchMore .right1 .select01 {width:80%; margin-right:10px; background:#aa5718; color:#fff; height:28px; background:#aa5718 url("http://img.go.co.kr/mobile/btn_more4.png") right 12px no-repeat; background-size:10px 6px; -webkit-background-size:10px 6px;}
+#searchMore .right1 .select01 {width:80%; margin-right:10px; background:#aa5718; color:#fff; height:28px; background:#aa5718 url("//img.go.co.kr/mobile/btn_more4.png") right 12px no-repeat; background-size:10px 6px; -webkit-background-size:10px 6px;}
 #searchMore .right1 .select02 {margin-right:10px; background:#aa5718; color:#fff; letter-spacing:-0.5px; font-size:0.875em; height:30px}
 
 #searchMore .select_room_layer {position:absolute; right:0; top:30px; z-index:9; width:100%; padding:10px 0; background:#f4f2f3}
@@ -2888,8 +2888,8 @@ text-indent:8px;
 #searchMore .select_room_layer .etc_choice td {width:33.33333%; padding-top:20px; font-size:0.875em; text-align:center; height:30px}
 #searchMore .select_room_layer .etc_choice .line {border-bottom:1px solid #d2d2d2}
 #searchMore .select_room_layer .etc_choice .line2 {border-right:1px solid #d2d2d2}
-#searchMore .select_room_layer .etc_choice .on {background:#fff url(http://img.go.co.kr/mobile/icon_check_on.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
-#searchMore .select_room_layer .etc_choice .off {background:#fff url(http://img.go.co.kr/mobile/icon_check_off.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
+#searchMore .select_room_layer .etc_choice .on {background:#fff url(//img.go.co.kr/mobile/icon_check_on.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
+#searchMore .select_room_layer .etc_choice .off {background:#fff url(//img.go.co.kr/mobile/icon_check_off.png) 50% 20% no-repeat; background-size:20px 20px; -webkit-background-size:20px 20px}
 #searchMore .select_room_layer .etc_choice .on a {color:#ff6600}
 #searchMore .select_room_layer .etc_choice .off a {color:#a7a6a6}
 #searchMore .select_room_layer .etc_choice .blank {height:100px}
@@ -2907,13 +2907,13 @@ text-indent:8px;
 #pop_app4 .text .point2 {background:#0094da; margin-bottom:5px; color:#fffc00; font-size:1.6em; font-weight:bold; letter-spacing:-1px; line-height:1.1}
 #pop_app4 .text p {background:#0094da; color:#fff; font-size:1.3em; line-height:1.1; letter-spacing:-2px}
 #pop_app4 .close{background:#121212; border-bottom-right-radius:23px; border-bottom-left-radius:23px; color:#fff; letter-spacing: -0.5px; padding:24% 5% 3% 7%; font-size:13px}
-#pop_app4 .close .check1{margin-top:3px; margin-right:5px; float:left; width:15px; height:15px; color:#343434; background: url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size: 13px 13px;-webkit-background-size: 13px 13px;}
+#pop_app4 .close .check1{margin-top:3px; margin-right:5px; float:left; width:15px; height:15px; color:#343434; background: url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size: 13px 13px;-webkit-background-size: 13px 13px;}
 #pop_app4 .appbt{width:100%; background:#fff;float:left; padding:1% 0}
 
 /* 1:1문의하기 */
 #qna .view .txts{font-size:11px; floaT:left; margin-top:3px}
 #qna .view .txts .txts_o{color:#f55903}
-#qna .view .check1{margin-top:3px; float:left;  width:15px; height:15px;  color: #343434;background: url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size: 13px 13px;-webkit-background-size: 13px 13px;}
+#qna .view .check1{margin-top:3px; float:left;  width:15px; height:15px;  color: #343434;background: url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size: 13px 13px;-webkit-background-size: 13px 13px;}
 #qna .view label{font-size:11px; margin-left:3px}
 #qna .input_line1 {overflow:hidden; height: 21px; border: solid 1px #dadada;background-color: #ffffff;margin-right: 15px;margin-bottom:5px; padding:7px; font-size:11px; line-height:23px; word-break:keep-all;  cursor:pointer}
 .product_selected_td{ position:relative}
@@ -2925,7 +2925,7 @@ text-indent:8px;
 #product_selected .product_selected_t tr{ text-align:center;}
 #product_selected  .product_selected_t td.tit{width:100%; background:#37466d; color:#fff; padding:8px 0; font-weight:600; font-size:14px}
 .radio_box4{ width:100%; margin:auto 0; left:0; margin-left:0; text-align:center; verticla-align:middle}
-.radio_box4 label{text-align:center;display:inline-block; position:relative; height:21px; padding-left:18px; background:url(http://img.go.co.kr/mobile/btn_radio1.png) no-repeat 0 0; background-size:15px 40px; -webkit-background-size:15px 40px; margin:auto}
+.radio_box4 label{text-align:center;display:inline-block; position:relative; height:21px; padding-left:18px; background:url(//img.go.co.kr/mobile/btn_radio1.png) no-repeat 0 0; background-size:15px 40px; -webkit-background-size:15px 40px; margin:auto}
 .radio_box4 .chk{position:absolute; z-index:-1; opacity:0; }
 .radio_box4 .chk:checked+label{background-position:0 -21px}
 #qna_write .ka_bt {float:right; display:block; margin:10px 10px 0 0; width:115px; height:30px; line-height:2; font-size:15px; font-weight:bold; letter-spacing:-2px; border-radius:5px; background:#fee600; color:#47292b; text-align:center}
@@ -2979,7 +2979,7 @@ text-indent:8px;
 .pay_tr_left{floaT:left; margin-left:15px; font-size:1.0em; color:#3f3f3f; font-weight:600}
 .pay_tr_sleft{font-size:0.813em; color:#3f3f3f; font-weight:600}
 .pay_tr_right{floaT:right; margin-right:15px; font-size:1.125em; color:#ff4800; font-weight:600}
-.pay_check{margin-top:6px; float:left;  width:15px; height:15px;  color: #343434;background: url(http://img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size: 13px 13px;-webkit-background-size: 13px 13px;}
+.pay_check{margin-top:6px; float:left;  width:15px; height:15px;  color: #343434;background: url(//img.go.co.kr/mobile/category_check.png) 10% 50% no-repeat; background-size: 13px 13px;-webkit-background-size: 13px 13px;}
 .pay_list{width:96%; margin:auto}
 .pay_list li{width:93%; border:1px solid #cccccc; padding:3%; height:30px; floaT:left; border-radius:5px; margin-bottom:7px}
 .pay_list li .pay_list_icon{floaT:left; display:inline-block; width:8%; margin-right:15px; margin-top:2px}
@@ -3000,7 +3000,7 @@ text-indent:8px;
 .pay_reserInfo_table .number_p h4{font-size:0.875em; float:left; line-height: 2.4; margin-right:5px}
 .input_linee{ border: 1px solid #666666;  height:27px;  border-radius:5px; color:#333333; padding: 0px 5px 0px 5px; font-size:1.063em; }
 .input_linee + span {position: relative; top: 6px; margin-left: 2px;}
-.select_boxx{width:100%; padding-left:5px;  background:url(http://img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:15px 15px; -webkit-background-size:15px 15px;color:#333333;font-weight:600}
+.select_boxx{width:100%; padding-left:5px;  background:url(//img.go.co.kr/mobile/select_box.jpg) 100% 50% no-repeat; background-size:15px 15px; -webkit-background-size:15px 15px;color:#333333;font-weight:600}
 
 /* 동의하고결제 팝업*/
 .txt_icon{float:left; width:3%; font-size:0.750em;}
@@ -3050,7 +3050,7 @@ text-indent:8px;
 #pay_my_coupon .discount_num_w{floaT:left; width:34%; background:#ff8a00; height:75px; border-radius:8px 0 0 8px;}
 #pay_my_coupon .discount_num {color: #ffffff; font-size:1.125em;line-height:73px; font-weight:bold; }
 #pay_my_coupon .discount_text { color: #ffffff; font-size:1.063em; letter-spacing: -3px; font-weight:bold;}
-#pay_my_coupon .comment_w{border-radius:0 8px 8px 0; float:left; width:66%; border-top:1px solid #b9b9b9; border-bottom:1px solid #b9b9b9; height:73px; background:url(http://img.go.co.kr/mobile/coupon_right1.jpg) no-repeat right ; background-size: 20px 80px;}
+#pay_my_coupon .comment_w{border-radius:0 8px 8px 0; float:left; width:66%; border-top:1px solid #b9b9b9; border-bottom:1px solid #b9b9b9; height:73px; background:url(//img.go.co.kr/mobile/coupon_right1.jpg) no-repeat right ; background-size: 20px 80px;}
 #pay_my_coupon .comment_tti {text-align:center; float:left; width:87%; padding-right:13%; color: #ffffff; font-weight:bold; color:#3c3c3c; font-size:0.875em; margin-top:17px}
 #pay_my_coupon .comment {text-align:center; float:left; margin-top:2px; width:87%; padding-right:13%; font-size:0.688em; font-weight:500; line-height: 15px; color:#888888}
 
@@ -3200,7 +3200,7 @@ color:#ff4800; border:1px solid #ff4800; letter-spacing:-1.2px; margin-top:5px; 
 #product_info_w{float:left; width:100%;}
 
 .product_info_w label{line-height:1; margin:0 0 0 10px; display:block; position:relative; height:30px; padding-left:23px; text-indent:5px; line-height:1.3; color:#7b7b7b;
-background:url(http://img.go.co.kr/mobile/btn_radio1.png) no-repeat 0 0; background-size:22px 59px; -webkit-background-size:22px 59px;}
+background:url(//img.go.co.kr/mobile/btn_radio1.png) no-repeat 0 0; background-size:22px 59px; -webkit-background-size:22px 59px;}
 .product_info_w .chk{position:absolute; z-index:-1; opacity:0}
 .product_info_w .chk:checked+label{background-position:0 -31px}
 
@@ -3421,7 +3421,7 @@ color:#2a7fe8; border:1px solid #2a7fe8; letter-spacing:-1.2px; margin-top:2px; 
 #localList4 .localSmall {float:right; width:100%}
 #localList4 .localSmall li{
 float:left; display:block; cursor:pointer;
-width:100%; line-height:40px; color:#000; background: url(http://img.go.co.kr/mobile/btn_more2.png) 93% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px;
+width:100%; line-height:40px; color:#000; background: url(//img.go.co.kr/mobile/btn_more2.png) 93% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px;
 text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:0.938em}
 
 #localList4 .localSmall .on {color:#ff6600}
@@ -3541,7 +3541,7 @@ text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:0.
 /* 마이페이지 > 쿠폰 */
 #my_coupon {width:100%; margin:auto; }
 #my_coupon ul {float:left; width:90%; margin: 0px 0 0px 5%; }
-#my_coupon li {display:block; text-align:center; width:98%; height:120px; margin-bottom:10px; padding:10px 0 10px 0; border-radius:8px; color:#3f3f3f; letter-spacing:-1px; background:url(http://img.go.co.kr/mobile/coupon_right.jpg) no-repeat right #ff8a00 ; background-size: 20px 140px;}
+#my_coupon li {display:block; text-align:center; width:98%; height:120px; margin-bottom:10px; padding:10px 0 10px 0; border-radius:8px; color:#3f3f3f; letter-spacing:-1px; background:url(//img.go.co.kr/mobile/coupon_right.jpg) no-repeat right #ff8a00 ; background-size: 20px 140px;}
 #my_coupon .info {float:left; height:30px; width:97%; padding: 5px 0px 2px 10px; font-size:0.75em; font-weight: 500; border-bottom: 1px solid #cccccc; line-height:23px}
 #my_coupon .info .coupon_btn{float:right; width:20%; background:#ababab; color:#fff; text-align:center; margin-right:10px; height:27px; border-radius:3px;  line-height:27px}
 #my_coupon .discount_num {color: #ffffff; font-size:2.5em;line-height: 45px; font-weight:bold; padding-top: 100px}
@@ -3780,10 +3780,10 @@ text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:0.
 #share_pop2 .close {position:relative; top:200px; width:100%; height:24px; text-align:right}
 #share_pop2 .box {position:relative; top:200px; width:100%; background:#ececec}
 #share_pop2 .box .tab {float:left; padding:10px 0; width:440px; height: 45px; text-align:center; background:#fff}
-#share_pop2 .box .tab .email a {display:inline-block; width:183px; height:45px; background:url(http://img.go.co.kr/btn_email.jpg) no-repeat; text-indent:-99999px}
-#share_pop2 .box .tab .email_on a {display:inline-block; width:183px; height:45px; background:url(http://img.go.co.kr/btn_email.jpg) no-repeat; background-position:100% 100%; text-indent:-99999px}
-#share_pop2 .box .tab .mobile a {display:inline-block; margin-left:10px; width:183px; height:45px; background:url(http://img.go.co.kr/btn_mobile2.jpg) no-repeat; text-indent:-99999px}
-#share_pop2 .box .tab .mobile_on a {display:inline-block; margin-left:10px; width:183px; height:45px; background:url(http://img.go.co.kr/btn_mobile2.jpg) no-repeat; background-position:100% 100%; text-indent:-99999px}
+#share_pop2 .box .tab .email a {display:inline-block; width:183px; height:45px; background:url(//img.go.co.kr/btn_email.jpg) no-repeat; text-indent:-99999px}
+#share_pop2 .box .tab .email_on a {display:inline-block; width:183px; height:45px; background:url(//img.go.co.kr/btn_email.jpg) no-repeat; background-position:100% 100%; text-indent:-99999px}
+#share_pop2 .box .tab .mobile a {display:inline-block; margin-left:10px; width:183px; height:45px; background:url(//img.go.co.kr/btn_mobile2.jpg) no-repeat; text-indent:-99999px}
+#share_pop2 .box .tab .mobile_on a {display:inline-block; margin-left:10px; width:183px; height:45px; background:url(//img.go.co.kr/btn_mobile2.jpg) no-repeat; background-position:100% 100%; text-indent:-99999px}
 #share_pop2 .box h3 {padding:10px 0; width:100%; font-size:15px; font-weight:800; color:#313131; letter-spacing:-0.1px; text-align:center;}
 #share_pop2 .box h3 span{text-decoration:underline}
 #share_pop2 .box .form {margin:auto; width:400px; font-family:'돋움', Dotum, sans-serif; font-size:12px; color:#6e6e6e; letter-spacing:-0.3px}
@@ -3844,7 +3844,7 @@ text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:0.
 .pay_reserInfo_table_option .checkbox .chk{position:absolute; z-index:-1; opacity:0}
 .pay_reserInfo_table_option .select_box{float: right; width: 50px; height: 27px; border: solid 1px #dadada; background-color: #ffffff;}
 .pay_reserInfo_table_option .input_linee{margin-right:4px;}
-.pay_reserInfo_table_option .checkbox label{margin-top: 8px; display: inline-block; position: relative; height: 20px; padding-left: 23px; background: url(http://img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0; background-size: 23px 40px; -webkit-background-size: 23px 40px;}
+.pay_reserInfo_table_option .checkbox label{margin-top: 8px; display: inline-block; position: relative; height: 20px; padding-left: 23px; background: url(//img.go.co.kr/mobile/check_box_normal.jpg) no-repeat 0 0; background-size: 23px 40px; -webkit-background-size: 23px 40px;}
 .pay_reserInfo_table_option .checkbox .chk:checked+label{background-position: 0 -20px;}
 
 /* 타이틀별 로고_20170111 */
@@ -3872,7 +3872,7 @@ text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:0.
 #product_info #bbs tr td.review_body img{height:100%;}
 
 /*마이페이지 리뉴얼 2017.01.12 */
-#mypage #box .my_top{width:100%; padding:16px 0 14px 20px; background-color:#f3731b; background-image:url(http://img.go.co.kr/mobile/my_bg.png); background-size: cover; background-position: 0 50%; background-repeat:no-repeat; text-align:left;}
+#mypage #box .my_top{width:100%; padding:16px 0 14px 20px; background-color:#f3731b; background-image:url(//img.go.co.kr/mobile/my_bg.png); background-size: cover; background-position: 0 50%; background-repeat:no-repeat; text-align:left;}
 #mypage #box .my_close{position: absolute; top: 12px; right: 20px;}
 #mypage #box .my_top span {font-size:16px; color:#fff;}
 #mypage #box .my_top .my_bt {margin:8px 0 0 0;}
@@ -3896,7 +3896,7 @@ text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:0.
 /* 하단 고코 로고  추가 */
 .btmLogo {width: 100%; height: 110px;
 	clear:both;
-	background: url("http://img.go.co.kr/mobile/btnLogo_m.png") no-repeat center;
+	background: url("//img.go.co.kr/mobile/btnLogo_m.png") no-repeat center;
 	background-size: 100px;
 	background-color: #F1F1F1;
 }
@@ -3948,7 +3948,7 @@ left: 50%; margin-left: -155px; background: #fff; border-radius: 6px;}
 #q_modal ul li {position: relative; height: 60px;	line-height: 4em;}
 #q_modal ul li a {display: block; padding-left: 120px;	}
 #q_modal ul li a:before {content: ""; position: absolute; left: 60px;	top: 0;	 display: inline-block; width: 50px; height: 60px;
-background: url("http://img.go.co.kr/mobile/q_picto.png") no-repeat;
+background: url("//img.go.co.kr/mobile/q_picto.png") no-repeat;
 background-size: 50px; background-position: center -6px;}
 #q_modal ul li:nth-child(2) a:before {background-position: center -76px;}
 #q_modal ul li:nth-child(3) a:before {background-position: center -146px;}
@@ -4008,7 +4008,7 @@ left: 50%; margin-left: -155px; background: #fff; border-radius: 6px;}
 }
 #tickets .tit p.nth-1 {font-weight: 600; font-size: 14px;}
 #tickets .tit p.nth-1 label {display:inline-block; position:absolute; width: 28px; height:22px; cursor: pointer; left: 0; top: 5px;
-background:url(http://img.go.co.kr/mobile/app_check_icon2.png) no-repeat 0 0;}
+background:url(//img.go.co.kr/mobile/app_check_icon2.png) no-repeat 0 0;}
 #tickets .tit p.nth-1 input {position: absolute; left: -9999px; width: 0; height: 0;}
 #tickets li.on p.nth-1 label {background-position: -50px 0;}
 #tickets .tit p.nth-1 span {display: inline-block; position: relative; width: 100%; max-height: 63px; overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; vertical-align: top;}
@@ -4033,7 +4033,7 @@ position: relative; top: 3px; margin-right: 2px; line-height: 1.4em;}
 #tickets-list * {font-family: "Nanum Gothic";}
 #tickets-list.on {bottom: 60px;}
 #tickets-list .cls-box {display: block; width: 100%; height: 25px; z-index: 1; position: relative; top: 1px;}
-#tickets-list .cls-box > a {display: block; margin: 0 auto; width: 97px; height: 25px; background: url(http://img.go.co.kr/mobile/app_lc_icon.png) no-repeat center top;}
+#tickets-list .cls-box > a {display: block; margin: 0 auto; width: 97px; height: 25px; background: url(//img.go.co.kr/mobile/app_lc_icon.png) no-repeat center top;}
 #tickets-list .tl-wrap {width: 100%;	min-height: 116px; max-height: 318px; padding-bottom: 60px; overflow: hidden;
 background: #f0f0f0;}
 #tickets-list h2, #tickets-list h3 {text-align: center; font-size: 17px; font-weight: 600; color: #333; padding: 8px 0; letter-spacing: -1px; background: #f0f0f0;}

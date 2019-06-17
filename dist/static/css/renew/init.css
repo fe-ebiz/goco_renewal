@@ -61,7 +61,7 @@
 /* .rnL-header .flr-box {top: 51px;} */
 
 /* 대문 이미지 */
-.rnM-mainDoor {position: relative; width: 100%; height: 540px; background: #eaeaea url(http://img.go.co.kr/renew/mainDoor_01.jpg) no-repeat center 85%; padding-top: 80px;}
+.rnM-mainDoor {position: relative; width: 100%; height: 540px; background: #eaeaea url(//img.go.co.kr/renew/mainDoor_01.jpg) no-repeat center 85%; padding-top: 80px;}
 .rnM-mainDoor .main-text {display: block; width: 1160px;}
 .rnM-mainDoor .main-text > span {display: block; color: #fff; font-weight: 700; text-shadow: 2px 2px 2px rgba(0,0,0, .6);}
 .rnM-mainDoor .main-text .s1 {font-size: 31px; letter-spacing: -2px;}
@@ -69,7 +69,7 @@
 
 .rnM-mainDoor .rn-schBox {position: relative; width: 100%; margin: 15px auto 0; }
 .rnM-mainDoor .rn-schBox > div {float: left;}
-.rnM-mainDoor .rn-schInner {position: relative; width: 958px; height: 151px; border-top: 4px solid #fa6b0a; background: url(http://img.go.co.kr/rgbaW_80.png) repeat; padding: 27px 10px 0px 3px;}
+.rnM-mainDoor .rn-schInner {position: relative; width: 958px; height: 151px; border-top: 4px solid #fa6b0a; background: url(//img.go.co.kr/rgbaW_80.png) repeat; padding: 27px 10px 0px 3px;}
 .ie8 .rnM-mainDoor .rn-schInner {background: #fff;}
 .rnM-mainDoor .rn-schInner > div {position: relative; float: left; margin-left: 30px; cursor: pointer; width: 100%;}
 /*.ie8 .rnM-mainDoor .rn-schBox .cm-s {background-position: 140px center;}*/
@@ -88,7 +88,7 @@
 .rnM-mainDoor .rn-schInner .d2-2 .p1 {border-left-color: #98989a;}
 .rnM-mainDoor .rn-schBox [class*=cm-s]:after {
 	content: ""; display: inline-block; position: absolute;
-	background: url(http://img.go.co.kr/renew/sch_sprt.png) no-repeat center;
+	background: url(//img.go.co.kr/renew/sch_sprt.png) no-repeat center;
 }
 .rnM-mainDoor .rn-schInner .cm-s1 {padding: 19px 18px 0 14px;}
 .rnM-mainDoor .rn-schInner .cm-s2, .rnM-mainDoor .rn-schInner .cm-s3 {padding: 19px 10px 0 45px;}
@@ -117,14 +117,14 @@
 .rnSltCal {left: 273px;}
 
 /* 180514_메인 수정_다솜 */
-.rnM-mainDoor-2 {position: relative; width: 100%; height:635px; background: #eaeaea url(http://img.go.co.kr/renew/mainDoor_01.jpg) no-repeat center 85%; padding-top: 42px;}
+.rnM-mainDoor-2 {position: relative; width: 100%; height:635px; background: #eaeaea url(//img.go.co.kr/renew/mainDoor_01.jpg) no-repeat center 85%; padding-top: 42px;}
 .rnM-mainDoor-2 .main-text {display: block; /* width: 1067px; */ margin: 0 auto;}
 .rnM-mainDoor-2 .main-text > span {display: block; margin:0 auto; text-align:center; color: #fff; font-weight: 700; text-shadow: 2px 2px 2px rgba(0,0,0, .6);}
 .rnM-mainDoor-2 .main-text .s1 {font-size: 32px; line-height:43px; letter-spacing: -2px;}
 .rnM-mainDoor-2 .main-text .s2 {font-size: 52px; line-height:70px; letter-spacing: -6px;}
 
 .rnM-mainDoor-2 .rn-schBox {position: relative; width: 100%; margin: 20px auto 0; }
-.rnM-mainDoor-2 .rn-schInner {position: relative; width:1067px; height:386px; margin: 0 auto; border-top: 4px solid #fa6b0a; background: url(http://img.go.co.kr/rgbaW_80.png) repeat; padding:0;}
+.rnM-mainDoor-2 .rn-schInner {position: relative; width:1067px; height:386px; margin: 0 auto; border-top: 4px solid #fa6b0a; background: url(//img.go.co.kr/rgbaW_80.png) repeat; padding:0;}
 .rnM-mainDoor-2.type-2 .rn-schInner {height:326px;}
 /*.ie8 .rnM-mainDoor-2 .rn-schInner {background: #fff;}*/
 
@@ -140,7 +140,7 @@
 .rnM-mainDoor-2 .rn-menu li.nth-4.on {margin-top:2px;}
 .rnM-mainDoor-2 .rn-menu li.on a {font-weight:bold; color:#fa6b0a;}
 .rnM-mainDoor-2 .rn-menu li.on a:after {content:''; display:block; position:absolute; width:20px; height:20px; top:50%; right:-10px; margin-top:-10px; background:#fff; transform: rotate(45deg); box-shadow:4px 0px 3px -1px rgba(0, 0, 0, 0.2);}
-.ie8 .rnM-mainDoor-2 .rn-menu li.on a:after {width:16px; height:93px; top:0; right:-15px; margin-top:0; background:url(http://img.go.co.kr/renew/bg_mainDoor_menu.png) no-repeat;}
+.ie8 .rnM-mainDoor-2 .rn-menu li.on a:after {width:16px; height:93px; top:0; right:-15px; margin-top:0; background:url(//img.go.co.kr/renew/bg_mainDoor_menu.png) no-repeat;}
 .ie8 .rnM-mainDoor-2 .rn-menu li.nth-1.on a:after {height:94px;}
 .ie8 .rnM-mainDoor-2 .rn-menu li.nth-4.on {margin-top:1px;}
 
@@ -162,7 +162,7 @@
 .rnM-mainDoor-2 .rnModal-sec .cal-box .d-cmm .cm-s {cursor:pointer; width:193px; padding: 0 10px 0 60px; border-left:0; margin-top: 2px; }
 .rnM-mainDoor-2 .rnModal-sec .cal-box .d-cmm .cm-s + .d-cmm .cm-s {border-left:1px solid #b1b1b2;}
 .rnM-mainDoor-2 .rnModal-sec .cal-box .d-cmm:first-child .cm-s {border-left:1px solid #c8c8c8;}
-.rnM-mainDoor-2 .rn-schInner .cm-s:after {content: ""; display: inline-block; position: absolute; width: 25px; height: 22px; position: absolute; left:30px; top: 18px; background: url(http://img.go.co.kr/renew/sch_sprt.png) no-repeat center; background-position: -60px 0px;}
+.rnM-mainDoor-2 .rn-schInner .cm-s:after {content: ""; display: inline-block; position: absolute; width: 25px; height: 22px; position: absolute; left:30px; top: 18px; background: url(//img.go.co.kr/renew/sch_sprt.png) no-repeat center; background-position: -60px 0px;}
 .rnM-mainDoor-2 .rnModal-sec .cal-box .d-cmm:first-child .cm-s:after {background-position: -30px 0px;}
 .rnM-mainDoor-2 .rnSltCal {top:101px; left:0}
 
@@ -218,7 +218,7 @@
 
 
 /* 해외숙박 메인 */
-.rnM-overseas {position: relative; width: 100%; height:284px; background: #eaeaea url(http://img.go.co.kr/renew/subVisual.jpg) no-repeat center; padding-top: 40px;}
+.rnM-overseas {position: relative; width: 100%; height:284px; background: #eaeaea url(//img.go.co.kr/renew/subVisual.jpg) no-repeat center; padding-top: 40px;}
 .rnM-overseas .main-text .p1 {display: block; color: #fff; font-weight: 700; text-shadow: 2px 2px 2px rgba(0,0,0, .6); font-size: 30px; text-align: center;}
 .rnM-overseas .rn-schInner {width: 950px; padding-left: 0;}
 .rnM-overseas .rn-container,
@@ -265,7 +265,7 @@
 .rnM-contents .pic-sec .ul1 > li:first-child {margin-left: 80px;} */
 .rnM-contents .pic-sec .ul1 > li {float: left; width: 25%; text-align: center;}
 .rnM-contents .pic-sec .ul1 > li > a {display: inline-block; border-radius: 50%; text-align: center; color: #3c3c3c; font-size: 21px; font-family: "Malgun Gothic", "Noto Sans KR", "Nanum Gothic", sans-serif; font-weight: 700;}
-.rnM-contents .pic-sec .ul1 > li > a .c-ic2 {display: block; width: 107px; height: 107px; background: url(http://img.go.co.kr/renew/pic_sprt.png) no-repeat top center; margin:  0 auto;}
+.rnM-contents .pic-sec .ul1 > li > a .c-ic2 {display: block; width: 107px; height: 107px; background: url(//img.go.co.kr/renew/pic_sprt.png) no-repeat top center; margin:  0 auto;}
 .rnM-contents .pic-sec .ul1 > li.li-1 > a .c-ic2 {background-position: 0 0;}
 .rnM-contents .pic-sec .ul1 > li.li-2 > a .c-ic2 {background-position: -120px 0;}
 .rnM-contents .pic-sec .ul1 > li.li-3 > a .c-ic2 {background-position: -240px 0;}

@@ -116,7 +116,7 @@
 .memberChk * {letter-spacing: -0.5px; color: #282828;}
 .memberChk h2 {height: 54px; font-size: 20px; color: #fff; font-weight: 700; text-align: center; line-height: 56px; background: #ff4143; letter-spacing: 0;}
 .memberChk .clsBtn {position: absolute; right: 20px; top: 15px; display: inline-block; width: 22px; height: 22px;
-	background: url("http://img.go.co.kr/x_btn.png") no-repeat;
+	background: url("//img.go.co.kr/x_btn.png") no-repeat;
 }
 .memberChk .d-cont {padding: 20px 20px;}
 .memberChk .p-top {font-size: 20px; line-height: 1.5em; text-align: center; box-sizing: border-box; letter-spacing: -0.2px;}

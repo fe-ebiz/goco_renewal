@@ -27,7 +27,7 @@
 }
 #tickets .tit p.nth-1 {font-weight: 600; font-size: 14px;}
 #tickets .tit p.nth-1 label {display:inline-block; position:absolute; width: 28px; height:22px; cursor: pointer; left: 0; top: 5px;
-background:url(http://img.go.co.kr/mobile/app_check_icon2.png) no-repeat 0 0;}
+background:url(//img.go.co.kr/mobile/app_check_icon2.png) no-repeat 0 0;}
 #tickets .tit p.nth-1 input {position: absolute; left: -9999px; width: 0; height: 0;}
 #tickets li.on p.nth-1 label {background-position: -50px 0;}
 #tickets .tit p.nth-1 span {display: inline-block; position: relative; width: 100%; max-height: 63px; overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; vertical-align: top; /* top: 4px; */}
@@ -53,7 +53,7 @@ position: relative; top: 3px; margin-right: 2px; line-height: 1.4em; /* height: 
 #tickets-list * {font-family: "Nanum Gothic";}
 #tickets-list.on {bottom: 60px;}
 #tickets-list .cls-box {display: block; width: 100%; height: 25px; z-index: 1; position: relative; top: 1px;}
-#tickets-list .cls-box > a {display: block; margin: 0 auto; width: 97px; height: 25px; background: url(http://img.go.co.kr/mobile/app_lc_icon.png) no-repeat center top;}
+#tickets-list .cls-box > a {display: block; margin: 0 auto; width: 97px; height: 25px; background: url(//img.go.co.kr/mobile/app_lc_icon.png) no-repeat center top;}
 #tickets-list .tl-wrap {width: 100%;	min-height: 116px; max-height: 318px; padding-bottom: 60px; overflow: hidden;
 background: #f0f0f0;}
 #tickets-list h2, #tickets-list h3 {text-align: center; font-size: 17px; font-weight: 600; color: #333; padding: 8px 0; letter-spacing: -1px; background: #f0f0f0;}
@@ -281,8 +281,8 @@ text-align: center; border-radius: 4px; letter-spacing: -1px; margin-left: 5px; 
 #Footer .f-area .customer > li:before {content:''; display:none; position:absolute; left:0; top:50%; width:1px; height:14px; margin-top:-5px; background-color:#858585;}
 #Footer .f-area .customer > li:first-child:before {display:none;}
 #Footer .f-area .customer > li > a {display:inline-block; position:relative; padding-left:18px; color:#a3a3a3; font-size:12px;}
-#Footer .f-area .customer > li > a.call:before {content:''; display:block; position:absolute; left:0; top:50%; width:14px; height:14px; margin-top:-6px; background:url('http://img.go.co.kr/mobile/f_call.gif') no-repeat 0 0; background-size:100% 100%;}
-#Footer .f-area .customer > li > a.mail:before {content:''; display:block; position:absolute; left:0; top:50%; width:14px; height:14px; margin-top:-6px; background:url('http://img.go.co.kr/mobile/f_mail.gif') no-repeat 0 0; background-size:100% 100%;}
+#Footer .f-area .customer > li > a.call:before {content:''; display:block; position:absolute; left:0; top:50%; width:14px; height:14px; margin-top:-6px; background:url('//img.go.co.kr/mobile/f_call.gif') no-repeat 0 0; background-size:100% 100%;}
+#Footer .f-area .customer > li > a.mail:before {content:''; display:block; position:absolute; left:0; top:50%; width:14px; height:14px; margin-top:-6px; background:url('//img.go.co.kr/mobile/f_mail.gif') no-repeat 0 0; background-size:100% 100%;}
 #Footer .f-area address p {margin-top:10px; color:#a3a3a3; font-size:12px;}
 #Footer .f-area address p strong {color:#cdcdcd; font-size:14px;}
 #Footer .f-area address .copy {margin-top:15px; color:#7f7f7f;}
@@ -338,7 +338,7 @@ input.inn {height:30px; padding:5px; border:1px solid #c8c8c8; color:#282828; fo
 #searchMore .right0, #searchMore .right1 {float: left; text-align: center;}
 #searchMore .room1 p,
 #searchMore .right0 .select01,
-#searchMore .right1 .select01 {font-size: 11.5px; background: transparent url("http://img.go.co.kr/mobile/i_down_arrow.png") right 13px no-repeat; background-size: 10px 6px;}
+#searchMore .right1 .select01 {font-size: 11.5px; background: transparent url("//img.go.co.kr/mobile/i_down_arrow.png") right 13px no-repeat; background-size: 10px 6px;}
 #searchMore .right0 .select01, #searchMore .right1 .select01 {position: relative; left: -3px; width: 86%; margin-right: 0px; color: #fff; height: 30px;}
 
 
@@ -349,7 +349,7 @@ input.inn {height:30px; padding:5px; border:1px solid #c8c8c8; color:#282828; fo
 #cal-date, #btnTOP a {bottom: 65px;}
 #btnTOP a {left: 10px; width: 45px;}
 /* 내주변-거리순 배경색_170625_혜준 */
-#searchMore .right .select01 {background: #7d431d url("http://img.go.co.kr/mobile/btn_more4.png") right 12px no-repeat;
+#searchMore .right .select01 {background: #7d431d url("//img.go.co.kr/mobile/btn_more4.png") right 12px no-repeat;
 -webkit-background-size: 10px 6px; background-size: 10px 6px; position: relative; top: -1px;}
 /* 모바일이용권_170628_혜준 */
 #goods_table .ticket_row td {position: relative; /* padding: 5px 70px 5px 5px; */}
@@ -425,12 +425,12 @@ background: rgba(0,0,0,.5); z-index: 9999;}
 .ticket-check-pop > .box .main-img {display: block; width: 94%; margin: 0px auto; padding-top: 26px;}
 .ticket-check-pop > .box .fullBtn-a {width: 83%; display: block; margin: 20px auto 0; background: #ff610a; color: #fff;	text-align: center; height: 46px; line-height: 48px; border-radius: 4px; font-size: 15px;}
 /*입장권 등록 레이어팝업_170713_혜준*/
-.layer-pop-bg {position: fixed; z-index:9999; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.go.co.kr/black_rgba58.png) repeat;}
+.layer-pop-bg {position: fixed; z-index:9999; top: 0; left: 0; width: 100%; height: 100%; background: url(//img.go.co.kr/black_rgba58.png) repeat;}
 #tk-lookup {position: fixed; z-index: 6; width: 300px; top: 50%; margin-top: -144px; left: 50%; margin-left: -150px; background: #f1f1f1; box-sizing: border-box; border: 2px solid #ff610a;  border-radius: 2px; padding-bottom: 16px;}
 #tk-lookup * {letter-spacing: -0.5px; color: #303030;}
 #tk-lookup h2 {height: 42px; font-size: 15px; color: #fff; font-weight: 700; text-align: center; line-height: 2.8em; background: #ff610a; font-family: "Nanum Gothic", sans-serif; letter-spacing: 0;}
 #tk-lookup .clsBtn {position: absolute; right: 12px;	top: 10px; display: inline-block; width: 18px; height: 18px;
-    background: url("http://img.go.co.kr/x_btn.png") no-repeat; background-size: 18px;
+    background: url("//img.go.co.kr/x_btn.png") no-repeat; background-size: 18px;
 }
 #tk-lookup > p {font-size: 14px; line-height: 1.5em; text-align: center; margin-top: 15px; box-sizing: border-box; padding: 0 20px;}
 #tk-lookup > p.nth-1 {margin-top: 16px; margin-bottom: -4px;}
@@ -596,7 +596,7 @@ border-right:1px solid #e4e4e4}
 #localList5 .localSmall {float:right; width:100%}
 #localList5 .localSmall li{
 float:left; display:block; cursor:pointer;
-width:100%; line-height:40px; color:#000; background: url(http://img.go.co.kr/mobile/btn_more2.png) 93% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px;
+width:100%; line-height:40px; color:#000; background: url(//img.go.co.kr/mobile/btn_more2.png) 93% 50% no-repeat; background-size:8px 14px; -webkit-background-size:8px 14px;
 text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:15px;}
 #localList5 .localSmall .on {color:#ff5100;}
 #localList5 .localSmall a {color:#3f3f3f}
@@ -627,7 +627,7 @@ text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:15
 #searchMore .room1, #searchMore .right0, #searchMore .right1 {border-left-color: #b4b4b4;}
 #searchMore .left1, #searchMore .room1, #searchMore .right0 {border-right-color: transparent;}
 #searchMore .room1 p, #searchMore .right0 .select01
-, #searchMore .right1 .select01 {background: transparent url("http://img.go.co.kr/mobile/i_down_arrow2.png") 90% 13px no-repeat;
+, #searchMore .right1 .select01 {background: transparent url("//img.go.co.kr/mobile/i_down_arrow2.png") 90% 13px no-repeat;
 	background-size: 11px; width: 100%; padding-left: 10%;
 	-webkit-appearance: none; -moz-appearance: none; appearance: none;
 	border: none;
@@ -780,7 +780,7 @@ text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:15
 .oc2reserv-wrap .i- {font-size: 13px; display: inline-block; margin: 0 3px;}
 .oc2reserv-wrap .in-comm.type01 {width: 80%;}
 .oc2reserv-wrap .in-comm.type02 {width: 24.2%;}
-.oc2reserv-wrap .in-comm.type03 {width: 75%; padding-left: 35px; background: url(http://img.go.co.kr/i_calGray.png) no-repeat left 10px top 10px; background-size: 16px;}
+.oc2reserv-wrap .in-comm.type03 {width: 75%; padding-left: 35px; background: url(//img.go.co.kr/i_calGray.png) no-repeat left 10px top 10px; background-size: 16px;}
 
 .oc2reserv-wrap .in-comm.bg01 {background: #eff2f6;}
 .oc2reserv-wrap .in-comm.bg02 {background-color: #fff3eb;}
@@ -845,7 +845,7 @@ text-align:left; text-indent:15px; border-bottom:1px solid #e4e4e4; font-size:15
 .coupon-guide * {letter-spacing: -0.5px; color: #303030;}
 .coupon-guide h2 {height: 42px; font-size: 15px; color: #fff; font-weight: 700; text-align: center; line-height: 2.8em; background: #ff610a; font-family: "Nanum Gothic", sans-serif; letter-spacing: 0;}
 .coupon-guide .clsBtn {position: absolute; right: 12px;	top: 10px; display: inline-block; width: 18px; height: 18px;
-background: url("http://img.go.co.kr/x_btn.png") no-repeat; background-size: 18px;
+background: url("//img.go.co.kr/x_btn.png") no-repeat; background-size: 18px;
 }
 .coupon-guide > p {font-size: 14px; line-height: 1.5em; text-align: center; box-sizing: border-box; padding: 0 20px;}
 .coupon-guide > p.nth-1 {margin-top: 25px; margin-bottom: -4px; letter-spacing: -1px;}
@@ -1069,7 +1069,7 @@ font-size:18px;color:#fff;cursor:pointer;}
 
 /*고객센터 전화걸기*/
 .cusCall-sec {position: relative; text-align: center; width: 100%; letter-spacing: -0.5px;}
-.cusCall-sec .mainSec {background: #49739e url(http://img.go.co.kr/mobile/callHand.jpg) no-repeat center bottom; background-size: 320px; height: 225px; color: #FFF; padding-top: 35px; box-sizing: border-box;}
+.cusCall-sec .mainSec {background: #49739e url(//img.go.co.kr/mobile/callHand.jpg) no-repeat center bottom; background-size: 320px; height: 225px; color: #FFF; padding-top: 35px; box-sizing: border-box;}
 .cusCall-sec .mainSec .p1 {position: relative; display: inline-block; font-size: 12px; border: 1px solid #fff; border-radius: 10px; padding: 0 5px; height: 20px; letter-spacing: -1px;}
 .cusCall-sec .mainSec .p1:after {content: ""; display: inline-block; height: 100%; vertical-align: middle;}
 .cusCall-sec .mainSec .p2 {font-size: 31px; font-weight: 800; font-family: "Nanum Gothic", sans-serif;}
@@ -1164,7 +1164,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #qna.type02 .view .input_line .select_box, #qna.type02 .view .input_box .select02 {-webkit-appearance:none; text-indent:0;}
 #qna.type02 .view .input_line .select_box {-webkit-appearance: none; -moz-appearance: none; appearance: none; border: none; height: 32px;}
 #qna.type02 .view .input_line1 {font-size:12px;}
-#qna.type02 .view .input_line1, #qna.type02 .view .input_line .select_box, #qna.type02 .view .input_box .select02 {background: #fff url(http://img.go.co.kr/mobile/i_dArrBl.png) right 6px center no-repeat; background-size: 10px;}
+#qna.type02 .view .input_line1, #qna.type02 .view .input_line .select_box, #qna.type02 .view .input_box .select02 {background: #fff url(//img.go.co.kr/mobile/i_dArrBl.png) right 6px center no-repeat; background-size: 10px;}
 #qna.type02 .view input {border-radius:0;}
 #qna.type02 .view td .p1 {padding-top: 0px; margin-top: -2px; font-size: 9px; color: #ff6900; letter-spacing: -1px; word-break: keep-all;}
 #qna.type02 .view .td-1 {background: #f1f1f1;}
@@ -1233,7 +1233,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .cpLayPop .p2 {font-size: 20px; margin-top: 3px;}
 .cpLayPop .p2 .c-1 {color: #ff282d;}
 .cpLayPop .p3 {position: relative; width: 224px; height: 80px; margin: 5px auto 30px; color: #2b2b2b; border: 3px solid #dfdfdf; box-sizing: border-box; font-size: 16px; line-height: 1.4; padding-top: 15px;}
-.cpLayPop .p3:after {position: absolute; bottom: -33px; left: 50%; margin-left: -14px; content: ""; display: block; width: 28px; height: 34px; background: url(http://img.go.co.kr/bTrangle.jpg) no-repeat; background-size: 28px;}
+.cpLayPop .p3:after {position: absolute; bottom: -33px; left: 50%; margin-left: -14px; content: ""; display: block; width: 28px; height: 34px; background: url(//img.go.co.kr/bTrangle.jpg) no-repeat; background-size: 28px;}
 
 .cpLayPop .btnAp {border: none; display: inline-block; background: #0b3d7a; padding: 0 40px; height: 42px; color: #fff; font-size: 15px; line-height: 1; margin-top: 0px;}
 .cpLayPop .btnAp:after {content: ""; display: inline-block; height: 105%; vertical-align: middle;}
@@ -1345,7 +1345,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .room_icon .r_icon ul li:first-child {margin-left:20px;}
 .room_icon .r_icon ul li a {position: relative; display: block; height:60px; text-align: center;}
 .room_icon .r_icon ul li a span  {font-size:12px; vertical-align: top;}
-.room_icon .r_icon ul li .r_0 {display: inline-block; width: 50px; height: 37px; background: url(http://img.go.co.kr/mobile/rm_icon2.png) no-repeat left center; background-size: 466px; background-size: 392px;}
+.room_icon .r_icon ul li .r_0 {display: inline-block; width: 50px; height: 37px; background: url(//img.go.co.kr/mobile/rm_icon2.png) no-repeat left center; background-size: 466px; background-size: 392px;}
 .room_icon .r_icon ul li .r_1 {background-position: 0px 0px; width: 23.5px;}
 .room_icon .r_icon ul li .r_2 {background-position: -50px 4px; width: 25px;}
 .room_icon .r_icon ul li .r_3 {background-position: -100px 0px; width: 28px;}
@@ -1558,7 +1558,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .memberChk * {letter-spacing: -0.5px; color: #282828;}
 .memberChk h2 {height: 42px; font-size: 15px; color: #fff; font-weight: 700; text-align: center; line-height: 2.8em; background: #ff610a; letter-spacing: 0;}
 .memberChk .clsBtn {position: absolute; right: 12px;	top: 10px; display: inline-block; width: 18px; height: 18px;
-    background: url("http://img.go.co.kr/x_btn.png") no-repeat; background-size: 18px;
+    background: url("//img.go.co.kr/x_btn.png") no-repeat; background-size: 18px;
 }
 .memberChk .d-cont {padding: 10px 14px;}
 .memberChk .p-top {font-size: 13.5px; letter-spacing: -1px; line-height: 1.5em; text-align: center; box-sizing: border-box;}
@@ -1797,7 +1797,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .info_pop_wr .pop_cont_bottom .birth_wr .br_number {border: 1px solid #ccc; padding: 6px 4px;}
 .info_pop_wr .pop_cont_bottom .birth_wr .br_number:nth-child(1) {border-right: none;}
 .info_pop_wr .pop_cont_bottom .birth_wr .br_number:nth-child(2) {border-right: none;}
-.info_pop_wr select {width: 85px; height: 36px; background: url(http://img.go.co.kr/mobile/select_icon.png) no-repeat center right; background-size: 18px; background-position: right; font-size: 16px; color: #878787; outline: none;}
+.info_pop_wr select {width: 85px; height: 36px; background: url(//img.go.co.kr/mobile/select_icon.png) no-repeat center right; background-size: 18px; background-position: right; font-size: 16px; color: #878787; outline: none;}
 
 
 /* 오픈게시판(문의게시판)수정 171214 수연 */
@@ -1932,7 +1932,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	/* 로고 변경 및 간격조정 */ 
 #head.head-type02 {height:auto; background:#fff;} 
 #head.head-type02 #logo2 {display:block; position:relative; padding:11px 0 7px;} 
-#head.head-type02 #logo2 a {display:block; width:117px; min-height:40px; height:100%; left:50%; margin-left:-51px; background: url(http://img.go.co.kr/mobile/icon2.png) center center no-repeat; background-size:117px auto;} 
+#head.head-type02 #logo2 a {display:block; width:117px; min-height:40px; height:100%; left:50%; margin-left:-51px; background: url(//img.go.co.kr/mobile/icon2.png) center center no-repeat; background-size:117px auto;} 
 	/* 메뉴 */ 
 .main-menu-box {display:block; position:relative; clear:both; width:100%; background:#fffbed;} 
 .main-menu-box .gnb-box {position:relative; width:100%; border-bottom:1px solid #b0b3b7;} 
@@ -1950,15 +1950,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 #search-area .search-box input::-ms-input-placeholder {color:#404040;} 
 #search-area .search-box input::input-placeholder {color:#404040;} 
 #search-area .search-box a {display:table-cell; width:30px;} 
-#search-area .search-box .input-sech {background:url(http://img.go.co.kr/mobile/icon_main_search.png) center right no-repeat; background-size:20px auto;} 
+#search-area .search-box .input-sech {background:url(//img.go.co.kr/mobile/icon_main_search.png) center right no-repeat; background-size:20px auto;} 
 #search-area .similar-sech-box {margin-top:8px;} 
 #search-area .similar-sech-box:after {content:''; display:block; clear:both;} 
 #search-area .similar-sech-box .search-box {float:left; width:49.3%;} 
 #search-area .similar-sech-box .search-box:last-child {float:right} 
 #search-area .similar-sech-box p {display:table-cell; position:relative; width:auto;} 
 #search-area .similar-sech-box p span {display:inline-block; font-size:13px; line-height:50px; color:#141414;} 
-#search-area .similar-sech-box .input-slreg {background:url(http://img.go.co.kr/mobile/icon_main_area2.png) center right no-repeat; background-size:24px auto;} 
-#search-area .similar-sech-box .input-slcal {background:url(http://img.go.co.kr/mobile/icon_main_calendar2.png) center right no-repeat; background-size:22px auto;} 
+#search-area .similar-sech-box .input-slreg {background:url(//img.go.co.kr/mobile/icon_main_area2.png) center right no-repeat; background-size:24px auto;} 
+#search-area .similar-sech-box .input-slcal {background:url(//img.go.co.kr/mobile/icon_main_calendar2.png) center right no-repeat; background-size:22px auto;} 
 #search-area .fast-room-search:before {content:''; display:block; clear:both;} 
 #search-area .fast-room-search {clear:both; display:block; position:relative; box-sizing:border-box; width:100%;} 
 #search-area .fast-room-search .room-sech-tit {padding:8px 0 6px; font-size:13px; text-align:center; color:#373737} 
@@ -1973,18 +1973,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 /*180309 이사님 지시사항으로 색상변경 : 이준혁*/
 #search-area .fast-list .on {background:#ffb380;}
 #search-area .fast-list .on a span {font-weight:bold; color:#fff; /* -webkit-filter:brightness(200%); filter:brightness(200%); */} 
-#search-area .fast-list li .list-hotel span {background:url(http://img.go.co.kr/mobile/icon/icon_hotel.png) center top no-repeat; background-size:52px auto;} 
-#search-area .fast-list li.on .list-hotel span {background:url(http://img.go.co.kr/mobile/icon/icon_hotel_on.png) center top no-repeat; background-size:52px auto;} 
-#search-area .fast-list li .list-condo span {background:url(http://img.go.co.kr/mobile/icon/icon_condo.png) center top no-repeat; background-size:53px auto;} 
-#search-area .fast-list li.on .list-condo span {background:url(http://img.go.co.kr/mobile/icon/icon_condo_on.png) center top no-repeat; background-size:53px auto;} 
-#search-area .fast-list li .list-motel span {background:url(http://img.go.co.kr/mobile/icon/icon_motel.png) center top no-repeat; background-size:53px auto;} 
-#search-area .fast-list li.on .list-motel span {background:url(http://img.go.co.kr/mobile/icon/icon_motel_on.png) center top no-repeat; background-size:53px auto;} 
-#search-area .fast-list li .list-gest span {background:url(http://img.go.co.kr/mobile/icon/icon_guesthouse.png) center top no-repeat; background-size:53px auto;} 
-#search-area .fast-list li.on .list-gest span {background:url(http://img.go.co.kr/mobile/icon/icon_guesthouse_on.png) center top no-repeat; background-size:53px auto;} 
-#search-area .fast-list li .list-krental span {background:url(http://img.go.co.kr/mobile/icon/icon_pension.png) center top no-repeat; background-size:53px auto;} 
-#search-area .fast-list li.on .list-krental span {background:url(http://img.go.co.kr/mobile/icon/icon_pension_on.png) center top no-repeat; background-size:53px auto;} 
-#search-area .fast-list li .list-leisure span {background:url(http://img.go.co.kr/mobile/icon/icon_ticket.png) center top no-repeat; background-size:53px auto;} 
-#search-area .fast-list li.on .list-leisure span {background:url(http://img.go.co.kr/mobile/icon/icon_ticket_on.png) center top no-repeat; background-size:53px auto;}
+#search-area .fast-list li .list-hotel span {background:url(//img.go.co.kr/mobile/icon/icon_hotel.png) center top no-repeat; background-size:52px auto;} 
+#search-area .fast-list li.on .list-hotel span {background:url(//img.go.co.kr/mobile/icon/icon_hotel_on.png) center top no-repeat; background-size:52px auto;} 
+#search-area .fast-list li .list-condo span {background:url(//img.go.co.kr/mobile/icon/icon_condo.png) center top no-repeat; background-size:53px auto;} 
+#search-area .fast-list li.on .list-condo span {background:url(//img.go.co.kr/mobile/icon/icon_condo_on.png) center top no-repeat; background-size:53px auto;} 
+#search-area .fast-list li .list-motel span {background:url(//img.go.co.kr/mobile/icon/icon_motel.png) center top no-repeat; background-size:53px auto;} 
+#search-area .fast-list li.on .list-motel span {background:url(//img.go.co.kr/mobile/icon/icon_motel_on.png) center top no-repeat; background-size:53px auto;} 
+#search-area .fast-list li .list-gest span {background:url(//img.go.co.kr/mobile/icon/icon_guesthouse.png) center top no-repeat; background-size:53px auto;} 
+#search-area .fast-list li.on .list-gest span {background:url(//img.go.co.kr/mobile/icon/icon_guesthouse_on.png) center top no-repeat; background-size:53px auto;} 
+#search-area .fast-list li .list-krental span {background:url(//img.go.co.kr/mobile/icon/icon_pension.png) center top no-repeat; background-size:53px auto;} 
+#search-area .fast-list li.on .list-krental span {background:url(//img.go.co.kr/mobile/icon/icon_pension_on.png) center top no-repeat; background-size:53px auto;} 
+#search-area .fast-list li .list-leisure span {background:url(//img.go.co.kr/mobile/icon/icon_ticket.png) center top no-repeat; background-size:53px auto;} 
+#search-area .fast-list li.on .list-leisure span {background:url(//img.go.co.kr/mobile/icon/icon_ticket_on.png) center top no-repeat; background-size:53px auto;}
 #search-area .bnt-wrap {position:relative; clear:both; box-sizing:border-box; width:100%; padding:12px 0;} 
 #search-area .bnt-wrap .btn-search {display:block; position:relative; height:40px; text-align:center; border:1px solid #d0411b; border-radius:5px; background:#d0411b;} 
 #search-area .bnt-wrap .btn-search span {font-size:15px; font-weight:bold; line-height:40px; color:#fefefe} 
@@ -2000,12 +2000,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 /* 목록-내주변 디자인 변경 */ 
 #sub-search-area .top-sub-area {display:block; position:relative; box-sizing:border-box; width:100%; padding:12px 10px 13px; border-bottom:1px solid #a5a5a5; background:#fff;}
 #sub-search-area .top-sub-area .btn-back {display:inline-block; position:relative; width:23px;}
-#sub-search-area .top-sub-area .btn-back span {display:inline-block; position:relative; width:100%; text-indent:-99999px; background:url(http://img.go.co.kr/mobile/btn_back.gif) center center no-repeat; background-size:25px auto;}
+#sub-search-area .top-sub-area .btn-back span {display:inline-block; position:relative; width:100%; text-indent:-99999px; background:url(//img.go.co.kr/mobile/btn_back.gif) center center no-repeat; background-size:25px auto;}
 #sub-search-area .top-sub-area .sub-sech-txt {display:inline-block; padding-left:2px; font-size:17px; color:#262626;}
 #sub-search-area .top-sub-area .date-area {display:block; position:absolute; height:37px; top:50%; right:10px; margin-top:-19px;}
 #sub-search-area .top-sub-area .date-area .input-box {display:inline-block; position:relative; box-sizing:border-box; width:147px; height:100%; margin-right:6px; padding:0 8px; vertical-align:top; border:1px solid #c4c4c4; border-radius:5px; background:#fff;}
 #sub-search-area .top-sub-area .date-area .input-box .input-date {width:100%; height:100%; font-size:14px; color:#404040;}
-#sub-search-area .top-sub-area .date-area .input-date-sech {display:inline-block; width:22px; height:100%; background:url(http://img.go.co.kr/mobile/icon_sub_search.gif) center center no-repeat; background-size:22px auto;}
+#sub-search-area .top-sub-area .date-area .input-date-sech {display:inline-block; width:22px; height:100%; background:url(//img.go.co.kr/mobile/icon_sub_search.gif) center center no-repeat; background-size:22px auto;}
 
 #sub-search-area .sech-list-area {clear:both; display:block; position:relative; box-sizing:border-box; width:100%; border-bottom:1px solid #9da0a5;}
 #sub-search-area .sech-list-area:after {content:''; display:block; clear:both;}
@@ -2038,10 +2038,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 #float-area .float-box li {display:block; position:relative; float:left; box-sizing:border-box; width:50%;}
 #float-area .float-box li a {padding:2px 0 4px 23px;}
 #float-area .float-box li a span {font-size:15px; vertical-align:middle; color:#404040;}
-#float-area .float-box .ico-fil a {background:url(http://img.go.co.kr/mobile/icon_sub_filter.png) 0 2px no-repeat; background-size:18px auto;}
+#float-area .float-box .ico-fil a {background:url(//img.go.co.kr/mobile/icon_sub_filter.png) 0 2px no-repeat; background-size:18px auto;}
 #float-area .float-box .ico-map {padding-left:8px;}
 #float-area .float-box .ico-map:before {content:''; display:block; position:absolute; width:1px; height:20px; top:50%; margin-top:-8px; left:0; background:#b5b5b5;}
-#float-area .float-box .ico-map a {background:url(http://img.go.co.kr/mobile/icon_sub_map.png) 0 8px no-repeat; background-size:18px auto;}
+#float-area .float-box .ico-map a {background:url(//img.go.co.kr/mobile/icon_sub_map.png) 0 8px no-repeat; background-size:18px auto;}
 
 /* 필터 */ 
 #filter-area {z-index:10001; display:none; position:fixed; box-sizing:border-box; width:100%; padding:4px 10px; bottom:0px; background:#e8e8e8;}
@@ -2051,22 +2051,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 #filter-area .filter-type .filter-list li:nth-child(-n+4) {border-top:1px solid #ccc;} 
 #filter-area .filter-type .filter-list li:nth-child(4n+1) {border-left:1px solid #ccc;} 
 #filter-area .filter-type .filter-list li a {display:block; position:relative; padding:10px 0 6px;}
-#filter-area .filter-type .filter-list li a span {display:inline-block; position:relative; width:100%; padding-top:11px; font-size:12px; font-weight:normal; color:#616161; background:url(http://img.go.co.kr/mobile/icon/icon_filter_check.png) center top no-repeat; background-size:14px auto;}
+#filter-area .filter-type .filter-list li a span {display:inline-block; position:relative; width:100%; padding-top:11px; font-size:12px; font-weight:normal; color:#616161; background:url(//img.go.co.kr/mobile/icon/icon_filter_check.png) center top no-repeat; background-size:14px auto;}
 #filter-area .filter-type .filter-list li.on {background:#ff8551;}
-#filter-area .filter-type .filter-list li.on a span {font-weight:bold; color:#fff; background:url(http://img.go.co.kr/mobile/icon/icon_filter_check_on.png) center top no-repeat; background-size:14px auto;}
+#filter-area .filter-type .filter-list li.on a span {font-weight:bold; color:#fff; background:url(//img.go.co.kr/mobile/icon/icon_filter_check_on.png) center top no-repeat; background-size:14px auto;}
 #filter-area .rooms-type .filter-list li a {padding:3px 0 4px;}
 #filter-area .rooms-type .filter-list li:nth-child(-n+4) a {padding:5px 0 4px;} 
 #filter-area .rooms-type .filter-list li a span {padding-top:36px;}
-#filter-area .rooms-type .filter-list li .list-hotel span {background:url(http://img.go.co.kr/mobile/icon/icon_hotel.png) center top no-repeat; background-size:39px auto;} 
-#filter-area .rooms-type .filter-list li.on .list-hotel span {background:url(http://img.go.co.kr/mobile/icon/icon_hotel_on.png) center top no-repeat; background-size:39px auto;} 
-#filter-area .rooms-type .filter-list li .list-condo span {background:url(http://img.go.co.kr/mobile/icon/icon_condo.png) center top no-repeat; background-size:40px auto;} 
-#filter-area .rooms-type .filter-list li.on .list-condo span {background:url(http://img.go.co.kr/mobile/icon/icon_condo_on.png) center top no-repeat; background-size:40px auto;} 
-#filter-area .rooms-type .filter-list li .list-motel span {background:url(http://img.go.co.kr/mobile/icon/icon_motel.png) center top no-repeat; background-size:40px auto;} 
-#filter-area .rooms-type .filter-list li.on .list-motel span {background:url(http://img.go.co.kr/mobile/icon/icon_motel_on.png) center top no-repeat; background-size:40px auto;} 
-#filter-area .rooms-type .filter-list li .list-gest span {background:url(http://img.go.co.kr/mobile/icon/icon_guesthouse.png) center top no-repeat; background-size:40px auto;} 
-#filter-area .rooms-type .filter-list li.on .list-gest span {background:url(http://img.go.co.kr/mobile/icon/icon_guesthouse_on.png) center top no-repeat; background-size:40px auto;} 
-#filter-area .rooms-type .filter-list li .list-krental span {background:url(http://img.go.co.kr/mobile/icon/icon_pension.png) center top no-repeat; background-size:40px auto;} 
-#filter-area .rooms-type .filter-list li.on .list-krental span {background:url(http://img.go.co.kr/mobile/icon/icon_pension_on.png) center top no-repeat; background-size:40px auto;} 
+#filter-area .rooms-type .filter-list li .list-hotel span {background:url(//img.go.co.kr/mobile/icon/icon_hotel.png) center top no-repeat; background-size:39px auto;} 
+#filter-area .rooms-type .filter-list li.on .list-hotel span {background:url(//img.go.co.kr/mobile/icon/icon_hotel_on.png) center top no-repeat; background-size:39px auto;} 
+#filter-area .rooms-type .filter-list li .list-condo span {background:url(//img.go.co.kr/mobile/icon/icon_condo.png) center top no-repeat; background-size:40px auto;} 
+#filter-area .rooms-type .filter-list li.on .list-condo span {background:url(//img.go.co.kr/mobile/icon/icon_condo_on.png) center top no-repeat; background-size:40px auto;} 
+#filter-area .rooms-type .filter-list li .list-motel span {background:url(//img.go.co.kr/mobile/icon/icon_motel.png) center top no-repeat; background-size:40px auto;} 
+#filter-area .rooms-type .filter-list li.on .list-motel span {background:url(//img.go.co.kr/mobile/icon/icon_motel_on.png) center top no-repeat; background-size:40px auto;} 
+#filter-area .rooms-type .filter-list li .list-gest span {background:url(//img.go.co.kr/mobile/icon/icon_guesthouse.png) center top no-repeat; background-size:40px auto;} 
+#filter-area .rooms-type .filter-list li.on .list-gest span {background:url(//img.go.co.kr/mobile/icon/icon_guesthouse_on.png) center top no-repeat; background-size:40px auto;} 
+#filter-area .rooms-type .filter-list li .list-krental span {background:url(//img.go.co.kr/mobile/icon/icon_pension.png) center top no-repeat; background-size:40px auto;} 
+#filter-area .rooms-type .filter-list li.on .list-krental span {background:url(//img.go.co.kr/mobile/icon/icon_pension_on.png) center top no-repeat; background-size:40px auto;} 
 
 #filter-area .btn-wrap {clear:both; padding:11px 0;}
 #filter-area .btn-wrap:before, #filter-area .btn-wrap:after {content:''; display:block; clear:both;}
@@ -2084,11 +2084,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 #search-area.area-02 .main-input-area {padding:0 20px 15px; border-bottom:3px solid #ebebeb}
 #search-area.area-02 .search-box {border:1px solid #b8b8b8; border-radius:3px; background:#f3f3f3}
 #search-area.area-02 .search-box input {color:#434343; background:#f3f3f3}
-#search-area.area-02 .search-box .input-sech {background:url(http://img.go.co.kr/mobile/search/icon_search.png) center right no-repeat; background-size: 20px auto;}
+#search-area.area-02 .search-box .input-sech {background:url(//img.go.co.kr/mobile/search/icon_search.png) center right no-repeat; background-size: 20px auto;}
 #search-area.area-02 .similar-sech-box input {height:auto; font-size:13px; line-height:50px; color:#434343; background:#f3f3f3}
 #search-area.area-02 .similar-sech-box p span {color:#434343}
-#search-area.area-02 .similar-sech-box .input-slreg {background: url(http://img.go.co.kr/mobile/search/icon_region.png) center right no-repeat; background-size: 24px auto;}
-#search-area.area-02 .similar-sech-box .input-slcal {background: url(http://img.go.co.kr/mobile/search/icon_cal.png) center right no-repeat; background-size: 22px auto;}
+#search-area.area-02 .similar-sech-box .input-slreg {background: url(//img.go.co.kr/mobile/search/icon_region.png) center right no-repeat; background-size: 24px auto;}
+#search-area.area-02 .similar-sech-box .input-slcal {background: url(//img.go.co.kr/mobile/search/icon_cal.png) center right no-repeat; background-size: 22px auto;}
 #search-area.area-02 .fast-room-search {padding:20px 20px 30px;}
 #search-area.area-02 .fast-room-search .room-sech-tit {padding:0; font-weight:bold; color:#ff611f}
 #search-area.area-02 .fast-room-search .room-sech-tit .circle {display:inline-block; width:7px; height:7px; margin:0 6px; vertical-align:inherit; border:0; border-radius:100%; background:#ff611f}
@@ -2098,25 +2098,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 #search-area .fast-list-02 li {display:inline-block; position:relative; float:left; box-sizing:border-box; width:33.3%; text-align:center; background:#fff;} 
 #search-area .fast-list-02 .on a span {font-weight:bold; color:#ff4c00;} 
 #search-area .fast-list-02 li a span {display:inline-block; position:relative; width:100%; margin-top:17px; padding-top:47px; font-size:12px; font-weight:normal; color:#616161; } 
-#search-area .fast-list-02 li .list-hotel span {background:url(http://img.go.co.kr/mobile/icon_2/icon_hotel.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li.on .list-hotel span {background:url(http://img.go.co.kr/mobile/icon_2/icon_hotel_on.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li .list-condo span {background:url(http://img.go.co.kr/mobile/icon_2/icon_condo.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li.on .list-condo span {background:url(http://img.go.co.kr/mobile/icon_2/icon_condo_on.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li .list-motel span {background:url(http://img.go.co.kr/mobile/icon_2/icon_motel.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li.on .list-motel span {background:url(http://img.go.co.kr/mobile/icon_2/icon_motel_on.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li .list-pension span {background:url(http://img.go.co.kr/mobile/icon_2/icon_pension.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li.on .list-pension span {background:url(http://img.go.co.kr/mobile/icon_2/icon_pension_on.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li .list-leisure span {background:url(http://img.go.co.kr/mobile/icon_2/icon_leisure.png) center 6px no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li.on .list-leisure span {background:url(http://img.go.co.kr/mobile/icon_2/icon_leisure_on.png) center 6px no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li .list-show span {background:url(http://img.go.co.kr/mobile/icon_2/icon_show.png) center 6px no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li.on .list-show span {background:url(http://img.go.co.kr/mobile/icon_2/icon_show_on.png) center 6px no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li .list-gest span {background:url(http://img.go.co.kr/mobile/icon_2/icon_guesthouse.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li.on .list-gest span {background:url(http://img.go.co.kr/mobile/icon_2/icon_guesthouse_on.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li .list-abroad span {background:url(http://img.go.co.kr/mobile/icon_2/icon_abroad.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li.on .list-abroad span {background:url(http://img.go.co.kr/mobile/icon_2/icon_abroad_on.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li .list-hotel span {background:url(//img.go.co.kr/mobile/icon_2/icon_hotel.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li.on .list-hotel span {background:url(//img.go.co.kr/mobile/icon_2/icon_hotel_on.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li .list-condo span {background:url(//img.go.co.kr/mobile/icon_2/icon_condo.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li.on .list-condo span {background:url(//img.go.co.kr/mobile/icon_2/icon_condo_on.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li .list-motel span {background:url(//img.go.co.kr/mobile/icon_2/icon_motel.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li.on .list-motel span {background:url(//img.go.co.kr/mobile/icon_2/icon_motel_on.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li .list-pension span {background:url(//img.go.co.kr/mobile/icon_2/icon_pension.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li.on .list-pension span {background:url(//img.go.co.kr/mobile/icon_2/icon_pension_on.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li .list-leisure span {background:url(//img.go.co.kr/mobile/icon_2/icon_leisure.png) center 6px no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li.on .list-leisure span {background:url(//img.go.co.kr/mobile/icon_2/icon_leisure_on.png) center 6px no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li .list-show span {background:url(//img.go.co.kr/mobile/icon_2/icon_show.png) center 6px no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li.on .list-show span {background:url(//img.go.co.kr/mobile/icon_2/icon_show_on.png) center 6px no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li .list-gest span {background:url(//img.go.co.kr/mobile/icon_2/icon_guesthouse.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li.on .list-gest span {background:url(//img.go.co.kr/mobile/icon_2/icon_guesthouse_on.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li .list-abroad span {background:url(//img.go.co.kr/mobile/icon_2/icon_abroad.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li.on .list-abroad span {background:url(//img.go.co.kr/mobile/icon_2/icon_abroad_on.png) center top no-repeat; background-size:42px auto;} 
 /* 20180615_추가 */
-#search-area .fast-list-02 li .list-event span {background:url(http://img.go.co.kr/mobile/icon_2/icon_event.png) center top no-repeat; background-size:42px auto;} 
-#search-area .fast-list-02 li.on .list-event span {background:url(http://img.go.co.kr/mobile/icon_2/icon_event_on.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li .list-event span {background:url(//img.go.co.kr/mobile/icon_2/icon_event.png) center top no-repeat; background-size:42px auto;} 
+#search-area .fast-list-02 li.on .list-event span {background:url(//img.go.co.kr/mobile/icon_2/icon_event_on.png) center top no-repeat; background-size:42px auto;} 
 
 .faqBn.type-01 {border-bottom:4px solid #ebebeb}
 .faqBn.type-01 a {position:relative; padding-bottom:2px; background:#ffc600}
@@ -2132,10 +2132,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 #sub-search-area.type-01 .top-sub-area {display: block; position: relative; box-sizing: border-box; width: 100%; padding:6px 8px 7px; border-bottom:0; background: #fff;}
 #sub-search-area.type-01 .top-sub-area .search-txt-area {/*float:left;*/ display:inline-block; box-sizing:border-box; width:49%; height:35px; padding:4px 7px; border:1px solid #aaa; border-radius:3px;}
 #sub-search-area.type-01 .top-sub-area .search-txt-area .btn-back {display: inline-block; position: relative; width:15px;}
-#sub-search-area.type-01 .top-sub-area .search-txt-area .btn-back span {display: inline-block; position: relative; width: 100%; text-indent: -99999px; background: url(http://img.go.co.kr/mobile/btn_back_2.png) center center no-repeat; background-size: 15px auto;}
+#sub-search-area.type-01 .top-sub-area .search-txt-area .btn-back span {display: inline-block; position: relative; width: 100%; text-indent: -99999px; background: url(//img.go.co.kr/mobile/btn_back_2.png) center center no-repeat; background-size: 15px auto;}
 #sub-search-area.type-01 .top-sub-area .search-txt-area .sub-sech-txt {display: inline-block; padding-left: 0; font-size: 15px; color: #262626;}
 #sub-search-area.type-01 .top-sub-area .date-area {float:right; display:inline-block; position:relative; box-sizing:border-box; width:49%; height:35px; top:auto; right:auto; margin-top: 0; padding:4px 7px; border:1px solid #aaa; border-radius:3px;}
-#sub-search-area.type-01 .top-sub-area .date-area .btn-cal-txt {background: url(http://img.go.co.kr/mobile/icon_sub_cal.png) 0 center no-repeat; background-size: 14px auto;}
+#sub-search-area.type-01 .top-sub-area .date-area .btn-cal-txt {background: url(//img.go.co.kr/mobile/icon_sub_cal.png) 0 center no-repeat; background-size: 14px auto;}
 #sub-search-area.type-01 .top-sub-area .date-area .btn-cal-txt span {padding-left:18px; font-size:13px; vertical-align: inherit;}
 #sub-search-area.type-01 .sech-list-area {clear: both; display: block; position: relative; box-sizing: border-box; width: 100%; border-bottom:0}
 #sub-search-area.type-01 .sub-sech-area {display: block; position: relative; clear:both; box-sizing: border-box; width:100%;}
@@ -2144,7 +2144,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 #float-area.type-01 {position:fixed; display:inline-block; box-sizing: border-box; width:106px; margin-left:-53px; bottom:55px}
 #float-area.type-01 .float-box {display: inline-block; position: relative; box-sizing: border-box; overflow: hidden; width: 100%; height:48px; margin: 0 auto; padding:9px 20px 0 15px; text-align: center; border:1px solid #989898; border-radius:13px; background: #fff;}
-#float-area.type-01 .float-box .btn-fil {position: relative; display:inline-block; padding: 2px 0 4px 24px; background: url(http://img.go.co.kr/mobile/icon_sub_filter_2.jpg) 0 center no-repeat; background-size: 22px auto;}
+#float-area.type-01 .float-box .btn-fil {position: relative; display:inline-block; padding: 2px 0 4px 24px; background: url(//img.go.co.kr/mobile/icon_sub_filter_2.jpg) 0 center no-repeat; background-size: 22px auto;}
 #float-area.type-01 .float-box .btn-fil span {font-size:16px}
 
 #popup-filter {position:fixed; z-index:999991; box-sizing:border-box; width:100%; height:100%; bottom:0; background:#e8e8e8;}
@@ -2159,10 +2159,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 #popup-filter .fil-con .fil-area .fil-list li:first-child {border-top:0}
 #popup-filter .fil-con .fil-area .fil-list li input {}
 #popup-filter .fil-con .fil-area .fil-list li input[type=radio], #popup-filter .fil-con .fil-area .fil-list li input[type=checkbox] {display:none}
-#popup-filter .fil-con .fil-area .fil-list li input[type=radio] + label span {float: right; cursor: pointer; display: inline-block; width:25px; height:25px; vertical-align:middle; background: url(http://img.go.co.kr/mobile/icon_input_filter.png) 0 center no-repeat; background-size:auto 24px;}
-#popup-filter .fil-con .fil-area .fil-list li input[type=radio]:checked + label span {background: url(http://img.go.co.kr/mobile/icon_input_filter.png) -30px center no-repeat; background-size:auto 24px;}
-#popup-filter .fil-con .fil-area .fil-list li input[type=checkbox] + label span {float: right; cursor: pointer; display: inline-block; width:25px; height:25px; vertical-align:middle; background: url(http://img.go.co.kr/mobile/icon_input_filter.png) -60px center no-repeat; background-size:auto 24px;}
-#popup-filter .fil-con .fil-area .fil-list li input[type=checkbox]:checked + label span {background: url(http://img.go.co.kr/mobile/icon_input_filter.png) -89px center no-repeat; background-size:auto 24px;}
+#popup-filter .fil-con .fil-area .fil-list li input[type=radio] + label span {float: right; cursor: pointer; display: inline-block; width:25px; height:25px; vertical-align:middle; background: url(//img.go.co.kr/mobile/icon_input_filter.png) 0 center no-repeat; background-size:auto 24px;}
+#popup-filter .fil-con .fil-area .fil-list li input[type=radio]:checked + label span {background: url(//img.go.co.kr/mobile/icon_input_filter.png) -30px center no-repeat; background-size:auto 24px;}
+#popup-filter .fil-con .fil-area .fil-list li input[type=checkbox] + label span {float: right; cursor: pointer; display: inline-block; width:25px; height:25px; vertical-align:middle; background: url(//img.go.co.kr/mobile/icon_input_filter.png) -60px center no-repeat; background-size:auto 24px;}
+#popup-filter .fil-con .fil-area .fil-list li input[type=checkbox]:checked + label span {background: url(//img.go.co.kr/mobile/icon_input_filter.png) -89px center no-repeat; background-size:auto 24px;}
 #popup-filter .fil-con .fil-area .fil-list li label {display:block; width:100%; padding:6px 0; font-size:15px; line-height:25px; color:#282828; vertical-align:middle;}
 #popup-filter .fli-bottom-area {position:fixed; box-sizing:border-box; bottom:0; width:100%; padding:12px 10px; background:#e8e8e8;} 
 #popup-filter .fli-bottom-area a {display:inline-block; width:49%; height:40px; text-align:center; border:0; border-radius:5px;}
@@ -2224,8 +2224,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	#float-area .float-box {padding:2px 7px 2px 12px;}
 	#float-area .float-box li a {padding:2px 0 4px 20px;}
 	#float-area .float-box li a span {font-size:14px;}
-	#float-area .float-box .ico-fil a {background:url(http://img.go.co.kr/mobile/icon_sub_filter.png) 0 4px no-repeat; background-size:16px auto;}
-	#float-area .float-box .ico-map a {background:url(http://img.go.co.kr/mobile/icon_sub_map.png) 0 9px no-repeat; background-size:16px auto;}
+	#float-area .float-box .ico-fil a {background:url(//img.go.co.kr/mobile/icon_sub_filter.png) 0 4px no-repeat; background-size:16px auto;}
+	#float-area .float-box .ico-map a {background:url(//img.go.co.kr/mobile/icon_sub_map.png) 0 9px no-repeat; background-size:16px auto;}
 	
 	/* 필터 */ 
 	#filter-area {padding:3px 10px;}
@@ -2308,7 +2308,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .pop-oc2 * {letter-spacing: -0.5px; color: #303030;}
 .pop-oc2 h2 {font-size: 16px; color: #fff; font-weight: 700; text-align: center; line-height: 46px; background: #44a8ff; font-family: "Nanum Gothic", sans-serif;}
 .pop-oc2 .clsBtn {position: absolute; right: 3px; top: 12px;  display: inline-block; width: 22px; height: 22px;
-	background: url("http://img.go.co.kr/x_btn.png") no-repeat; background-size: 16px;
+	background: url("//img.go.co.kr/x_btn.png") no-repeat; background-size: 16px;
 }
 .pop-oc2 > p {font-size: 14px; line-height: 1.5; text-align: center; margin-top: 15px; box-sizing: border-box;}
 .pop-oc2 .colr-1 {color: #ff4e00;}

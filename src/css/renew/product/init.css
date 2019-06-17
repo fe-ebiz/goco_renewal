@@ -133,7 +133,7 @@
 /* 회원 추가할인 안내 팝업 */
 /* #discount_pop {position:absolute; top:34px; right:168px; width:275px; text-align:left; display: none; z-index: 1;} */
 #discount_pop {position:absolute; top:34px; right: -105px; width:275px; text-align:left; display: none; z-index: 1;}
-#discount_pop .tit {padding-top:13px; padding-left:10px; height:35px; color:#fff; font-weight:600; background:url(http://img.go.co.kr/discount_bg.png) no-repeat; font-size:13px;}
+#discount_pop .tit {padding-top:13px; padding-left:10px; height:35px; color:#fff; font-weight:600; background:url(//img.go.co.kr/discount_bg.png) no-repeat; font-size:13px;}
 #discount_pop .tit .clsImg {position: absolute; right: 0; top: 10px;}
 #discount_pop .text {padding:10px; color:#3a3a3a; font-size:12px; line-height:1.5; background:#fff; border-left:1px solid #3a3a3a; border-right:1px solid #3a3a3a; border-bottom:1px solid #3a3a3a}
 #discount_pop .text .dot {position: relative; padding-left: 12px;}
@@ -479,7 +479,7 @@
     border: 1px solid #a5a5a5; width: 15px; height: 15px; border-radius: 0; outline: 0;
     background: #fff; margin-right: 5px; margin-left: 15px;
 }
-.trd-comp-2 input[type="checkbox"]:checked {background: #fff url("http://img.go.co.kr/chk_bg.png") no-repeat 1px 2px;}
+.trd-comp-2 input[type="checkbox"]:checked {background: #fff url("//img.go.co.kr/chk_bg.png") no-repeat 1px 2px;}
 
 .trd-comp-2 .part-con {position: relative;}
 .trd-comp-2 .part-con > ul {float: left;}

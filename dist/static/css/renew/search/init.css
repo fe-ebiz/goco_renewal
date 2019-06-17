@@ -17,7 +17,7 @@
 .ipCst, .ipCst label {position: relative; display: inline-block;}
 .ipCst label {vertical-align: middle; font-size: 16px;}
 input.chk-cst[type=checkbox] + label {width: 15px; height: 15px; border: 1px solid #787878; border-radius: 1px; background: #fff; margin-right: 5px;}
-input.chk-cst[type=checkbox] + label.on {background: #fff url(http://img.go.co.kr/renew/chk_cst.png) no-repeat right center;}
+input.chk-cst[type=checkbox] + label.on {background: #fff url(//img.go.co.kr/renew/chk_cst.png) no-repeat right center;}
 .rnL-contents input[type=text] {}
 
 /***** 콘텐츠 영역 *****/
@@ -201,7 +201,7 @@ input.chk-cst[type=checkbox] + label.on {background: #fff url(http://img.go.co.k
 .ie8 .rcm-ul .d3 .p3 {min-width: 146px;}
 .rcm-ul .d3 .p3 .s1 {color: #fa6b0a; font-weight: 700;}
 .rcm-ul .d3 .p4 .a1 {display: inline-block; background: #fa6b0a; color: #fff; font-size: 18px; width: 156px; height: 42px; text-align: center; line-height: 42px; margin-top: 6px;}
-.rcm-ul .d3 .s-blSign {display: block; position: absolute; top: 7px; left: -101px; width: 108px; height: 37px; background: url(http://img.go.co.kr/renew/search/blSign.png) no-repeat; font-size: 14px;
+.rcm-ul .d3 .s-blSign {display: block; position: absolute; top: 7px; left: -101px; width: 108px; height: 37px; background: url(//img.go.co.kr/renew/search/blSign.png) no-repeat; font-size: 14px;
 	color: #fff; font-weight: 600; text-align: center; padding-left: 7px; padding-top: 4px; letter-spacing: 0;}
 
 /* 객실예약완료시 */

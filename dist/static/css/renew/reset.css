@@ -77,7 +77,7 @@ button[type=button] {cursor: pointer;}
 /* font-bold */
 .f-bd {font-weight: 700;}
 /* dropDown-bg */
-.dropDown-bg {position: fixed; z-index: 11; top: 0; left: 0; width: 100%; height: 100%; background: url(http://img.go.co.kr/black_rgba90.png) repeat;}
+.dropDown-bg {position: fixed; z-index: 11; top: 0; left: 0; width: 100%; height: 100%; background: url(//img.go.co.kr/black_rgba90.png) repeat;}
 
 .appe-reset {
 	-webkit-appearance: none;
