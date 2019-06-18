@@ -63,7 +63,7 @@ label {cursor: pointer;}
 
 a {text-decoration: none;}
 /* hidden_class */
-.hidden, .skip {overflow: hidden; positon: absolute; border: 0; width: 1px; height: 1px; clip: rect(1px, 1px, 1px, 1px);}
+.hidden, .skip {width:0; height:0; margin:0; padding:0; overflow:hidden; line-height:0; font-size:0; visibility:hidden; position:absolute; left:0; top:0}
 
 .clr:before, .clr:after, .cf:before, .cf:after {content: ""; display: table;}
 .clr:after, .cf:after {clear: both;}
