@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>고코투어</title>
+    <script src="libs/jquery-1.12.4.min.js"></script>
+    <script src="libs/swiper/swiper.js"></script>
+    <link href="libs/swiper/swiper.css" rel="stylesheet" type="text/css">
+    <script src="js/goco.js"></script>
+    <link href="css/goco.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <a href="" class="back_btn"><img src="./images/head_btn_back.png" alt=""></a>
+        <h2>자주묻는 질문</h2>
+    </header>
+    <nav class="swiper-container slide_tab">
+        <ul class="faq_gnb swiper-wrapper">
+            <li class="swiper-slide"><a href="javascript:void(0)" onclick="gnb_click();">예약변경/취소</a></li>
+            <li class="swiper-slide"><a href="javascript:void(0)" onclick="gnb_click();">결제/환불</a></li>
+            <li class="swiper-slide"><a href="javascript:void(0)" onclick="gnb_click();">시설이용안내</a></li>
+            <li class="swiper-slide"><a href="javascript:void(0)" onclick="gnb_click();">회원/혜택</a></li>
+        </ul>
+    </nav>
+    <ul class="accordion">
+        <li>
+            <p class="trigger">[예약변경/취소] 자주 질문하는 회원관련 글입니다. 제목이 길어지면 어떻게 보일까요?</p>
+            <div class="panel">
+                <p>
+                    단순히 보면 우리는 Android + IOS + Web Cloud System 을 개발하고 만드는 사람들 일 뿐 입니다.​하지만 우리는 당신의 새로운 "비즈니스 아이디어"를 최 신 IT기술을 활용하여 다양한 모바일 플랫폼을 구현하여 온라인,
+                    오프라인을 연결하여 당신에게 다채로운 마케팅 활동이 가능하도록 플랫폼서비스를 구체화하여 실현하고 많은 사람들이 더 편리하고 스마트한 생활을 누릴수 있는 삶의 혜택을 만드는 일을 하는 사람들입니다.
+                </p>
+            </div>
+        </li>
+        <li>
+            <p class="trigger">[예약변경/취소] 자주 질문하는 회원관련 글입니다.</p>
+            <div class="panel">
+                <p>
+                    단순히 보면 우리는 Android + IOS + Web Cloud System 을 개발하고 만드는 사람들 일 뿐 입니다.​하지만 우리는 당신의 새로운 "비즈니스 아이디어"를 최 신 IT기술을 활용하여 다양한 모바일 플랫폼을 구현하여 온라인,
+                    오프라인을 연결하여 당신에게 다채로운 마케팅 활동이 가능하도록 플랫폼서비스를 구체화하여 실현하고 많은 사람들이 더 편리하고 스마트한 생활을 누릴수 있는 삶의 혜택을 만드는 일을 하는 사람들입니다.
+                </p>
+            </div>
+        </li>
+        <li>
+            <p class="trigger">[예약변경/취소] 회원 가입은 어떻게 하나요.</p>
+            <div class="panel">
+                <p>
+                    단순히 보면 우리는 Android + IOS + Web Cloud System 을 개발하고 만드는 사람들 일 뿐 입니다.​하지만 우리는 당신의 새로운 "비즈니스 아이디어"를 최 신 IT기술을 활용하여 다양한 모바일 플랫폼을 구현하여 온라인,
+                    오프라인을 연결하여 당신에게 다채로운 마케팅 활동이 가능하도록 플랫폼서비스를 구체화하여 실현하고 많은 사람들이 더 편리하고 스마트한 생활을 누릴수 있는 삶의 혜택을 만드는 일을 하는 사람들입니다.
+                </p>
+            </div>
+        </li>
+        <li>
+            <p class="trigger">[예약변경/취소] 기타 질문을 할까요?</p>
+            <div class="panel">
+                <p>
+                    단순히 보면 우리는 Android + IOS + Web Cloud System 을 개발하고 만드는 사람들 일 뿐 입니다.​하지만 우리는 당신의 새로운 "비즈니스 아이디어"를 최 신 IT기술을 활용하여 다양한 모바일 플랫폼을 구현하여 온라인,
+                    오프라인을 연결하여 당신에게 다채로운 마케팅 활동이 가능하도록 플랫폼서비스를 구체화하여 실현하고 많은 사람들이 더 편리하고 스마트한 생활을 누릴수 있는 삶의 혜택을 만드는 일을 하는 사람들입니다.
+                </p>
+            </div>
+        </li>
+    </ul>
+</body>
+
+</html>
+
+<script>
+    $('.faq_gnb li').on('click', function() {
+        $(this).addClass('active');
+        $(this).siblings().removeClass('active');
+    })
+</script>

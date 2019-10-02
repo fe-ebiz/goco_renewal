@@ -1,82 +1,84 @@
 @@include('../include/_head.html', {
-	"page": "/main"
+"page": "/main"
 })
-	<!-- 현재 페이지 전용 -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+<!-- 현재 페이지 전용 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
 </head>
-<body class="page-main">
-	@@include('../include/_header.html')
-	
-	<div class="contents">
-		<div class="cont-search">
-			<div class="search-bar">
-				<input type="text" placeholder="지역/숙소명/여행지를 검색하세요" class="search">
-				<button type="button" class="btn-search"><span class="blind">검색</span></button>	
-			</div>
-		</div>
-		<!-- end .cont-search -->
-		<div class="cont-kinds">
-			<div class="group">
-				<h2><span class="tit">빠르고 손쉬운 숙소찾기</span></h2>
-				<ul class="cf list">
-					<li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/hote.png" alt="호텔" class="img"><span class="name">호텔</span></a></li>
-					<li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/resort.png" alt="리조트/콘도" class="img"><span class="name">리조트/콘도</span></a></li>
-					<li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/motel.png" alt="모텔" class="img"><span class="name">모텔</span></a></li>
-					<li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/guest.png" alt="게스트하우스" class="img"><span class="name">게스트하우스</span></a></li>
-					<li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/pension.png" alt="펜션" class="img"><span class="name">펜션</span></a></li>
-					<li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/show.png" alt="공연/전시" class="img"><span class="name">공연/전시</span></a></li>
-					<li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/leisure.png" alt="레저/입장권" class="img"><span class="name">레저/입장권</span></a></li>
-					<li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/overseas.png" alt="해외숙박" class="img"><span class="name">해외숙박</span></a></li>
-					<li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/recom.png" alt="강력추천 세일" class="img"><span class="name">강력추천 세일</span></a></li>
-				</ul>
-			</div>
-		</div>
-		<!-- end .cont-kinds -->
-		<hr class="division">
-		<div class="cont-slider swiper-container">
-			<ul class="slider swiper-wrapper">
-				<li class="swiper-slide"><a href="http://m.go.co.kr/home/member/?dd=RREnSjA=&rurl=QQo0U2QJcU5uGUcHHS8NNVRxSy8TTQYSIU06TzBEb0FMTUMUVClWDEkCPWR4Q30="><img src="http://img.go.co.kr/mobile/fr_main_bn.jpg" alt="친구에게 5000원 할인권 선물하고 나도 5000원 적립금 받자!" class="img"></a></li>
-				<li class="swiper-slide"><a href="http://m.go.co.kr/home/view/?p_no=HE93"><img src="http://img.go.co.kr/mobile/roll_banner/180816_ocean2you.png" alt="오션투유리조트" class="img"></a></li>
-				<li class="swiper-slide"><a href="http://m.go.co.kr/home/view/?p_no=HE5w"><img src="http://img.go.co.kr/mobile/roll_banner/180816_hyundaesu.png" alt="속초 현대수 리조트" class="img"></a></li>
-				<li class="swiper-slide"><a href="http://m.go.co.kr/home/landing/?dd=SBIsfC5UN0AlIRkeTnc="><img src="http://img.go.co.kr/mobile/roll_banner/180816_lowprice.png" alt="모든 상품 최저가 보장" class="img"></a></li>
-				<li class="swiper-slide"><a href="http://m.go.co.kr/home/main/?dd=WhcuRDJDAVMyEQ==&event_code=aquaplanet"><img src="http://img.go.co.kr/aquaplanet/lms_2.jpg" alt="한화아쿠아플라넷 이벤트" class="img"></a></li>
-				<li class="swiper-slide"><a href="http://m.go.co.kr/home/landing/?dd=SxcyVzZ5PUw1DkdH"><img src="http://img.go.co.kr/mobile/roll_banner/180816_birth.png" alt="생일축하 1만원 특시 할인 쿠폰제공" class="img"></a></li>
-			</ul>
-			<div class="swiper-pagination"></div>
-			<script>
-				var mySwiper = new Swiper('.swiper-container', {
-					speed: 400,
-					loop: true,
-					pagination: {
-						el: '.swiper-pagination',
-						type: 'bullets'
-					}
-				});
-			</script>
-		</div>
-		<!-- end .cont-slider -->
-		<div class="cont-faq">
-			<a href="/home/customer/?dd=Tx8xfDh5MEY3" class="link-faq">무료숙박권 이벤트 안내 FAQ <span class="ic-rArrow"></span></a>
-		</div>
-		<!-- end .cont-faq-->
-		<section class="cont-pe">
-			<div class="group">
-				<h2>기획전</h2>
-				<ul class="list">
-					<li class="item">
-						<a href=""><span class="kinds-tag sale">초특가</span>
-							<img src="//img.go.co.kr/renew/m/main/pe/bnr_01.jpg" alt="강력추천 숙박시설" class="img"></a>
-					</li>
-					<li class="item">
-						<a href=""><span class="kinds-tag event">이벤트</span>
-							<img src="//img.go.co.kr/renew/m/main/pe/bnr_02.jpg" alt="한화아쿠아플라넷 기획전" class="img"></a>
-					</li>
-				</ul>
-			</div>
-		</section>
-	</div>
 
-	@@include('../include/_footer.html')
+<body class="page-main">
+    @@include('../include/_header.html')
+
+    <div class="contents">
+        <div class="cont-search">
+            <div class="search-bar">
+                <input type="text" placeholder="지역/숙소명/여행지를 검색하세요" class="search">
+                <button type="button" class="btn-search"><span class="blind">검색</span></button>
+            </div>
+        </div>
+        <!-- end .cont-search -->
+        <div class="cont-kinds">
+            <div class="group">
+                <h2><span class="tit">빠르고 손쉬운 숙소찾기</span></h2>
+                <ul class="cf list">
+                    <li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/hote.png" alt="호텔" class="img"><span class="name">호텔</span></a></li>
+                    <li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/resort.png" alt="리조트/콘도" class="img"><span class="name">리조트/콘도</span></a></li>
+                    <li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/motel.png" alt="모텔" class="img"><span class="name">모텔</span></a></li>
+                    <li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/guest.png" alt="게스트하우스" class="img"><span class="name">게스트하우스</span></a></li>
+                    <li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/pension.png" alt="펜션" class="img"><span class="name">펜션</span></a></li>
+                    <li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/show.png" alt="공연/전시" class="img"><span class="name">공연/전시</span></a></li>
+                    <li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/leisure.png" alt="레저/입장권" class="img"><span class="name">레저/입장권</span></a></li>
+                    <li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/overseas.png" alt="해외숙박" class="img"><span class="name">해외숙박</span></a></li>
+                    <li><a href=""><img src="//img.go.co.kr/renew/m/main/kinds/recom.png" alt="강력추천 세일" class="img"><span class="name">강력추천 세일</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end .cont-kinds -->
+        <hr class="division">
+        <div class="cont-slider swiper-container">
+            <ul class="slider swiper-wrapper">
+                <li class="swiper-slide"><a href="http://m.go.co.kr/home/member/?dd=RREnSjA=&rurl=QQo0U2QJcU5uGUcHHS8NNVRxSy8TTQYSIU06TzBEb0FMTUMUVClWDEkCPWR4Q30="><img src="http://img.go.co.kr/mobile/fr_main_bn.jpg" alt="친구에게 5000원 할인권 선물하고 나도 5000원 적립금 받자!" class="img"></a></li>
+                <li class="swiper-slide"><a href="http://m.go.co.kr/home/view/?p_no=HE93"><img src="http://img.go.co.kr/mobile/roll_banner/180816_ocean2you.png" alt="오션투유리조트" class="img"></a></li>
+                <li class="swiper-slide"><a href="http://m.go.co.kr/home/view/?p_no=HE5w"><img src="http://img.go.co.kr/mobile/roll_banner/180816_hyundaesu.png" alt="속초 현대수 리조트" class="img"></a></li>
+                <li class="swiper-slide"><a href="http://m.go.co.kr/home/landing/?dd=SBIsfC5UN0AlIRkeTnc="><img src="http://img.go.co.kr/mobile/roll_banner/180816_lowprice.png" alt="모든 상품 최저가 보장" class="img"></a></li>
+                <li class="swiper-slide"><a href="http://m.go.co.kr/home/main/?dd=WhcuRDJDAVMyEQ==&event_code=aquaplanet"><img src="http://img.go.co.kr/aquaplanet/lms_2.jpg" alt="한화아쿠아플라넷 이벤트" class="img"></a></li>
+                <li class="swiper-slide"><a href="http://m.go.co.kr/home/landing/?dd=SxcyVzZ5PUw1DkdH"><img src="http://img.go.co.kr/mobile/roll_banner/180816_birth.png" alt="생일축하 1만원 특시 할인 쿠폰제공" class="img"></a></li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <script>
+                var mySwiper = new Swiper('.swiper-container', {
+                    speed: 400,
+                    loop: true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        type: 'bullets'
+                    }
+                });
+            </script>
+        </div>
+        <!-- end .cont-slider -->
+        <div class="cont-faq">
+            <a href="/home/customer/?dd=Tx8xfDh5MEY3" class="link-faq">무료숙박권 이벤트 안내 FAQ <span class="ic-rArrow"></span></a>
+        </div>
+        <!-- end .cont-faq-->
+        <section class="cont-pe">
+            <div class="group">
+                <h2>기획전</h2>
+                <ul class="list">
+                    <li class="item">
+                        <a href=""><span class="kinds-tag sale">초특가</span>
+                            <img src="//img.go.co.kr/renew/m/main/pe/bnr_01.jpg" alt="강력추천 숙박시설" class="img"></a>
+                    </li>
+                    <li class="item">
+                        <a href=""><span class="kinds-tag event">이벤트</span>
+                            <img src="//img.go.co.kr/renew/m/main/pe/bnr_02.jpg" alt="한화아쿠아플라넷 기획전" class="img"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    @@include('../include/_footer.html')
 </body>
+
 </html>

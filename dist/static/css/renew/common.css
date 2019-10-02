@@ -349,7 +349,7 @@ div.pp_overlay:after {display: block; content: ''; position: fixed; right: 0; to
 .f-area .f-bottom .address p.store > a {margin-left: 10px;}
 .f-area .f-bottom .address p.store > a:first-child {margin-left: 0;}
 .f-area .f-bottom .address p strong {color:#cdcdcd; font-size:15px;}
-.f-area .f-bottom .address p a {margin-left:5px; vertical-align:middle;}
+.f-area .f-bottom .address p a {display: inline-block; margin: -3px 0 0 5px; vertical-align:middle;}
 .f-area .f-bottom .address p span {color:#a3a3a3; vertical-align:middle;}
 
 .f-area .f-bottom .address .mgl {position: relative; width: 1px; height: 12px; background: #a9a9a9; margin: 0 8px;}
