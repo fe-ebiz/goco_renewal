@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* css 초기화 */
+html {
+    height: 100%;
+}
+
+body {
+    background: #fff;
+}
+
+body,
+div,
+p,
+dl,
+dd,
+dt,
+footer,
+ol,
+ul,
+li,
+select,
+input,
+textarea {
+    margin: 0;
+    padding: 0;
+    font-family: 'NanumSquare', dotum, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:focus {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    color: #333;
+    line-height: 160%;
+    font-weight: 400
+}
+
+img {
+    vertical-align: middle;
+}
+
+input,
+textarea,
+select {
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
