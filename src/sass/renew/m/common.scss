@@ -189,9 +189,6 @@ body,
 		}
 		.area {
 			display: none;
-			strong {
-	//			font-weight: 700;
-			}
 			> p {
 				margin-top: 10px;
 			}
@@ -204,7 +201,6 @@ body,
 				float: left;
 				@include bdr(#aaa);
 				box-sizing: border-box;
-				display: inline-block;
 				width: 32%;
 				margin-left: 2%;
 				font-size: 11px;
@@ -279,7 +275,12 @@ body,
 		.menu {
 			> li {
 				@include float;
-				width: 20%;
+        width: 20%;
+        &.on {
+          a {
+            color: $co-orange-bright;
+          }
+        }
 				a {
 					@include bx;
 					@include ft(10px, #999, 700);
@@ -288,9 +289,6 @@ body,
 					text-align: center;
 					padding-top: 5px;
 					line-height: 1;
-					.name {
-
-					}
 					&:before {
 						@include mg-auto;
 						content: "";
@@ -573,7 +571,6 @@ body,
 			.btn_more {
 				a {
 					float: right;
-					display: inline-block;
 					margin-right: 10px;
 					width: 60px;
 					line-height: 30px;

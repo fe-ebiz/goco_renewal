@@ -18,7 +18,8 @@ function bSync() {
   browserSync.init({
     // watch: true,
     port: 3030,
-    startPath: '/views/main',
+    startPath: '/views_m/main',
+    // startPath: '/views/main',
     // startPath: '/views_app/pagelist',
     server: {
       baseDir: './dist',
