@@ -18,7 +18,7 @@ dist/
 *.eot
 *.otf
 
-#sftpFile, zip����
+#sftpFile, zip
 *.json
 *.zip
 
