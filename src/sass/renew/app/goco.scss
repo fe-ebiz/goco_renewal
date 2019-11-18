@@ -437,7 +437,7 @@ input {
         overflow: hidden;
         margin-bottom: 10px;
 
-        span {
+        span:not(.dot) {
             display: inline-block;
             width: 80px;
             font-size: 13px;
@@ -445,14 +445,23 @@ input {
             font-weight: 700;
         }
 
+        $wd: calc(100% - 85px);
+
         input {
             height: 46px;
-            width: calc(100% - 102px);
+            width: $wd;
             padding-left: 15px;
+            box-sizing: border-box;
 
             &::placeholder {
                 font-size: 14px;
                 color: #000;
+            }
+
+            &.phone {
+                text-align: center;
+                padding-left: 0;
+                width: calc(#{$wd} / 3.45);
             }
         }
     }
