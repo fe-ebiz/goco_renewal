@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+@import "./parts/common";
+
 @font-face {
     font-family: "NanumSquare";
     src: local("NanumSquare");
@@ -1144,16 +1146,36 @@ input {
 
 // 정책 페이지
 .page.policy {
+    background: #FBFBFB;
 
     /* 정책 */
     .policy_text {
-        background: #FBFBFB;
         top: 50px;
         left: 0;
         z-index: 11;
-        font-size: 14px;
-        color: #333;
-        padding: 20px;
-        line-height: 20px;
+        font-size: 13px;
+        color: #666;
+        padding: 20px 10px 20px 15px;
+        line-height: 1.6;
+
+        .title {
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .text {
+            position: relative;
+            padding-left: 10px;
+            word-break: keep-all;
+            margin-top: 10px;
+
+            .dot {
+                @include pos(absolute, 0, 0);
+            }
+
+            &:not(:first-child) {
+                margin-top: 10px;
+            }
+        }
     }
 }
