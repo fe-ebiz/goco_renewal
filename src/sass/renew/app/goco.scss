@@ -1153,24 +1153,63 @@ input {
         top: 50px;
         left: 0;
         z-index: 11;
-        font-size: 13px;
         color: #666;
         padding: 20px 10px 20px 15px;
-        line-height: 1.6;
+        line-height: 1.4;
+        letter-spacing: -0.5px;
 
         .title {
             font-size: 15px;
             font-weight: 700;
         }
 
-        .text {
-            position: relative;
-            padding-left: 10px;
-            word-break: keep-all;
-            margin-top: 10px;
+        .text-wrapper {
 
-            .dot {
-                @include pos(absolute, 0, 0);
+            .st-1,
+            .st-2 {
+                margin-top: 10px;
+            }
+
+            .st-1 {
+                margin-top: 15px;
+                font-weight: 700;
+            }
+
+            .text {
+                position: relative;
+                word-break: keep-all;
+
+                .dot-1 {
+                    position: relative;
+                    margin-top: 5px;
+                    padding-left: 10px;
+
+                    &:before {
+                        content: '·';
+                        display: inline-block;
+                        @include pos(absolute, 0, 0);
+                    }
+                }
+
+                .dot-1-pl {
+                    padding-left: 10px;
+                }
+
+                .dot-2 {
+                    position: relative;
+                    margin-top: 5px;
+                    padding-left: 10px;
+
+                    &:before {
+                        content: '-';
+                        display: inline-block;
+                        @include pos(absolute, 0, 0);
+                    }
+                }
+
+                // &:not(:first-child) {
+                //     margin-top: 5px;
+                // }
             }
 
             &:not(:first-child) {

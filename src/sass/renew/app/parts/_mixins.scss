@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+// 전달인자 설징이 없는 믹스인
+@mixin reset-box {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@mixin reset-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+// 전달인자가 설정된 믹스인
+@mixin position($type:relative, $top:null, $left:null, $bottom:null, $right:null) {
+    position: $type;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+}
+
+@mixin pos($type:relative, $top:null, $left:null, $bottom:null, $right:null) {
+    position: $type;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+}
+
+@mixin size($w:null, $h:null, $bg: null) {
+    width: $w;
+    height: $h;
+    background: $bg
+}
+
+@mixin sizes($s:null, $bg: null) {
+    width: $s;
+    height: $s;
+    background: $bg
+}
+
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    transition: $args;
+}
+
+@mixin mg-auto($t: null, $b: null, $type: relative) {
+    position: $type;
+    margin: $t auto $b;
+}
+
+// 마이크로 클리어픽스(Micro Clearfix)
+@mixin clearfix {
+
+    &::before,
+    &::after {
+        content: '';
+        display: table;
+    }
+
+    &::after {
+        clear: both;
+    }
+
+    .ie8 & {
+        zoom: 1;
+    }
+}
+
+// 노출 리셋
+@mixin show-reset {
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    font-size: 100%;
+    line-height: normal;
+    visibility: visible;
+}
+
+// 중앙 정렬
+@mixin centerThis($width: 1200px) {
+    width: $width;
+    margin: 0 auto;
+}
+
+@mixin float($l: left) {
+    position: relative;
+    float: $l;
+}
+
+@mixin bx($type: border-box) {
+    position: relative;
+    box-sizing: $type;
+}
+
+@mixin dp($type: inline-block) {
+    position: relative;
+    display: $type;
+}
+
+@mixin va($type: middle, $type-dp: inline-block) {
+    position: relative;
+    vertical-align: $type;
+    display: $type-dp;
+}
+
+@mixin to($type: ellipsis) {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: $type;
+}
+
+@mixin bdr($color: transparent, $wth: 1px, $type: solid) {
+    border: $wth $type $color;
+}
+
+@mixin lbl($fz: 12px, $mg: 3px) {
+    position: relative;
+    font-size: $fz;
+
+    &>input {
+        margin-right: $mg;
+    }
+}
+
+@mixin appear($type: none, $bd-c: #ddd) {
+    appearance: $type;
+    -webkit-appearance: $type;
+    -moz-appearance: $type;
+    border: 1px solid $bd-c;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+@mixin ft($s: 13px, $c: #333, $w: null, $fm: null) {
+    font-size: $s;
+    color: $c;
+    font-weight: $w;
+    font-family: $fm;
+}
+
+@mixin zidx($z: 1, $type: relative) {
+    position: $type;
+    z-index: $z;
+}
