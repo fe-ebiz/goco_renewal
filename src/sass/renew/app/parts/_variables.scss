@@ -1,21 +1,24 @@
 @charset "utf-8";
-// --------------
-// Scss변수
-// --------------
-// 폰트
-//$font-stack: "NanumSquareRound", Dotum, Sans-serif;
-//$font-nnSquareR: "NanumSquareRound", Dotum, Sans-serif;
-$ft-stack: "Nanum Gothic", Dotum, Sans-serif;
-$ft-nnSquare: "Nanum Square", Dotum, Sans-serif;
-$ft-nnSquare2: "NanumSquare", Dotum, Sans-serif;
-$ft-nnGothic: "Nanum Gothic", Dotum, Sans-serif;
-$ft-ntss: "Noto Sans KR", Dotum, Sans-serif;
-$ft-dt: Dotum, Sans-serif;
 
+$screen-xxs-width: 320px;
+$screen-sm-width: 768px;
+$screen-md-width: 992px;
+$screen-lg-width: 1017px;
+$screen-width: 768px;
+
+// 폰트
+$font-stack: ("NanumSquare", Dotum, Sans-serif);
+$font-nnSquare: ("Nanum Square", Dotum, Sans-serif);
+$font-nnSquare2: ("NanumSquare", Dotum, Sans-serif);
+$font-nnGothic: ("Nanum Gothic", Dotum, Sans-serif);
+$font-ntss: ("Noto Sans KR", Dotum, Sans-serif);
+$font-dt: (Dotum, Sans-serif);
+
+$font-color: #333;
 //$contents-minwth: 1695px;
 
 // 색상
-$primary-color: #333;
+// $primary-color: #333;
 
 $co-orange: #ff6f00;
 $co-orange-bright: #ff6600;
