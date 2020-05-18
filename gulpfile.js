@@ -24,7 +24,7 @@ const copy = require('gulp-copy');
 function bSync() {
     browserSync.init({
         // watch: true,
-        port: 3030,
+        port: 3050,
         startPath: '/views_m/main',
         // startPath: '/views/main',
         // startPath: '/views_app/pagelist',
